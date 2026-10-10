@@ -52,8 +52,6 @@
     .hint-panel { margin-top: 16px; padding: 24px; border: 1px solid #d8d0e6; border-radius: 7px; background: #f6f3fa; }
     .hint-panel h2 { font-size: 19px; margin: 0 0 12px; }
     .hint-copy, .hint-body { font-size: 16px; line-height: 1.8; margin: 0; white-space: pre-line; overflow-wrap: anywhere; }
-    .hint-actions { display: flex; align-items: center; flex-wrap: wrap; gap: 12px; margin-top: 20px; }
-    .hint-cancel { background: transparent; border: 0; padding: 10px 8px; font-size: 13px; }
     .source { color: #96928a; border-top: 1px solid var(--line); margin-top: 48px; padding-top: 20px; font-size: 12px; }
     .mobile-toggle { display: none; }
     .skip { position: absolute; top: -60px; background: var(--paper); padding: 12px; z-index: 5; }
@@ -110,9 +108,6 @@
           <h2 id="hint-title">רמז</h2>
           <p class="hint-copy" id="hint-copy" role="status"></p>
           <p class="hint-body" id="hint-body" tabindex="-1" hidden></p>
-          <div class="hint-actions">
-            <button class="hint-cancel" id="hint-cancel" type="button">סגירה</button>
-          </div>
         </section>
         <footer class="source" id="source">מתוך הספר · עמוד {{ puzzles[0].source_page }}</footer>
       </article>
@@ -130,7 +125,6 @@
     let current = puzzles[0], english = false;
     const hintToggle = document.getElementById('hint-toggle');
     const hintPanel = document.getElementById('hint-panel');
-    const hintCancel = document.getElementById('hint-cancel');
     const freshHint = () => ({open: false, data: null, loading: false, error: false});
     let hintState = freshHint();
     function resetHint() { hintState = freshHint(); renderHint(); }
@@ -145,9 +139,7 @@
       copy.textContent = hintState.error ? (english ? 'Could not load the hint. Close and try again.' : 'לא ניתן לטעון את הרמז. סגור ונסה שוב.') : (english ? 'Loading…' : 'טוען…');
       const body = document.getElementById('hint-body'); body.hidden = !revealed;
       setReadingText(body, revealed ? (english ? hintState.data.hint_en : hintState.data.hint_he) : '', english);
-      hintCancel.textContent = english ? 'Close' : 'סגירה';
     }
-    hintCancel.addEventListener('click', () => { resetHint(); hintToggle.focus(); });
     hintToggle.addEventListener('click', async () => {
       if (hintState.open) { resetHint(); return; }
       hintState.open = true;

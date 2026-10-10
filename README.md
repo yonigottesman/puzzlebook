@@ -47,6 +47,8 @@ The book supplies 312 alphabetical hints. Puzzle 56 has a short editorial hint b
 
 ## Deployment
 
+Live app: https://puzzlebook-941271455567.europe-west1.run.app
+
 The private source repository is https://github.com/yonigottesman/puzzlebook.
 
 Deploy with your authenticated Google Cloud CLI:
