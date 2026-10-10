@@ -82,3 +82,20 @@
 - 204 accepted: Replacement abacus with question mark, no numerals or missing digit.
 - 205 accepted: Replacement all-gold coins with no parity coloring, values or selection.
 - 212 accepted: Unrelated numeral row in notebook, no difference rows or zero convergence.
+- 214 rejected first candidate: opposite1and6faces shown adjacent on die. Regenerating blank dice.
+- 211 accepted: Woman, car driver and train ticket, no clock or travel-time diagram.
+- 213 accepted: Calculator question mark and blank notebook, no exponent value or decimal answer.
+- 215 accepted: Abstract blue solid with soft shadow, no comparing projection planes or proof.
+- 216 accepted: Loose parallelogram tiles and blank polygon board; no assembled tiling or rectangle proof.
+- 217 accepted: Single rope figure eight only, no countability construction.
+- 218 accepted: Unconnected circle dots and unused pencils, no game moves or parity clue.
+- 219 accepted: Loose rhombus tiles and blank polygon, no assembled tiling or strips.
+- 220 accepted: Separate bindweed and honeysuckle sprigs, no winding or crossing count.
+- 221 accepted: Separate decorative curve tiles with no connected loop, grid or topology clue.
+- 214 accepted: Replacement three unmarked dice and coin, no invalid pip layout or bet outcome.
+- 222 accepted: Unsplit nonconvex shape and ruler, no chord or area construction.
+- 223 accepted: Two monks and isolated mountain, no paths or synchronized altitude proof.
+- 224 accepted: Two completely blank dice and pencil, no alternative label values.
+- 226 accepted: Monkey holding coconut beside unsplit heap, no shares or numerical answer.
+- 225 rejected first candidate: blue numerals all even, inadvertently color-coding parity. Replacement uses uniform dark ink.
+- 225 accepted: Replacement cards all uniform dark ink, no grouping, coloring, sum or divisibility clue.

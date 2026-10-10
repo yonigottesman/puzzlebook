@@ -79,7 +79,7 @@ GitHub Actions runs tests on pushes and pull requests, then deploys successful p
 
 ## Illustrations
 
-The first 50 puzzles in book order, plus three previously illustrated easy puzzles, have warm, minimal cartoon illustrations below the question text. Artwork is served directly from the public `puzzlebook-images-941271455567` Cloud Storage bucket in `europe-west1`, without passing through FastAPI. The source images were reviewed against the solutions to avoid answer clues. Exact generation prompts and review notes are in `docs/illustration-samples/`; the public URLs and dimensions are in `src/puzzlebook/data/illustrations.json`.
+All 313 puzzles have warm, minimal cartoon illustrations below the question text. Artwork is served directly from the public `puzzlebook-images-941271455567` Cloud Storage bucket in `europe-west1`, without passing through FastAPI. The source images were reviewed against the solutions to avoid answer clues. Exact generation prompts and review notes are in `docs/illustration-samples/`; the public URLs and dimensions are in `src/puzzlebook/data/illustrations.json`.
 
 To encode and upload approved local PNG originals:
 

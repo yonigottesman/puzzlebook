@@ -81,3 +81,39 @@
 - 120: Curious child with closed notebook, no square identity or calculation; pass.
 
 - 121: Traveler with several unmarked empty seats, no highlighted first/last seat; pass.
+
+- 109: v2 replaces three-hand defect; child has exactly two hands and counter separate. No identity or strategy; pass.
+
+- 122: Lemming on plain chessboard with no arrows or route; pass.
+
+- 123: Blank 5 by 5 grid with no slash arrangement; pass.
+
+- 124: Face-down deck with no bottom color or betting advice; pass.
+
+- 125: Unpartitioned face-down cards, no equal-sum groups; pass.
+
+- 127: Separate intact potatoes without curves or overlap; pass.
+
+- 126: Unsorted baseball player heights without monotone subsequence marking; pass.
+
+- 129: Five irregular dots without polygon or reflection construction; pass.
+
+- 130: Blank matrix with row/column header coloring, no sorted entries or proof; pass.
+
+- 131: Four small creatures at initial tetrahedron corners, no paths or shared plane; pass.
+
+- 132: Unmarked board before play, no domino tiling or winning start; pass.
+
+- 133: Many blank cards with no negative signs or minimum pair highlighted; pass.
+
+- 134: Ten people with blank forehead stickers, no modulo calculation or guesses; pass.
+
+- 135: Two plain coins with no chosen coin or flip outcomes; pass.
+
+- 137: Three equally prominent candidates and ballot box with no winner or ranking; pass.
+
+- 138: Basketball player preparing throw, no stats or threshold graph; pass.
+
+- 139: Unsubdivided square and separate pens, no projection argument; pass.
+
+- 136: v2 replaces highlighted center tile; blank paper strip and pencil only, no recursive construction clue; pass.

@@ -57,8 +57,7 @@ def test_puzzles_have_external_illustrations():
 
     puzzles = load_puzzles()
     illustrations = load_illustrations(puzzles)
-    assert set(range(1, 51)) | {51, 57, 58} <= set(illustrations)
-    assert set(illustrations) <= {p.id for p in puzzles}
+    assert set(illustrations) == {p.id for p in puzzles}
     with TestClient(create_app()) as client:
         html = client.get('/').text
         embedded = json.loads(re.search(

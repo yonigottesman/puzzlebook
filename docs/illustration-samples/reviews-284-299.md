@@ -17,3 +17,4 @@ Built-in imagegen. Setup-only scenes inspected against question and official sol
 - 296: Approved. Roulette and parking meter as neutral props, no bet or winning strategy.
 - 297: Approved. Ordinary convex solid viewed from outside, no hidden-corner construction.
 - 298: Approved. Single sleeping person and coin, no repeated-awakening or probability clue.
+- 299: Approved replacement. Plain meeting table and folders, no chair count or board-size clue. First generated chair layout rejected before publication.

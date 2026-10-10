@@ -54,3 +54,12 @@ Built-in image generation. Reviewed against each puzzle, hint and official solut
 - 276: Approved. Four pegs at original square corners; no jumps or reversibility hint.
 - 277: Approved. Separate hoops in space only; no sphere partition or circle construction.
 - 278: Approved. Spy, radio and generic bits; no nimber computation or capacity answer.
+- 279: Approved. Pentagon with positive total mixed labels only; no potential or flip sequence.
+- 280: Approved. Separate locks and keys, parcel and ring; no double-lock exchange protocol.
+- 281 v1: Rejected: intersection has four arms instead of three. Regenerating with precise Y junction.
+- 282 v1: Rejected: hands differ visibly in length. Regenerating identical hands.
+- 283: Approved. Original Fibonacci prefix only; no extra zero, remainders or cycle proof.
+- 269 v2: Approved. Napkins now in cups between settings, hands resting; no chosen directions, empty place or probabilistic clue.
+- 281 v2: Approved. Exactly three road arms; no tour route or reversibility proof.
+
+- 282 v2: Approved. Straight-on warm ochre clock with two matching blue hands of equal length and twelve ticks. Depicts identical-hand setup only; no comparison clocks, timing calculations or answer. Supersedes rejected v1 unequal hands.
