@@ -1,0 +1,18 @@
+Use case: illustration-story.
+Asset type: welcoming landscape hero illustration for a family math-puzzle reader.
+Input image roles: Image 1 is likeness reference for ONLY the two boys. Image 2 is likeness reference for ONLY the adult man/father; ignore the partly visible woman and mountain scenery. Image 3 is STYLE REFERENCE ONLY; do not copy its teacher, identical boys or school desk.
+Primary request: A warm friendly father reading an open book of mathematical puzzles together with his two boys. Exactly three people: father and his two distinct sons. Keep recognizable natural cartoon likenesses from the photographs rather than generic interchangeable characters.
+Father likeness: the man in Image 2, short brown hair with a gently receding hairline, short beard stubble, friendly slightly long face, warm smile and adult proportions.
+Boys likeness: the children in Image 1. The older boy has short dark hair, slightly fuller face, gentle freckles and a friendly smile. The younger boy has shorter lighter brown hair, a smaller narrow face, large bright eyes and a cheerful smile. Preserve their distinct ages and faces. No robot from the photograph.
+Scene: father in the center, sons leaning in closely on either side, all looking down together at one open book held naturally across the father's lap. Cozy engaged shared-reading moment; gentle happy expressions, relaxed seated posture. Ordinary simple clothes in muted ochre, sage, blue and cream, without logos.
+Style: polished simple 2D children's-book cartoon for ages 10–13, matching Image 3's warm cream, soft dark hand-drawn outlines, rounded friendly shapes, warm muted colors, subtle shading and gentle paper texture. Landscape composition with generous empty cream margins.
+Backdrop: isolated family vignette on plain warm cream paper. Only a soft grounding shadow, no couch, furniture, walls, framed art, rooms, mountains, outdoor scenery or environmental dressing.
+Book: a single open book with plain pages; no visible solution diagrams, equations, numbers, hint concepts or readable writing. No title needed.
+Constraints: exactly one father and two boys, no woman, teacher, robot, extra child or other characters. Natural anatomy and hands. No text, symbols, speech bubbles, labels, logos or watermark.
+
+Targeted style refinement (final output):
+Use case: style-transfer.
+Image 1 is the EDIT TARGET. Image 2 is STYLE REFERENCE ONLY.
+Change ONLY the rendering style of Image 1 to the simple warm 2D children's-book cartoon style of Image 2. Keep the same father and two distinct boys, their recognizable faces and different ages, same clothing colors, same relaxed shared-reading pose, same open blank book, same landscape cream composition. Exactly three people, no extra character.
+Use stronger clean dark-brown cartoon outlines, simpler rounded facial shapes with friendly expressive eyes, flat warm colors with soft minimal cel-like shading, simplified short hair shapes, and only a very subtle paper texture. Remove photographic skin detail, realistic individual hair strands, dense fabric crosshatching and photorealistic modeling. Make it unmistakably a polished friendly cartoon rather than a realistic pencil portrait, while preserving the father’s receding short brown hair and beard stubble and both boys' recognizable likenesses.
+Keep plain warm cream negative-space background, no room, furniture, scenery, robot or woman. No visible book text, diagrams, numbers, symbols, speech bubbles, logos or watermark.

@@ -17,7 +17,7 @@
     :focus-visible { outline: 2px solid #746498; outline-offset: 4px; }
     .topbar { flex-shrink: 0; height: 76px; display: flex; align-items: center; justify-content: space-between; padding: 0 32px; position: relative; }
     .topbar::after { content: ""; position: absolute; bottom: 0; inset-inline: 0; height: 1px; background: linear-gradient(90deg, transparent, rgba(154,146,125,.16) 25%, rgba(154,146,125,.16) 75%, transparent); }
-    .brand { font-size: 22px; font-weight: 750; letter-spacing: -.6px; }
+    .brand { text-decoration: none; font-size: 22px; font-weight: 750; letter-spacing: -.6px; }
     .book-footer { margin-top: 40px; text-align: center; }
     .book-footer::before { content: ""; display: block; width: 88px; height: 1px; background: linear-gradient(90deg, transparent, rgba(154,146,125,.3), transparent); margin: 0 auto 14px; }
     .book-credit { text-decoration: none; color: var(--muted); font-size: 13px; }
@@ -34,6 +34,9 @@
     .name { flex: 1; }
     .list-level { font-size: 10px; color: var(--muted); white-space: nowrap; }
     .reader { min-height: 0; overflow-y: auto; padding: 64px clamp(32px, 6vw, 96px) 40px; }
+    .welcome { width: 100%; max-width: 720px; margin: 0 auto; }
+    .welcome-intro { margin: 0; text-align: center; font-size: 20px; line-height: 1.8; }
+    .welcome-image { display: block; width: 100%; max-width: 640px; height: auto; margin: 28px auto 0; mix-blend-mode: multiply; }
     .puzzle { width: 100%; max-width: 720px; margin: 0 auto; }
     .language-control { display: flex; justify-content: flex-end; margin-bottom: 22px; }
     .puzzle-heading { display: flex; align-items: center; flex-wrap: wrap; gap: 14px; margin-bottom: 30px; }
@@ -73,7 +76,7 @@
 <body>
   <a class="skip" href="#reader">לתוכן החידה</a>
   <header class="topbar">
-    <div class="brand">חידות מתמטיות<span style="color:#9a927d">.</span></div>
+    <a class="brand" href="/" aria-label="לעמוד הבית">חידות מתמטיות<span style="color:#9a927d">.</span></a>
     <button class="mobile-toggle" id="mobile-toggle" type="button" aria-expanded="false" aria-controls="sidebar">כל החידות</button>
   </header>
   <div class="layout">
@@ -81,7 +84,7 @@
       <div class="sidebar-heading"><h2>כל החידות</h2><span>{{ puzzles | length }} חידות</span></div>
       <nav class="puzzle-list" aria-label="בחירת חידה">
         {% for puzzle in puzzles %}
-        <a class="puzzle-link" href="#puzzle-{{ puzzle.id }}" data-id="{{ puzzle.id }}" {% if loop.first %}aria-current="true"{% endif %}>
+        <a class="puzzle-link" href="#puzzle-{{ puzzle.id }}" data-id="{{ puzzle.id }}">
           <span class="number" dir="ltr">{{ '%03d' | format(puzzle.id) }}</span>
           <span class="name">{{ puzzle.title_he }}</span>
           <span class="list-level">{{ levels[puzzle.level] }}</span>
@@ -90,15 +93,19 @@
       </nav>
     </aside>
     <main class="reader" id="reader" tabindex="-1">
-      <article class="puzzle" aria-labelledby="puzzle-title">
+      <section class="welcome" id="welcome" aria-label="אודות הספר">
+        <p class="welcome-intro">תרגום לעברית של <bdi dir="ltr">Mathematical Puzzles</bdi></p>
+        <img class="welcome-image" src="https://storage.googleapis.com/puzzlebook-images-941271455567/welcome-family-v1.webp" width="1200" height="800" alt="אבא ושני ילדיו קוראים יחד בספר חידות מתמטיות" decoding="async">
+      </section>
+      <article class="puzzle" id="puzzle-view" aria-labelledby="puzzle-title" hidden>
         <div class="language-control"><button class="original" id="original" type="button" aria-pressed="false">Original ↗</button></div>
         <div id="puzzle-content" aria-live="polite" aria-atomic="true">
           <div class="puzzle-heading">
-            <h1 id="puzzle-title">{{ puzzles[0].title_he }}</h1>
+            <h1 id="puzzle-title"></h1>
           </div>
-          <p class="body" id="puzzle-body" lang="he" dir="rtl">{{ puzzles[0].body_he }}</p>
+          <p class="body" id="puzzle-body" lang="he" dir="rtl"></p>
           <div class="figures" id="figures"></div>
-          <img class="illustration" id="illustration" src="{{ puzzles[0].illustration.url }}" width="{{ puzzles[0].illustration.width }}" height="{{ puzzles[0].illustration.height }}" alt="איור לחידה: {{ puzzles[0].title_he }}" decoding="async">
+          <img class="illustration" id="illustration" alt="" hidden decoding="async">
         </div>
         <button class="hint-toggle" id="hint-toggle" type="button" aria-expanded="false" aria-controls="hint-panel">רמז</button>
         <section class="hint-panel" id="hint-panel" aria-labelledby="hint-title" hidden>
@@ -127,7 +134,9 @@
     const sidebar = document.getElementById('sidebar');
     const mobileToggle = document.getElementById('mobile-toggle');
     const original = document.getElementById('original');
-    let current = puzzles[0], english = false;
+    const welcome = document.getElementById('welcome');
+    const puzzleView = document.getElementById('puzzle-view');
+    let current = null, english = false;
     const hintToggle = document.getElementById('hint-toggle');
     const hintPanel = document.getElementById('hint-panel');
     let hintOpen = false;
@@ -162,6 +171,7 @@
       }
     }
     function render() {
+      welcome.hidden = true; puzzleView.hidden = false;
       const title = document.getElementById('puzzle-title');
       const body = document.getElementById('puzzle-body');
       title.textContent = english ? current.title_en : current.title_he;
@@ -186,7 +196,14 @@
     function selectFromHash() {
       const match = location.hash.match(/^#puzzle-(\d+)$/);
       const next = match && catalog.get(Number(match[1]));
-      if (!next) return;
+      if (!next) {
+        if (location.hash === '#reader') return;
+        current = null; english = false; hintOpen = false; hintPanel.hidden = true;
+        welcome.hidden = false; puzzleView.hidden = true;
+        document.title = 'חידות מתמטיות';
+        document.querySelectorAll('.puzzle-link[aria-current]').forEach(a => a.removeAttribute('aria-current'));
+        closeSidebar(); scrollToTop(); return;
+      }
       current = next; english = false; resetHint(); render(); closeSidebar(); scrollToTop();
     }
     original.addEventListener('click', () => { english = !english; render(); });

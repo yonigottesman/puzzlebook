@@ -17,6 +17,9 @@ def test_reader_exposes_only_public_catalog():
         assert response.status_code == 200
         assert response.text.count('class="puzzle-link"') == 313
         assert 'body_he' in response.text and 'body_en' in response.text
+        assert 'תרגום לעברית של' in response.text
+        assert 'id="puzzle-view" aria-labelledby="puzzle-title" hidden' in response.text
+        assert 'welcome-family-v1.webp' in response.text
         assert 'solution_pdf_page' not in response.text
         assert '"solution"' not in response.text
         assert client.get('/healthz').json() == {'status': 'ok', 'puzzles': 313}

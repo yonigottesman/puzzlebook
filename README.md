@@ -1,6 +1,6 @@
 # Puzzlebook
 
-A minimal Hebrew reader for Peter Winkler’s *Mathematical Puzzles, Revised Edition*. One HTML page, a sidebar in book order, difficulty labels, an English-original toggle, and bilingual hints.
+A minimal Hebrew reader for Peter Winkler’s *Mathematical Puzzles, Revised Edition*. A welcome view at `/` and puzzle views at `/#puzzle-ID`, in one HTML page with a sidebar in book order, difficulty labels, an English-original toggle, and bilingual hints.
 
 ## Run
 
