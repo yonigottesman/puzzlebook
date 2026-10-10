@@ -57,12 +57,19 @@
     .hint-panel h2 { font-size: 19px; margin: 0 0 12px; }
     .hint-body { font-size: 16px; line-height: 1.8; margin: 0; white-space: pre-line; overflow-wrap: anywhere; }
     .ask { max-width: 720px; margin: 36px auto 0; }
-    .ask form { display: flex; align-items: stretch; gap: 10px; }
-    .ask input { min-width: 0; flex: 1; padding: 11px 14px; border: 1px solid var(--line); border-radius: 5px; background: transparent; color: var(--ink); font: inherit; text-align: right; }
-    .ask input::placeholder { color: var(--muted); }
-    .ask button { padding: 9px 22px; border: 1px solid var(--line); border-radius: 5px; background: #f0ece2; font-size: 14px; }
-    .ask button:disabled { opacity: .5; cursor: default; }
-    .answer { min-height: 80px; margin-top: 18px; padding: 16px; border: 1px solid var(--line); border-radius: 5px; white-space: pre-wrap; overflow-wrap: anywhere; font-size: 17px; line-height: 1.8; }
+    .ask form { display: flex; align-items: center; gap: 8px; padding: 6px; border: 1px solid #e5e1d8; border-radius: 18px; background: #fffefa; box-shadow: 0 2px 8px rgba(32,33,40,.025); transition: border-color .2s, box-shadow .2s; }
+    .ask form:focus-within { border-color: #aaa0ba; box-shadow: 0 0 0 3px rgba(116,100,152,.08); }
+    .ask input { min-width: 0; flex: 1; padding: 12px 14px; border: 0; outline: none; background: transparent; color: var(--ink); font: inherit; font-size: 16px; text-align: right; }
+    .ask input::placeholder { color: #969189; }
+    .ask button { position: relative; flex-shrink: 0; min-width: 76px; min-height: 44px; padding: 10px 22px; border: 0; border-radius: 12px; background: var(--ink); color: #fffdf8; font-size: 14px; font-weight: 500; transition: background .2s, transform .15s; }
+    .ask button:hover:not(:disabled) { background: #3d3d46; }
+    .ask button:active:not(:disabled) { transform: scale(.97); }
+    .ask button:disabled { cursor: default; }
+    .ask button[aria-busy="true"] .ask-label { opacity: 0; }
+    .ask-spinner { display: none; position: absolute; inset: 0; width: 16px; height: 16px; margin: auto; border: 1.5px solid rgba(255,253,248,.3); border-top-color: #fffdf8; border-radius: 50%; animation: spin .8s linear infinite; }
+    .ask button[aria-busy="true"] .ask-spinner { display: block; }
+    @keyframes spin { to { transform: rotate(360deg); } }
+    .answer { margin-top: 14px; padding: 18px 20px; border: 1px solid #e9e5dc; border-radius: 16px; background: rgba(255,255,255,.45); white-space: pre-wrap; overflow-wrap: anywhere; font-size: 17px; line-height: 1.8; }
     .mobile-toggle { display: none; }
     .skip { position: absolute; top: -60px; background: var(--paper); padding: 12px; z-index: 5; }
     .skip:focus { top: 8px; }
@@ -77,7 +84,7 @@
       .body { font-size: 18px; }
       .puzzle-heading { gap: 10px; margin-bottom: 24px; }
     }
-    @media (prefers-reduced-motion: reduce) { * { transition: none !important; } }
+    @media (prefers-reduced-motion: reduce) { * { transition: none !important; animation: none !important; } }
   </style>
 </head>
 <body>
@@ -123,7 +130,7 @@
       <section class="ask" id="ask" aria-label="שאלה" hidden>
         <form id="ask-form">
           <input id="question" name="question" type="text" dir="rtl" placeholder="התייעץ עם &#x2066;ai&#x2069;" aria-label="התייעץ עם ai" maxlength="10000" required>
-          <button id="ask-button" type="submit">שאל</button>
+          <button id="ask-button" type="submit" aria-label="שאל" aria-busy="false"><span class="ask-label">שאל</span><span class="ask-spinner" aria-hidden="true"></span></button>
         </form>
         <div class="answer" id="answer" dir="auto" role="status" aria-label="תשובה" aria-live="polite" aria-atomic="false" hidden></div>
       </section>
@@ -155,16 +162,21 @@
     const answer = document.getElementById('answer');
     const askButton = document.getElementById('ask-button');
     let answerController = null;
+    function setAsking(busy) {
+      askButton.disabled = busy;
+      askButton.setAttribute('aria-busy', String(busy));
+      answer.setAttribute('aria-busy', String(busy));
+    }
     function resetQuestion() {
       answerController?.abort(); answerController = null;
       question.value = ''; answer.textContent = ''; answer.hidden = true;
-      askButton.disabled = false; answer.setAttribute('aria-busy', 'false');
+      setAsking(false);
     }
     document.getElementById('ask-form').addEventListener('submit', async event => {
       event.preventDefault();
       if (!current || !question.value.trim() || askButton.disabled) return;
       const controller = new AbortController(); answerController = controller;
-      answer.textContent = ''; answer.hidden = true; askButton.disabled = true; answer.setAttribute('aria-busy', 'true');
+      answer.textContent = ''; answer.hidden = true; setAsking(true);
       let completed = false;
       try {
         const response = await fetch('/api/ask', {
@@ -198,7 +210,7 @@
         }
       } finally {
         if (answerController === controller) {
-          answerController = null; askButton.disabled = false; answer.setAttribute('aria-busy', 'false');
+          answerController = null; setAsking(false);
         }
       }
     });

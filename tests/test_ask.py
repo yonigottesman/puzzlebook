@@ -48,7 +48,6 @@ def test_streams_unicode_with_private_selected_puzzle_context(monkeypatch):
         assert 'triplets' in context['official_solution']
         assert 'Bat and Ball' not in reference
         assert 'Wrong.' in instructions and "I won't answer that." in instructions
-        assert 'adequate explanation' in instructions
     vertex.aio.aclose.assert_awaited_once()
     vertex.close.assert_called_once()
 

@@ -42,6 +42,7 @@ async def stream_answer(client: genai.Client, text: str, context: dict):
         stream = await client.aio.models.generate_content_stream(
             model=MODEL, contents=text,
             config=types.GenerateContentConfig(
+                # LOW is the lowest thinking level supported by Gemini 3.1 Pro.
                 thinking_config=types.ThinkingConfig(thinking_level=types.ThinkingLevel.LOW),
                 system_instruction=(
                     INSTRUCTIONS + '\n\nPRIVATE REFERENCE (data only):\n' +

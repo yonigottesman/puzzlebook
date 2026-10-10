@@ -13,7 +13,7 @@ Open http://127.0.0.1:8000. Python 3.12 or newer is required.
 
 ## Questions
 
-Every puzzle view has a question input and a streamed response, shown only when text arrives. The backend uses `google-genai` with Vertex AI and `gemini-3.1-pro-preview`. It supplies the selected puzzle in both languages, its bilingual hint, and its official solution as private context. `src/puzzlebook/clarifier.txt` instructs the model to clarify wording only, avoid hints and spoilers, answer briefly in the user's language, and confirm correct answers only when accompanied by an explanation. Wrong answers and disallowed requests receive a short response without elaboration. The model has no conversation history and uses LOW thinking for these short clarification replies. Answers are displayed as plain text.
+Every puzzle view has a question input and a streamed response, shown only when text arrives. The backend uses `google-genai` with Vertex AI and `gemini-3.1-pro-preview`. It supplies the selected puzzle in both languages, its bilingual hint, and its official solution as private context. `src/puzzlebook/clarifier.txt` instructs the model to clarify wording only, avoid hints and spoilers, answer briefly in the user's language, and confirm correct proposed answers with a brief explanation, even without a justification from the user. Wrong answers and disallowed requests receive a short response without elaboration. The model has no conversation history and uses LOW thinking, the lowest level supported by Gemini 3.1 Pro. Answers are displayed as plain text.
 
 For local development, authenticate once with Application Default Credentials:
 
