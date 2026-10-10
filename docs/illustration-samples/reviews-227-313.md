@@ -19,3 +19,8 @@ Built-in image generation. Reviewed against each puzzle, hint and official solut
 - 241: Approved. Separate cross pieces only; no assembled tiling or slab construction.
 - 242: Approved. Separate Y marks only; no rational endpoint circles or nonplanar network.
 - 243: Approved. Unit cube cluster with scattered color accents; no infecting diagonal subspace or spreading process.
+- 244: Approved. Delivery setup only, no route or middle-house start hint.
+- 245: Approved. Original product only, no removed factorial or pairing.
+- 246: Approved. Unit interval with unlabelled dots; no fractions, equations or uniqueness argument.
+- 247: Approved. Equally curious players; no indicated winner or probability comparison.
+- 248: Approved. Two separate allowed L triomino orientations; no assembled row pattern.

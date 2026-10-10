@@ -40,9 +40,10 @@ for puzzle in selected:
     json.dumps(manifest, ensure_ascii=False, indent=2) + '\n'
 )
 welcome = ROOT / 'docs/illustration-samples/welcome-family-v2.png'
-if welcome.exists():
+welcome_output = output / 'welcome-family-v2.webp'
+if welcome.exists() and (not welcome_output.exists() or welcome.stat().st_mtime > welcome_output.stat().st_mtime):
     with Image.open(welcome) as image:
         image = image.convert('RGB')
         image.thumbnail((1200, 1200), Image.Resampling.LANCZOS)
-        image.save(output / 'welcome-family-v2.webp', 'WEBP', quality=88, method=6)
+        image.save(welcome_output, 'WEBP', quality=88, method=6)
 print(f'Prepared {len(manifest)} illustrations; {sum(p.stat().st_size for p in output.glob("*.webp")):,} bytes')

@@ -16,3 +16,12 @@
 - 066: Pass. Circle/rim dots only; no diameters, shaded semicircle, or probability.
 - 067: Pass. Four loose irregular tokens/plain ruler; no valid regular solution arrangement or connecting distances.
 - 068: Pass. Children considering hidden sheet; no chosen numbers/equal subsets.
+- 069: Pass. Basketball/two children with hidden cards; no winner or bit protocol.
+- 070: Pass. Loose spaghetti/separate tips; no completed loops or expected number.
+- 071: Pass. Neutral executive row; no swaps, labels, or correct seat.
+- 072: Pass. Four full bowls, no removed cherries or selected first move.
+- 073: Pass. Intact pancakes/chef; no flipping sequence or binary potential.
+- 074: Pass. Telescope/full moon, no sky-area ratio or measurements.
+- 075: Pass. Two intact eggs/building, no trial floors or drops.
+- 076: Pass. Smooth sphere/blank sheets, no shaved cap or alternative solid.
+- 078: Pass. Blank calendar; no Friday/cycle statistics.

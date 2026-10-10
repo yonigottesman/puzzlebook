@@ -15,3 +15,18 @@
 - 151 accepted: toy car with unmarked folded road map; no alphabetical labels or highlighted drive.
 - 152 accepted: sphere with closed wavy surface curve; no equator, pole, midpoint or proof geometry.
 - 153 accepted: two people with coins and equal starting stacks; no bankrupt outcome or bias information.
+- 154 accepted: separate curve-corner tiles; no connected grid or loop solution.
+- 155 accepted: loosely scattered digit cards and pencil; no sequence or proof color encoding.
+- 156 first version rejected: some people have two forehead dots; regenerating simpler three-person vignette.
+- 157 accepted: isolated drawer full of mixed socks, no ordering or ending.
+- 158 accepted: mobile and antenna, no graph path or frequency ordering.
+- 156 accepted replacement: three adults each with exactly one forehead dot; no departure or reasoning.
+- 159 first version rejected: adjacent red faces conflict with setup; regenerating unpainted solid with separate red/green paints.
+- 160 accepted: undecided hand and ordinary token stacks; no removed pieces or imaginary stack.
+- 161 accepted: single bacterium with blank grid paper; no split, weights or radius construction.
+- 162 accepted: empty decorative chessboard with loose tiles offboard; no covering pattern or optimum count.
+- 159 accepted replacement: unpainted polyhedron beside red/green paint jars; no conflicting face coloring or sphere proof.
+- 163 rejected first version: six ants accidentally form balanced directions, which could suggest solution condition. Regenerating single ant beside track.
+- 164 accepted: ordinary unequal bean piles; no exact game state or reductions.
+- 165 accepted: sixteen ordinary square brownies, the question's starting example; no improved shape or optimized pan.
+- 166 accepted: blank sheet and separate rulers; no line-cover construction.
