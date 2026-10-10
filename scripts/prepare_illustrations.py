@@ -43,8 +43,8 @@ for puzzle in selected:
 (ROOT / 'src/puzzlebook/data/illustrations.json').write_text(
     json.dumps(manifest, ensure_ascii=False, indent=2) + '\n'
 )
-welcome = ROOT / 'docs/illustration-samples/welcome-family-v2.png'
-welcome_output = output / 'welcome-family-v2.webp'
+welcome = ROOT / 'docs/illustration-samples/welcome-penrose-v1.png'
+welcome_output = output / 'welcome-penrose-v1.webp'
 if welcome.exists() and (not welcome_output.exists() or welcome.stat().st_mtime > welcome_output.stat().st_mtime):
     with Image.open(welcome) as image:
         image = image.convert('RGB')
