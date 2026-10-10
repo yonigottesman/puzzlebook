@@ -13,7 +13,7 @@ Open http://127.0.0.1:8000. Python 3.12 or newer is required.
 
 ## Questions
 
-Every view has a question input and a streamed response, shown only when text arrives. The backend uses `google-genai` with Vertex AI and `gemini-3.1-pro-preview`. It supplies the selected puzzle in both languages, its bilingual hint, and its official solution as private context. `src/puzzlebook/clarifier.txt` instructs the model to clarify wording only, avoid hints and spoilers, answer briefly in the user's language, and confirm correct answers only when accompanied by an explanation. Wrong answers and disallowed requests receive a short response without elaboration. The model has no conversation history. Answers are displayed as plain text.
+Every puzzle view has a question input and a streamed response, shown only when text arrives. The backend uses `google-genai` with Vertex AI and `gemini-3.1-pro-preview`. It supplies the selected puzzle in both languages, its bilingual hint, and its official solution as private context. `src/puzzlebook/clarifier.txt` instructs the model to clarify wording only, avoid hints and spoilers, answer briefly in the user's language, and confirm correct answers only when accompanied by an explanation. Wrong answers and disallowed requests receive a short response without elaboration. The model has no conversation history. Answers are displayed as plain text.
 
 For local development, authenticate once with Application Default Credentials:
 
@@ -24,7 +24,7 @@ uv run uvicorn puzzlebook.app:app --reload --host 127.0.0.1 --port 8000
 
 The default project is `personal-ai-264306` and location is `global`; override with `GOOGLE_CLOUD_PROJECT` and `GOOGLE_CLOUD_LOCATION`. On Cloud Run, credentials are supplied automatically by the attached `puzzlebook-runtime` service account, which has the Vertex AI User role (`roles/aiplatform.user`). No API key environment variable is needed. If using Vertex API-key authentication instead, set `GOOGLE_API_KEY` in the server environment. No keys are embedded in the HTML or committed to the repository.
 
-`POST /api/ask` accepts `{"text":"your question","puzzle_id":2}` and returns an SSE stream of JSON text chunks, followed by a completion event or a generic error. The server loads the context by ID; official solutions are never included in the HTML or exposed through a static route. With no selected puzzle, the model asks the user to select one. Selecting another puzzle clears the question and cancels any ongoing response.
+`POST /api/ask` accepts `{"text":"your question","puzzle_id":2}` and returns an SSE stream of JSON text chunks, followed by a completion event or a generic error. The server loads the context by ID; official solutions are never included in the HTML or exposed through a static route. The root has no AI form, and requests without a puzzle ID are rejected before calling the model. Selecting another puzzle clears the question and cancels any ongoing response.
 
 ```sh
 uv run pytest

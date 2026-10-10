@@ -55,7 +55,7 @@ def test_streams_unicode_with_private_selected_puzzle_context(monkeypatch):
 def test_stream_failure_preserves_partial_response_without_exposing_details(monkeypatch):
     mock_vertex(monkeypatch, ['חלק מהתשובה', RuntimeError('private upstream details')])
     with TestClient(create_app()) as client:
-        response = client.post('/api/ask', json={'text': 'hi'})
+        response = client.post('/api/ask', json={'text': 'hi', 'puzzle_id': 1})
         result = events(response)
         assert result[0] == {'type': 'text', 'text': 'חלק מהתשובה'}
         assert result[1]['type'] == 'error'
@@ -65,7 +65,10 @@ def test_stream_failure_preserves_partial_response_without_exposing_details(monk
 def test_invalid_questions_never_call_vertex(monkeypatch):
     vertex = mock_vertex(monkeypatch, [])
     with TestClient(create_app()) as client:
-        for body in [{'text': ''}, {'text': '   '}, {'text': 'x' * 10001}, {'text': 'hi', 'context': 'puzzle'}]:
+        for body in [{'text': '', 'puzzle_id': 1}, {'text': '   ', 'puzzle_id': 1},
+                     {'text': 'x' * 10001, 'puzzle_id': 1},
+                     {'text': 'hi', 'puzzle_id': 1, 'context': 'puzzle'},
+                     {'text': 'hi'}, {'text': 'hi', 'puzzle_id': None}]:
             assert client.post('/api/ask', json=body).status_code == 422
         assert client.post('/api/ask', json={'text': 'hi', 'puzzle_id': 314}).status_code == 404
     vertex.aio.models.generate_content_stream.assert_not_called()
@@ -76,7 +79,7 @@ def test_missing_credentials_returns_service_error(monkeypatch):
         raise RuntimeError('private credential details')
     monkeypatch.setattr('puzzlebook.app.create_client', fail)
     with TestClient(create_app()) as client:
-        response = client.post('/api/ask', json={'text': 'hi'})
+        response = client.post('/api/ask', json={'text': 'hi', 'puzzle_id': 1})
         assert response.status_code == 503
         assert 'private credential details' not in response.text
 

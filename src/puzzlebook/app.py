@@ -18,7 +18,7 @@ PACKAGE = Path(__file__).resolve().parent
 class Question(BaseModel):
     model_config = ConfigDict(extra='forbid')
     text: str = Field(min_length=1, max_length=10000)
-    puzzle_id: int | None = Field(default=None, gt=0)
+    puzzle_id: int = Field(gt=0)
 
 
 class Solution(BaseModel):
@@ -121,23 +121,22 @@ def create_app() -> FastAPI:
             if p.id in request.app.state.illustrations else None
         )) for p in request.app.state.puzzles]
         return templates.TemplateResponse(request=request, name='index.html',
+            headers={'Cache-Control': 'no-store'},
             context={'puzzles': puzzles, 'hints': [h.model_dump() for h in request.app.state.hints.values()], 'levels': {'easy': 'קל', 'medium': 'בינוני', 'hard': 'קשה'}})
 
     @app.post('/api/ask')
     async def ask(question: Question, request: Request):
         if not question.text.strip():
             raise HTTPException(status_code=422, detail='Enter a question')
-        context = None
-        if question.puzzle_id is not None:
-            if question.puzzle_id not in request.app.state.solutions:
-                raise HTTPException(status_code=404, detail='Puzzle not found')
-            puzzle = request.app.state.puzzles[question.puzzle_id - 1]
-            context = {
-                'puzzle': {key: value for key, value in puzzle.model_dump().items()
-                           if key in {'title_he', 'title_en', 'body_he', 'body_en'}},
-                'hint': request.app.state.hints[question.puzzle_id].model_dump(),
-                'official_solution': request.app.state.solutions[question.puzzle_id].solution,
-            }
+        if question.puzzle_id not in request.app.state.solutions:
+            raise HTTPException(status_code=404, detail='Puzzle not found')
+        puzzle = request.app.state.puzzles[question.puzzle_id - 1]
+        context = {
+            'puzzle': {key: value for key, value in puzzle.model_dump().items()
+                       if key in {'title_he', 'title_en', 'body_he', 'body_en'}},
+            'hint': request.app.state.hints[question.puzzle_id].model_dump(),
+            'official_solution': request.app.state.solutions[question.puzzle_id].solution,
+        }
         if request.app.state.genai_client is None:
             try:
                 request.app.state.genai_client = create_client()

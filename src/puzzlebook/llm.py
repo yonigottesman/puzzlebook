@@ -28,7 +28,7 @@ def event(kind: str, **data: str) -> str:
     return f'data: {json.dumps(dict(type=kind, **data), ensure_ascii=False)}\n\n'
 
 
-async def stream_answer(client: genai.Client, text: str, context: dict | None):
+async def stream_answer(client: genai.Client, text: str, context: dict):
     try:
         stream = await client.aio.models.generate_content_stream(
             model=MODEL, contents=text,

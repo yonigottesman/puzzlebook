@@ -15,6 +15,8 @@ def test_reader_exposes_only_public_catalog():
     with TestClient(create_app()) as client:
         response = client.get('/')
         assert response.status_code == 200
+        assert response.headers['cache-control'] == 'no-store'
+        assert '<section class="ask" id="ask" aria-label="שאלה" hidden>' in response.text
         assert response.text.count('class="puzzle-link"') == 313
         assert 'body_he' in response.text and 'body_en' in response.text
         assert 'תרגום לעברית של' in response.text

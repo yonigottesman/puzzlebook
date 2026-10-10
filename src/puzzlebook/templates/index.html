@@ -120,7 +120,7 @@
           <p class="hint-body" id="hint-body" tabindex="-1"></p>
         </section>
       </article>
-      <section class="ask" aria-label="שאלה">
+      <section class="ask" id="ask" aria-label="שאלה" hidden>
         <form id="ask-form">
           <input id="question" name="question" type="text" dir="rtl" placeholder="התייעץ עם &#x2066;ai&#x2069;" aria-label="התייעץ עם ai" maxlength="10000" required>
           <button id="ask-button" type="submit">שאל</button>
@@ -151,6 +151,7 @@
     const welcome = document.getElementById('welcome');
     const puzzleView = document.getElementById('puzzle-view');
     const question = document.getElementById('question');
+    const ask = document.getElementById('ask');
     const answer = document.getElementById('answer');
     const askButton = document.getElementById('ask-button');
     let answerController = null;
@@ -161,14 +162,14 @@
     }
     document.getElementById('ask-form').addEventListener('submit', async event => {
       event.preventDefault();
-      if (!question.value.trim() || askButton.disabled) return;
+      if (!current || !question.value.trim() || askButton.disabled) return;
       const controller = new AbortController(); answerController = controller;
       answer.textContent = ''; answer.hidden = true; askButton.disabled = true; answer.setAttribute('aria-busy', 'true');
       let completed = false;
       try {
         const response = await fetch('/api/ask', {
           method: 'POST', headers: {'Content-Type': 'application/json'},
-          body: JSON.stringify({text: question.value, puzzle_id: current?.id ?? null}), signal: controller.signal,
+          body: JSON.stringify({text: question.value, puzzle_id: current.id}), signal: controller.signal,
         });
         if (!response.ok) throw new Error('לא ניתן לקבל תשובה כרגע. נסו שוב.');
         const stream = response.body.getReader();
@@ -236,7 +237,7 @@
       }
     }
     function render() {
-      welcome.hidden = true; puzzleView.hidden = false;
+      welcome.hidden = true; puzzleView.hidden = false; ask.hidden = false;
       const title = document.getElementById('puzzle-title');
       const body = document.getElementById('puzzle-body');
       title.textContent = english ? current.title_en : current.title_he;
@@ -265,7 +266,7 @@
       if (!next) {
         if (location.hash === '#reader') return;
         current = null; english = false; hintOpen = false; hintPanel.hidden = true;
-        welcome.hidden = false; puzzleView.hidden = true;
+        welcome.hidden = false; puzzleView.hidden = true; ask.hidden = true;
         document.title = 'חידות מתמטיות';
         document.querySelectorAll('.puzzle-link[aria-current]').forEach(a => a.removeAttribute('aria-current'));
         closeSidebar(); scrollToTop(); return;
