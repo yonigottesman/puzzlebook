@@ -56,6 +56,13 @@
     .hint-panel { margin-top: 16px; padding: 24px; border: 1px solid #d8d0e6; border-radius: 7px; background: #f6f3fa; }
     .hint-panel h2 { font-size: 19px; margin: 0 0 12px; }
     .hint-body { font-size: 16px; line-height: 1.8; margin: 0; white-space: pre-line; overflow-wrap: anywhere; }
+    .ask { max-width: 720px; margin: 36px auto 0; }
+    .ask form { display: flex; align-items: stretch; gap: 10px; }
+    .ask input { min-width: 0; flex: 1; padding: 11px 14px; border: 1px solid var(--line); border-radius: 5px; background: transparent; color: var(--ink); font: inherit; text-align: right; }
+    .ask input::placeholder { color: var(--muted); }
+    .ask button { padding: 9px 22px; border: 1px solid var(--line); border-radius: 5px; background: #f0ece2; font-size: 14px; }
+    .ask button:disabled { opacity: .5; cursor: default; }
+    .answer { min-height: 80px; margin-top: 18px; padding: 16px; border: 1px solid var(--line); border-radius: 5px; white-space: pre-wrap; overflow-wrap: anywhere; font-size: 17px; line-height: 1.8; }
     .mobile-toggle { display: none; }
     .skip { position: absolute; top: -60px; background: var(--paper); padding: 12px; z-index: 5; }
     .skip:focus { top: 8px; }
@@ -113,6 +120,13 @@
           <p class="hint-body" id="hint-body" tabindex="-1"></p>
         </section>
       </article>
+      <section class="ask" aria-label="שאלה">
+        <form id="ask-form">
+          <input id="question" name="question" type="text" dir="rtl" placeholder="התייעץ עם &#x2066;ai&#x2069;" aria-label="התייעץ עם ai" maxlength="10000" required>
+          <button id="ask-button" type="submit">שאל</button>
+        </form>
+        <div class="answer" id="answer" dir="auto" role="status" aria-label="תשובה" aria-live="polite" aria-atomic="false" hidden></div>
+      </section>
       <footer class="book-footer">
           <a class="book-credit" dir="ltr" href="https://math.dartmouth.edu/news-resources/electronic/puzzlebook/book/book.pdf" target="_blank" rel="noopener noreferrer">Mathematical Puzzles · Peter Winkler</a>
       </footer>
@@ -136,6 +150,57 @@
     const original = document.getElementById('original');
     const welcome = document.getElementById('welcome');
     const puzzleView = document.getElementById('puzzle-view');
+    const question = document.getElementById('question');
+    const answer = document.getElementById('answer');
+    const askButton = document.getElementById('ask-button');
+    let answerController = null;
+    function resetQuestion() {
+      answerController?.abort(); answerController = null;
+      question.value = ''; answer.textContent = ''; answer.hidden = true;
+      askButton.disabled = false; answer.setAttribute('aria-busy', 'false');
+    }
+    document.getElementById('ask-form').addEventListener('submit', async event => {
+      event.preventDefault();
+      if (!question.value.trim() || askButton.disabled) return;
+      const controller = new AbortController(); answerController = controller;
+      answer.textContent = ''; answer.hidden = true; askButton.disabled = true; answer.setAttribute('aria-busy', 'true');
+      let completed = false;
+      try {
+        const response = await fetch('/api/ask', {
+          method: 'POST', headers: {'Content-Type': 'application/json'},
+          body: JSON.stringify({text: question.value, puzzle_id: current?.id ?? null}), signal: controller.signal,
+        });
+        if (!response.ok) throw new Error('לא ניתן לקבל תשובה כרגע. נסו שוב.');
+        const stream = response.body.getReader();
+        const decoder = new TextDecoder();
+        let buffer = '';
+        while (true) {
+          const {value, done} = await stream.read();
+          buffer += decoder.decode(value, {stream: !done});
+          let boundary;
+          while ((boundary = buffer.indexOf('\n\n')) !== -1) {
+            const frame = buffer.slice(0, boundary); buffer = buffer.slice(boundary + 2);
+            if (!frame.startsWith('data: ')) continue;
+            const message = JSON.parse(frame.slice(6));
+            if (message.type === 'text') { answer.hidden = false; answer.append(document.createTextNode(message.text)); }
+            else if (message.type === 'error') throw new Error(message.message);
+            else if (message.type === 'done') completed = true;
+          }
+          if (done) break;
+        }
+        if (!completed) throw new Error('התשובה נקטעה. נסו שוב.');
+      } catch (error) {
+        if (error.name !== 'AbortError' && answerController === controller) {
+          answer.hidden = false;
+          answer.append(document.createTextNode((answer.textContent ? '\n\n' : '') + error.message));
+          controller.abort();
+        }
+      } finally {
+        if (answerController === controller) {
+          answerController = null; askButton.disabled = false; answer.setAttribute('aria-busy', 'false');
+        }
+      }
+    });
     let current = null, english = false;
     const hintToggle = document.getElementById('hint-toggle');
     const hintPanel = document.getElementById('hint-panel');
@@ -196,6 +261,7 @@
     function selectFromHash() {
       const match = location.hash.match(/^#puzzle-(\d+)$/);
       const next = match && catalog.get(Number(match[1]));
+      if (location.hash !== '#reader') resetQuestion();
       if (!next) {
         if (location.hash === '#reader') return;
         current = null; english = false; hintOpen = false; hintPanel.hidden = true;
@@ -210,6 +276,7 @@
     mobileToggle.addEventListener('click', () => { const open = sidebar.classList.toggle('is-open'); mobileToggle.setAttribute('aria-expanded', String(open)); mobileToggle.textContent = open ? 'סגירה' : 'כל החידות'; });
     document.querySelector('.puzzle-list').addEventListener('click', event => {
       const link = event.target.closest('.puzzle-link'); if (!link) return;
+      resetQuestion();
       current = catalog.get(Number(link.dataset.id)); english = false; resetHint(); render(); closeSidebar(); scrollToTop();
     });
     addEventListener('hashchange', selectFromHash);

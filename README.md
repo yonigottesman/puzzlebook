@@ -11,6 +11,21 @@ uv run uvicorn puzzlebook.app:app --reload --host 127.0.0.1 --port 8000
 
 Open http://127.0.0.1:8000. Python 3.12 or newer is required.
 
+## Questions
+
+Every view has a question input and a streamed response, shown only when text arrives. The backend uses `google-genai` with Vertex AI and `gemini-3.1-pro-preview`. It supplies the selected puzzle in both languages, its bilingual hint, and its official solution as private context. `src/puzzlebook/clarifier.txt` instructs the model to clarify wording only, avoid hints and spoilers, answer briefly in the user's language, and confirm correct answers only when accompanied by an explanation. Wrong answers and disallowed requests receive a short response without elaboration. The model has no conversation history. Answers are displayed as plain text.
+
+For local development, authenticate once with Application Default Credentials:
+
+```sh
+gcloud auth application-default login
+uv run uvicorn puzzlebook.app:app --reload --host 127.0.0.1 --port 8000
+```
+
+The default project is `personal-ai-264306` and location is `global`; override with `GOOGLE_CLOUD_PROJECT` and `GOOGLE_CLOUD_LOCATION`. On Cloud Run, credentials are supplied automatically by the attached `puzzlebook-runtime` service account, which has the Vertex AI User role (`roles/aiplatform.user`). No API key environment variable is needed. If using Vertex API-key authentication instead, set `GOOGLE_API_KEY` in the server environment. No keys are embedded in the HTML or committed to the repository.
+
+`POST /api/ask` accepts `{"text":"your question","puzzle_id":2}` and returns an SSE stream of JSON text chunks, followed by a completion event or a generic error. The server loads the context by ID; official solutions are never included in the HTML or exposed through a static route. With no selected puzzle, the model asks the user to select one. Selecting another puzzle clears the question and cancels any ongoing response.
+
 ```sh
 uv run pytest
 ```
@@ -35,6 +50,7 @@ To rebuild from the supplied `book.pdf`:
 uv run python scripts/extract_book.py
 uv run python scripts/extract_figures.py
 uv run python scripts/build_catalog.py
+uv run python scripts/build_solutions.py
 uv run python scripts/extract_hints.py
 uv run python scripts/build_hints.py
 ```
@@ -59,7 +75,7 @@ bash scripts/deploy.sh
 
 The script deploys Cloud Run in `personal-ai-264306`, region `europe-west1`, using the dedicated `puzzlebook-runtime` service account. It uses 0.08 vCPU, 128 MiB memory, request-based CPU allocation, concurrency 1, zero minimum instances, and at most one instance. The container runs as a non-root user and includes only the installed application and its runtime dependencies. The PDF, working files, and content-review records are excluded from the build upload.
 
-GitHub Actions runs the tests on pushes and pull requests. Deployment is performed with the script above.
+GitHub Actions runs tests on pushes and pull requests, then deploys successful pushes to `main` automatically. It uses Workload Identity Federation restricted to this repository's `main` branch, with the `puzzlebook-deploy` account for deployment and the `puzzlebook-build` account for builds. No service-account key is stored in GitHub. Each revision is labeled with its source commit, and the workflow checks the live page after deployment. The service's existing public access is preserved.
 
 ## Illustrations
 

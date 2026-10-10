@@ -5,6 +5,10 @@ __pycache__/
 *.pyc
 tmp/
 .DS_Store
+.env
+.env.*
+!.env.example
+gha-creds-*.json
 book.pdf
 docs/*.jpg
 docs/illustration-samples/*.png

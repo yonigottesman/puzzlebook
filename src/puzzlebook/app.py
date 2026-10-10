@@ -2,14 +2,38 @@
 from contextlib import asynccontextmanager
 from pathlib import Path
 from typing import Literal
+import logging
 
 from fastapi import FastAPI, HTTPException, Request
-from fastapi.responses import HTMLResponse
+from fastapi.responses import HTMLResponse, StreamingResponse
 from fastapi.staticfiles import StaticFiles
 from fastapi.templating import Jinja2Templates
 from pydantic import BaseModel, ConfigDict, Field, HttpUrl, TypeAdapter
 
+from puzzlebook.llm import create_client, stream_answer
+
 PACKAGE = Path(__file__).resolve().parent
+
+
+class Question(BaseModel):
+    model_config = ConfigDict(extra='forbid')
+    text: str = Field(min_length=1, max_length=10000)
+    puzzle_id: int | None = Field(default=None, gt=0)
+
+
+class Solution(BaseModel):
+    model_config = ConfigDict(extra='forbid', frozen=True)
+    id: int = Field(gt=0)
+    solution: str = Field(min_length=1)
+
+
+def load_solutions() -> dict[int, Solution]:
+    solutions = TypeAdapter(list[Solution]).validate_json(
+        (PACKAGE / 'data' / 'solutions.json').read_bytes()
+    )
+    if [solution.id for solution in solutions] != list(range(1, 314)):
+        raise ValueError('Every puzzle must have an official solution')
+    return {solution.id: solution for solution in solutions}
 
 
 class Puzzle(BaseModel):
@@ -75,8 +99,15 @@ def create_app() -> FastAPI:
     async def lifespan(app: FastAPI):
         app.state.puzzles = load_puzzles()
         app.state.hints = load_hints()
+        app.state.solutions = load_solutions()
         app.state.illustrations = load_illustrations(app.state.puzzles)
-        yield
+        app.state.genai_client = None
+        try:
+            yield
+        finally:
+            if app.state.genai_client is not None:
+                await app.state.genai_client.aio.aclose()
+                app.state.genai_client.close()
 
     app = FastAPI(title='Puzzlebook', lifespan=lifespan,
                   docs_url=None, redoc_url=None, openapi_url=None)
@@ -91,6 +122,33 @@ def create_app() -> FastAPI:
         )) for p in request.app.state.puzzles]
         return templates.TemplateResponse(request=request, name='index.html',
             context={'puzzles': puzzles, 'hints': [h.model_dump() for h in request.app.state.hints.values()], 'levels': {'easy': 'קל', 'medium': 'בינוני', 'hard': 'קשה'}})
+
+    @app.post('/api/ask')
+    async def ask(question: Question, request: Request):
+        if not question.text.strip():
+            raise HTTPException(status_code=422, detail='Enter a question')
+        context = None
+        if question.puzzle_id is not None:
+            if question.puzzle_id not in request.app.state.solutions:
+                raise HTTPException(status_code=404, detail='Puzzle not found')
+            puzzle = request.app.state.puzzles[question.puzzle_id - 1]
+            context = {
+                'puzzle': {key: value for key, value in puzzle.model_dump().items()
+                           if key in {'title_he', 'title_en', 'body_he', 'body_en'}},
+                'hint': request.app.state.hints[question.puzzle_id].model_dump(),
+                'official_solution': request.app.state.solutions[question.puzzle_id].solution,
+            }
+        if request.app.state.genai_client is None:
+            try:
+                request.app.state.genai_client = create_client()
+            except Exception:
+                logging.getLogger(__name__).exception('Vertex client initialization failed')
+                raise HTTPException(status_code=503, detail='לא ניתן להתחבר כרגע. בדקו את הגדרות Vertex.') from None
+        return StreamingResponse(
+            stream_answer(request.app.state.genai_client, question.text, context),
+            media_type='text/event-stream',
+            headers={'Cache-Control': 'no-cache', 'X-Accel-Buffering': 'no'},
+        )
 
     @app.get('/healthz', include_in_schema=False)
     async def health():
