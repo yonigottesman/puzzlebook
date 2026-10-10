@@ -8,6 +8,8 @@ from time import perf_counter
 
 from google import genai
 from google.genai import types
+import google.auth
+from google.auth.transport.requests import Request as AuthRequest
 
 logger = logging.getLogger('uvicorn.error')
 MODEL = 'gemini-3.1-pro-preview'
@@ -18,10 +20,13 @@ def create_client() -> genai.Client:
     key = os.environ.get('GOOGLE_API_KEY')
     if key:
         return genai.Client(vertexai=True, api_key=key)
+    credentials, _ = google.auth.default(scopes=['https://www.googleapis.com/auth/cloud-platform'])
+    credentials.refresh(AuthRequest())
     return genai.Client(
         vertexai=True,
         project=os.environ.get('GOOGLE_CLOUD_PROJECT', 'personal-ai-264306'),
         location=os.environ.get('GOOGLE_CLOUD_LOCATION', 'global'),
+        credentials=credentials,
     )
 
 

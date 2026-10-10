@@ -95,3 +95,13 @@ def test_solutions_are_complete_but_never_served():
         assert 'official_solution' not in html
         for path in ['/data/solutions.json', '/static/solutions.json', '/clarifier.txt']:
             assert client.get(path).status_code == 404
+
+
+def test_cloud_run_initializes_vertex_before_first_request(monkeypatch):
+    monkeypatch.setenv('K_SERVICE', 'puzzlebook')
+    vertex = mock_vertex(monkeypatch, ['לא נכון.'])
+    with TestClient(create_app()) as client:
+        assert client.app.state.genai_client is vertex
+        assert client.get('/').status_code == 200
+        assert client.post('/api/ask', json={'text': '1', 'puzzle_id': 1}).status_code == 200
+    vertex.aio.aclose.assert_awaited_once()

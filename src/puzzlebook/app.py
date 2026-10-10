@@ -2,7 +2,10 @@
 from contextlib import asynccontextmanager
 from pathlib import Path
 from typing import Literal
+import asyncio
 import logging
+import os
+from time import perf_counter
 
 from fastapi import FastAPI, HTTPException, Request
 from fastapi.responses import HTMLResponse, StreamingResponse
@@ -102,6 +105,14 @@ def create_app() -> FastAPI:
         app.state.solutions = load_solutions()
         app.state.illustrations = load_illustrations(app.state.puzzles)
         app.state.genai_client = None
+        if os.environ.get('K_SERVICE'):
+            started = perf_counter()
+            try:
+                app.state.genai_client = await asyncio.to_thread(create_client)
+                logging.getLogger('uvicorn.error').info(
+                    'Vertex client initialized during startup in %.3fs', perf_counter() - started)
+            except Exception:
+                logging.getLogger('uvicorn.error').exception('Vertex startup initialization failed')
         try:
             yield
         finally:
@@ -139,7 +150,7 @@ def create_app() -> FastAPI:
         }
         if request.app.state.genai_client is None:
             try:
-                request.app.state.genai_client = create_client()
+                request.app.state.genai_client = await asyncio.to_thread(create_client)
             except Exception:
                 logging.getLogger(__name__).exception('Vertex client initialization failed')
                 raise HTTPException(status_code=503, detail='לא ניתן להתחבר כרגע. בדקו את הגדרות Vertex.') from None
