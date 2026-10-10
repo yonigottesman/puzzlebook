@@ -20,10 +20,14 @@ output.mkdir(parents=True, exist_ok=True)
 manifest = []
 for puzzle in selected:
     ident = puzzle['id']
-    source = ROOT / f'docs/illustration-samples/puzzle-{ident:03}-v1.png'
-    if args.partial and not source.exists():
-        continue
-    name = f'puzzle-{ident:03}-v1.webp'
+    sources = sorted((ROOT / 'docs/illustration-samples').glob(f'puzzle-{ident:03}-v*.png'),
+                     key=lambda path: int(path.stem.rsplit('-v', 1)[1]))
+    if not sources:
+        if args.partial:
+            continue
+        raise FileNotFoundError(f'Missing illustration for puzzle {ident}')
+    source = sources[-1]
+    name = f'{source.stem}.webp'
     destination = output / name
     if not destination.exists() or source.stat().st_mtime > destination.stat().st_mtime:
         with Image.open(source) as image:

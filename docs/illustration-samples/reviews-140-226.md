@@ -63,3 +63,22 @@
 - 192 accepted: coins on ordinary tabletop, no maximal packing or fourfold cover construction.
 - 193 accepted: roulette wheel and unused chips, no bets, outcomes or profit probability.
 - 194 accepted: bagel basket and empty scale, no six-vs-six grouping or parity proof.
+- 195 accepted: Two parallel planes only, no sphere or proof geometry.
+- 196 accepted: Plain square pegboard, no coloring or jump pattern.
+- 197 accepted: Three empty buckets and scoop, no pouring strategy.
+- 198 accepted: Unshaded grid polygon with no decomposition; decorative geometry.
+- 199 accepted: Empty game row and separate S/O blocks, no played move or SOS trap.
+- 200 accepted: Separate wooden pyramids, no glued solid or face-count clue.
+- 201 accepted: Decorative x tower, no evaluated exponent or convergence clue.
+- 202 accepted: Unnumbered intervals with no spanning interval or probability answer.
+- 204 rejected first candidate: displayed numeral4, which is the missing digit. Replacement uses no numerals.
+- 205 rejected first candidate: alternating coin colors inadvertently suggested parity. Replacement uses all gold.
+- 203 accepted: Closed unmarked compass and map, no direction needle or angle.
+- 206 accepted: Four separate ghost bugs and lines, no intersections or velocity proof.
+- 207 accepted: Teacher and unsplit group of children, no reassignment or fractions.
+- 208 accepted: Loose suit-only cards, no ranks or winning hand.
+- 209 accepted: Frame flat with slack string and separate nails, no solution winding.
+- 210 accepted: Robot and blank grid, no trajectory or enumeration.
+- 204 accepted: Replacement abacus with question mark, no numerals or missing digit.
+- 205 accepted: Replacement all-gold coins with no parity coloring, values or selection.
+- 212 accepted: Unrelated numeral row in notebook, no difference rows or zero convergence.

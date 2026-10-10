@@ -42,3 +42,15 @@ Built-in image generation. Reviewed against each puzzle, hint and official solut
 - 264: Approved. Coin and blank notebook; no prechosen thresholds or median argument.
 - 265: Approved. Gentle gladiator setup only; no strength transfer or fair-game analogy.
 - 266: Approved. Gladiators and managers only; no exponential lifetime or lightbulb analogy.
+- 267: Approved as decorative die setup. Six on top and blank notebook; no stopped-experiment or expectation clue.
+- 268: Approved. Travelers and airplane only; no airfare ordering or greedy-route proof.
+- 269 v1: Rejected for setup mismatch: napkins on plates rather than in cups between settings. Regenerating with precise cup placement.
+- 270: Approved. Plain rook on board; no tour or parity tree.
+- 271: Approved. Magician and distinct coins; no ordering sequence or bias declaration.
+- 272: Approved. Generic curved wire loop only; no special grid construction or tree shadows.
+- 273: Approved. Mixed hats without labeled groups or guessing protocol.
+- 274: Approved. Beetle and mixed lights only; no encoded invariant, movements or exits.
+- 275: Approved. Woman inside fence and dog outside; no inner-circle maneuver or escape dash.
+- 276: Approved. Four pegs at original square corners; no jumps or reversibility hint.
+- 277: Approved. Separate hoops in space only; no sphere partition or circle construction.
+- 278: Approved. Spy, radio and generic bits; no nimber computation or capacity answer.

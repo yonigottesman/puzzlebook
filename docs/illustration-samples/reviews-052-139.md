@@ -48,3 +48,36 @@
 - 098: Pass. Scattered points/ruler, no connected maximum pairs or crossing proof.
 - 099: Pass. Two closed hands; no threshold or revealed numbers.
 - 100: Pass. Hidden slips/neutral players; no midpoint selection.
+- 101: Pass. King/citizens each with modest coin; no redistribution or concentrated salary.
+- 102: Pass. Blank row; no groups, operators or expression.
+- 103: Pass. Four-plus-hidden-card setup, no suits/ranks/order code.
+- 104: Pass. Equal table-tennis players; no score or expected point count.
+- 105: Pass. Stationary bike/down pedal, no direction of motion.
+- 106: Pass. Neutral mixed lit bulbs/switches, no pair operations or final state.
+- 107: Pass. Loose painted cubes, no coordinate color scheme or assembly.
+
+- 108: Loose red/blue points with no pairing lines or optimal matching; pass.
+
+- 110: Pool table with stationary corner ball, no trajectory; pass.
+
+- 111: Two intact unequal pancake stacks, no eating schedule; pass.
+
+- 112: Separate varied convex polyhedra between sheets, no jammed tetrahedron tiling; pass.
+
+- 113: Large red/black hat crowd without guesses or equivalence classes; pass.
+
+- 114: Red/black hat group with blank slips, no green shortcut or guesses; pass.
+
+- 115: Identical urns initially holding coins, no unequal final wealth; pass.
+
+- 116: Traveler with loose lace before walkway, no tying location revealed; pass.
+
+- 117: Coin gadget with neutral dial, no outcome sequences or probability setting; pass.
+
+- 118: Reception handshake without count graph or extreme partner pairing; pass.
+
+- 119: Generic non-square rectangle and ruler, no answer dimensions; pass.
+
+- 120: Curious child with closed notebook, no square identity or calculation; pass.
+
+- 121: Traveler with several unmarked empty seats, no highlighted first/last seat; pass.
