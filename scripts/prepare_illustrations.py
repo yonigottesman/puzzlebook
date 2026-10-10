@@ -14,8 +14,7 @@ catalog = json.loads((ROOT / 'src/puzzlebook/data/puzzles.json').read_text())
 parser = argparse.ArgumentParser()
 parser.add_argument('--partial', action='store_true', help='Publish completed artwork while generation continues')
 args = parser.parse_args()
-selected_ids = set(range(1, 51)) | {p['id'] for p in [p for p in catalog if p['level'] == 'easy'][:20]}
-selected = [p for p in catalog if p['id'] in selected_ids]
+selected = catalog
 output = ROOT / 'output/illustrations'
 output.mkdir(parents=True, exist_ok=True)
 manifest = []
@@ -24,11 +23,17 @@ for puzzle in selected:
     source = ROOT / f'docs/illustration-samples/puzzle-{ident:03}-v1.png'
     if args.partial and not source.exists():
         continue
-    with Image.open(source) as image:
-        image = image.convert('RGB')
-        image.thumbnail((1200, 1200), Image.Resampling.LANCZOS)
-        name = f'puzzle-{ident:03}-v1.webp'
-        image.save(output / name, 'WEBP', quality=88, method=6)
+    name = f'puzzle-{ident:03}-v1.webp'
+    destination = output / name
+    if not destination.exists() or source.stat().st_mtime > destination.stat().st_mtime:
+        with Image.open(source) as image:
+            if image.mode == 'RGBA':
+                background = Image.new('RGBA', image.size, '#fffdf5')
+                image = Image.alpha_composite(background, image)
+            image = image.convert('RGB')
+            image.thumbnail((1200, 1200), Image.Resampling.LANCZOS)
+            image.save(destination, 'WEBP', quality=88, method=6)
+    with Image.open(destination) as image:
         manifest.append(dict(id=ident, url=f'https://storage.googleapis.com/{BUCKET}/{name}',
                              width=image.width, height=image.height))
 (ROOT / 'src/puzzlebook/data/illustrations.json').write_text(

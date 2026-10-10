@@ -306,6 +306,30 @@
     "height": 800
   },
   {
+    "id": 52,
+    "url": "https://storage.googleapis.com/puzzlebook-images-941271455567/puzzle-052-v1.webp",
+    "width": 1200,
+    "height": 800
+  },
+  {
+    "id": 53,
+    "url": "https://storage.googleapis.com/puzzlebook-images-941271455567/puzzle-053-v1.webp",
+    "width": 1200,
+    "height": 800
+  },
+  {
+    "id": 54,
+    "url": "https://storage.googleapis.com/puzzlebook-images-941271455567/puzzle-054-v1.webp",
+    "width": 1200,
+    "height": 600
+  },
+  {
+    "id": 56,
+    "url": "https://storage.googleapis.com/puzzlebook-images-941271455567/puzzle-056-v1.webp",
+    "width": 1200,
+    "height": 800
+  },
+  {
     "id": 57,
     "url": "https://storage.googleapis.com/puzzlebook-images-941271455567/puzzle-057-v1.webp",
     "width": 1200,
@@ -314,6 +338,42 @@
   {
     "id": 58,
     "url": "https://storage.googleapis.com/puzzlebook-images-941271455567/puzzle-058-v1.webp",
+    "width": 1200,
+    "height": 800
+  },
+  {
+    "id": 128,
+    "url": "https://storage.googleapis.com/puzzlebook-images-941271455567/puzzle-128-v1.webp",
+    "width": 1200,
+    "height": 600
+  },
+  {
+    "id": 140,
+    "url": "https://storage.googleapis.com/puzzlebook-images-941271455567/puzzle-140-v1.webp",
+    "width": 1200,
+    "height": 800
+  },
+  {
+    "id": 141,
+    "url": "https://storage.googleapis.com/puzzlebook-images-941271455567/puzzle-141-v1.webp",
+    "width": 1200,
+    "height": 800
+  },
+  {
+    "id": 227,
+    "url": "https://storage.googleapis.com/puzzlebook-images-941271455567/puzzle-227-v1.webp",
+    "width": 1200,
+    "height": 800
+  },
+  {
+    "id": 228,
+    "url": "https://storage.googleapis.com/puzzlebook-images-941271455567/puzzle-228-v1.webp",
+    "width": 1200,
+    "height": 800
+  },
+  {
+    "id": 229,
+    "url": "https://storage.googleapis.com/puzzlebook-images-941271455567/puzzle-229-v1.webp",
     "width": 1200,
     "height": 800
   }
