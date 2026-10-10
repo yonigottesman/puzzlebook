@@ -1,0 +1,4 @@
+Use case: illustration-story
+Asset type: a mathematical puzzle illustration for ages 10–13.
+Style: simple polished 2D children's book cartoon, clean dark hand-drawn outlines, rounded shapes, warm colors, subtle soft shading and gentle paper texture. Warm cream/off-white isolated vignette background, landscape composition, generous empty margins. No room walls, environmental dressing, border, captions, text, numbers, equations, arrows, logos, watermark or mathematical explanation. Only depict the stated puzzle setup. Absolutely no solution or strategy clues.
+Subject: One blank cream sheet of paper bearing a small regular grid of tiny unconnected dark dots, with one golden yellow pencil resting beside the paper, separate from every dot. No dot connections, edges, completed boxes, drawn squares, chains, winning move, highlighted center or labels. Minimal setup of an unstarted dots-and-boxes game, paper slightly oblique, no desk or background.

@@ -15,10 +15,11 @@
     button { font: inherit; color: inherit; cursor: pointer; }
     a { color: inherit; }
     :focus-visible { outline: 2px solid #746498; outline-offset: 4px; }
-    .topbar { height: 76px; display: flex; align-items: center; justify-content: space-between; padding: 0 32px; border-bottom: 1px solid var(--ink); }
+    .topbar { height: 76px; display: flex; align-items: center; justify-content: space-between; padding: 0 32px; position: relative; }
+    .topbar::after { content: ""; position: absolute; bottom: 0; inset-inline: 0; height: 1px; background: linear-gradient(90deg, transparent, rgba(154,146,125,.16) 25%, rgba(154,146,125,.16) 75%, transparent); }
     .brand { font-size: 22px; font-weight: 750; letter-spacing: -.6px; }
-    .book-footer { margin-top: 44px; text-align: center; }
-    .book-footer::before { content: ""; display: block; width: 88px; height: 1px; background: var(--line); margin: 0 auto 18px; }
+    .book-footer { margin-top: 40px; text-align: center; }
+    .book-footer::before { content: ""; display: block; width: 88px; height: 1px; background: linear-gradient(90deg, transparent, rgba(154,146,125,.3), transparent); margin: 0 auto 14px; }
     .book-credit { text-decoration: none; color: var(--muted); font-size: 13px; }
     .layout { display: grid; grid-template-columns: 312px minmax(0, 1fr); height: calc(100dvh - 76px); }
     .sidebar { display: flex; flex-direction: column; min-height: 0; background: #f7f5ef; border-left: 1px solid var(--line); }
@@ -32,17 +33,14 @@
     .number { color: #949087; font-size: 11px; font-variant-numeric: tabular-nums; min-width: 22px; }
     .name { flex: 1; }
     .list-level { font-size: 10px; color: var(--muted); white-space: nowrap; }
-    .reader { overflow-y: auto; padding: 64px clamp(32px, 6vw, 96px); }
+    .reader { overflow-y: auto; padding: 64px clamp(32px, 6vw, 96px) 40px; }
     .puzzle { width: 100%; max-width: 720px; margin: 0 auto; }
-    .puzzle-meta { display: flex; align-items: center; justify-content: space-between; gap: 12px; padding-bottom: 28px; }
-    .eyebrow { display: flex; align-items: center; gap: 14px; font-size: 12px; color: var(--muted); }
-    .level { background: #e8eee4; border: 1px solid #d0d9c9; color: #4d5b42; border-radius: 4px; padding: 4px 11px; font-size: 11px; }
-    .level[data-level="medium"] { background: #faf0da; border-color: #e7d9b6; color: #806528; }
-    .level[data-level="hard"] { background: #f4e8e7; border-color: #e1cfce; color: #885552; }
+    .language-control { display: flex; justify-content: flex-end; margin-bottom: 22px; }
+    .puzzle-heading { display: flex; align-items: center; flex-wrap: wrap; gap: 14px; margin-bottom: 30px; }
     .original { background: transparent; border: 1px solid var(--ink); border-radius: 5px; padding: 8px 17px; box-shadow: 2px 2px 0 var(--ink); font-size: 12px; transition: transform .15s, box-shadow .15s; }
     .original:hover { background: #f0ece2; }
     .original:active { transform: translate(2px,2px); box-shadow: none; }
-    h1 { font-size: clamp(30px, 3.4vw, 44px); line-height: 1.25; letter-spacing: -1px; margin: 8px 0 30px; font-weight: 700; }
+    h1 { font-size: clamp(30px, 3.4vw, 44px); line-height: 1.25; letter-spacing: -1px; margin: 0; font-weight: 700; flex: 1; min-width: 160px; }
     .body { font-size: 20px; line-height: 1.95; letter-spacing: -.15px; white-space: pre-line; overflow-wrap: anywhere; margin: 0; }
     .body[lang="en"] { font-size: 19px; line-height: 1.85; letter-spacing: 0; }
     .figures { display: grid; gap: 24px; margin-top: 30px; }
@@ -65,10 +63,9 @@
       .layout { height: calc(100dvh - 64px); display: block; position: relative; }
       .sidebar { display: none; position: absolute; inset: 0; z-index: 2; border: 0; }
       .sidebar.is-open { display: flex; }
-      .reader { height: 100%; padding: 36px 24px 48px; }
+      .reader { height: 100%; padding: 36px 24px 40px; }
       .body { font-size: 18px; }
-      .puzzle-meta { padding-bottom: 22px; }
-      h1 { margin-bottom: 24px; }
+      .puzzle-heading { gap: 10px; margin-bottom: 24px; }
     }
     @media (prefers-reduced-motion: reduce) { * { transition: none !important; } }
   </style>
@@ -94,12 +91,11 @@
     </aside>
     <main class="reader" id="reader" tabindex="-1">
       <article class="puzzle" aria-labelledby="puzzle-title">
-        <div class="puzzle-meta">
-          <div class="eyebrow"><span id="puzzle-number">חידה 001</span><span class="level" id="level" data-level="{{ puzzles[0].level }}">{{ levels[puzzles[0].level] }}</span></div>
-          <button class="original" id="original" type="button" aria-pressed="false">Original ↗</button>
-        </div>
+        <div class="language-control"><button class="original" id="original" type="button" aria-pressed="false">Original ↗</button></div>
         <div id="puzzle-content" aria-live="polite" aria-atomic="true">
-          <h1 id="puzzle-title">{{ puzzles[0].title_he }}</h1>
+          <div class="puzzle-heading">
+            <h1 id="puzzle-title">{{ puzzles[0].title_he }}</h1>
+          </div>
           <p class="body" id="puzzle-body" lang="he" dir="rtl">{{ puzzles[0].body_he }}</p>
           <div class="figures" id="figures"></div>
           <img class="illustration" id="illustration" src="{{ puzzles[0].illustration.url }}" width="{{ puzzles[0].illustration.width }}" height="{{ puzzles[0].illustration.height }}" alt="איור לחידה: {{ puzzles[0].title_he }}" decoding="async">
@@ -109,20 +105,25 @@
           <h2 id="hint-title">רמז</h2>
           <p class="hint-body" id="hint-body" tabindex="-1"></p>
         </section>
-        <footer class="book-footer">
-          <a class="book-credit" dir="ltr" href="https://math.dartmouth.edu/news-resources/electronic/puzzlebook/book/book.pdf" target="_blank" rel="noopener noreferrer">Mathematical Puzzles · Peter Winkler</a>
-        </footer>
       </article>
+      <footer class="book-footer">
+          <a class="book-credit" dir="ltr" href="https://math.dartmouth.edu/news-resources/electronic/puzzlebook/book/book.pdf" target="_blank" rel="noopener noreferrer">Mathematical Puzzles · Peter Winkler</a>
+      </footer>
     </main>
   </div>
   <noscript>יש להפעיל JavaScript כדי לעבור בין החידות ולקרוא את המקור באנגלית.</noscript>
   <script id="puzzle-data" type="application/json">{{ puzzles | tojson }}</script>
   <script id="hint-data" type="application/json">{{ hints | tojson }}</script>
   <script>
+    if ('scrollRestoration' in history) history.scrollRestoration = 'manual';
+    function scrollToTop() {
+      document.getElementById('reader').scrollTop = 0;
+      window.scrollTo(0, 0);
+    }
+    addEventListener('pageshow', () => requestAnimationFrame(scrollToTop));
     const puzzles = JSON.parse(document.getElementById('puzzle-data').textContent);
     const hints = new Map(JSON.parse(document.getElementById('hint-data').textContent).map(h => [h.id, h]));
     const catalog = new Map(puzzles.map(p => [p.id, p]));
-    const labels = {easy: 'קל', medium: 'בינוני', hard: 'קשה'};
     const sidebar = document.getElementById('sidebar');
     const mobileToggle = document.getElementById('mobile-toggle');
     const original = document.getElementById('original');
@@ -167,8 +168,6 @@
       title.dir = body.dir = english ? 'ltr' : 'rtl';
       title.lang = body.lang = english ? 'en' : 'he';
       setReadingText(body, english ? current.body_en : current.body_he, english);
-      document.getElementById('puzzle-number').textContent = 'חידה ' + String(current.id).padStart(3, '0');
-      const level = document.getElementById('level'); level.textContent = labels[current.level]; level.dataset.level = current.level;
       original.textContent = english ? 'עברית ↩' : 'Original ↗'; original.setAttribute('aria-pressed', String(english));
       document.title = current.title_he + ' · חידות מתמטיות';
       const figures = document.getElementById('figures'); figures.replaceChildren();
@@ -188,17 +187,18 @@
       const match = location.hash.match(/^#puzzle-(\d+)$/);
       const next = match && catalog.get(Number(match[1]));
       if (!next) return;
-      current = next; english = false; resetHint(); render(); closeSidebar(); document.getElementById('reader').scrollTop = 0;
+      current = next; english = false; resetHint(); render(); closeSidebar(); scrollToTop();
     }
     original.addEventListener('click', () => { english = !english; render(); });
     mobileToggle.addEventListener('click', () => { const open = sidebar.classList.toggle('is-open'); mobileToggle.setAttribute('aria-expanded', String(open)); mobileToggle.textContent = open ? 'סגירה' : 'כל החידות'; });
     document.querySelector('.puzzle-list').addEventListener('click', event => {
       const link = event.target.closest('.puzzle-link'); if (!link) return;
-      current = catalog.get(Number(link.dataset.id)); english = false; resetHint(); render(); closeSidebar(); document.getElementById('reader').scrollTop = 0;
+      current = catalog.get(Number(link.dataset.id)); english = false; resetHint(); render(); closeSidebar(); scrollToTop();
     });
     addEventListener('hashchange', selectFromHash);
     addEventListener('keydown', event => { if (event.key === 'Escape') { closeSidebar(); if (hintOpen) { resetHint(); hintToggle.focus(); } } });
     selectFromHash();
+    scrollToTop();
   </script>
 </body>
 </html>

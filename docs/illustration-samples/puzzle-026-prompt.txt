@@ -1,0 +1,4 @@
+Use case: illustration-story
+Asset type: a mathematical puzzle illustration for ages 10–13.
+Style: simple polished 2D children's book cartoon, clean dark hand-drawn outlines, rounded shapes, warm colors, subtle soft shading and gentle paper texture. Warm cream/off-white isolated vignette background, landscape composition, generous empty margins. No room walls, environmental dressing, border, captions, text, numbers, equations, arrows, logos, watermark or mathematical explanation. Only depict the stated puzzle setup. Absolutely no solution or strategy clues.
+Subject: One classic friendly balance scale with brass-gold frame and two pans containing generic unmarked small weights. The beam is tilted to the viewer's RIGHT: RIGHT pan clearly lower than LEFT pan. No people, names, selected weight, switching action, flip, alternate balanced or left-tilted scene. One static setup scale only on cream background.

@@ -1,0 +1,4 @@
+Use case: illustration-story
+Asset type: a mathematical puzzle illustration for ages 10–13.
+Style: simple polished 2D children's book cartoon, clean dark hand-drawn outlines, rounded shapes, warm colors, subtle soft shading and gentle paper texture. Warm cream/off-white isolated vignette background, landscape composition, generous empty margins. No room walls, environmental dressing, border, captions, text, numbers, equations, arrows, logos, watermark or mathematical explanation. Only depict the stated puzzle setup. Absolutely no solution or strategy clues.
+Subject: Exactly five face-down playing cards loosely fanned in a simple isolated still life. Card backs share one simple warm rust-red decorative design. All ranks and suits remain concealed. No face-up card, best hand, aces, full-house selection, score, poker chips, betting amounts or calculation. Cream backdrop.

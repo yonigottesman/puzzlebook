@@ -1,0 +1,4 @@
+Use case: illustration-story
+Asset type: a mathematical puzzle illustration for ages 10–13.
+Style: simple polished 2D children's book cartoon, clean dark hand-drawn outlines, rounded shapes, warm colors, subtle soft shading and gentle paper texture. Warm cream/off-white isolated vignette background, landscape composition, generous empty margins. No room walls, environmental dressing, border, captions, text, numbers, equations, arrows, logos, watermark or mathematical explanation. Only depict the stated puzzle setup. Absolutely no solution or strategy clues.
+Subject: One friendly brother and one friendly sister standing together in a casual relaxed pose, isolated on cream. Warm simple clothing in muted ochre and coral, kind expressions, no twins emphasis. No additional family members, comparison panels, counts, repeated people, family tree, gender statistics, labels, equality symbols or answer explanation. Generic sibling portrait only.

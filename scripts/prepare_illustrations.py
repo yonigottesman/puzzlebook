@@ -2,6 +2,7 @@
 
 Run: uv run --with pillow python scripts/prepare_illustrations.py
 """
+import argparse
 import json
 from pathlib import Path
 
@@ -10,13 +11,19 @@ from PIL import Image
 ROOT = Path(__file__).resolve().parents[1]
 BUCKET = 'puzzlebook-images-941271455567'
 catalog = json.loads((ROOT / 'src/puzzlebook/data/puzzles.json').read_text())
-selected = [p for p in catalog if p['level'] == 'easy'][:20]
+parser = argparse.ArgumentParser()
+parser.add_argument('--partial', action='store_true', help='Publish completed artwork while generation continues')
+args = parser.parse_args()
+selected_ids = set(range(1, 51)) | {p['id'] for p in [p for p in catalog if p['level'] == 'easy'][:20]}
+selected = [p for p in catalog if p['id'] in selected_ids]
 output = ROOT / 'output/illustrations'
 output.mkdir(parents=True, exist_ok=True)
 manifest = []
 for puzzle in selected:
     ident = puzzle['id']
     source = ROOT / f'docs/illustration-samples/puzzle-{ident:03}-v1.png'
+    if args.partial and not source.exists():
+        continue
     with Image.open(source) as image:
         image = image.convert('RGB')
         image.thumbnail((1200, 1200), Image.Resampling.LANCZOS)

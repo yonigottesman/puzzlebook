@@ -1,0 +1,4 @@
+Use case: illustration-story
+Asset type: a mathematical puzzle illustration for ages 10–13.
+Style: simple polished 2D children's book cartoon, clean dark hand-drawn outlines, rounded shapes, warm colors, subtle soft shading and gentle paper texture. Warm cream/off-white isolated vignette background, landscape composition, generous empty margins. No room walls, environmental dressing, border, captions, text, numbers, equations, arrows, logos, watermark or mathematical explanation. Only depict the stated puzzle setup. Absolutely no solution or strategy clues.
+Subject: One simple small garden sprinkler on a modest irregular patch of green grass. The sprinkler is idle, with no spray. Warm metal and brass tones. No irrigation grid, multiple sprinkler arrangement, water coverage areas, circular spray arcs, cross shapes, diagram, boundaries, distances or labeled regions. Isolated object vignette on cream, no garden background.

@@ -63,12 +63,14 @@ GitHub Actions runs the tests on pushes and pull requests. Deployment is perform
 
 ## Illustrations
 
-The first 20 easy puzzles in book order have warm, minimal cartoon illustrations below the question text. Artwork is served directly from the public `puzzlebook-images-941271455567` Cloud Storage bucket in `europe-west1`, without passing through FastAPI. The source images were reviewed against the solutions to avoid answer clues. Exact generation prompts and review notes are in `docs/illustration-samples/`; the public URLs and dimensions are in `src/puzzlebook/data/illustrations.json`.
+The first 50 puzzles in book order, plus three previously illustrated easy puzzles, have warm, minimal cartoon illustrations below the question text. Artwork is served directly from the public `puzzlebook-images-941271455567` Cloud Storage bucket in `europe-west1`, without passing through FastAPI. The source images were reviewed against the solutions to avoid answer clues. Exact generation prompts and review notes are in `docs/illustration-samples/`; the public URLs and dimensions are in `src/puzzlebook/data/illustrations.json`.
 
 To encode and upload approved local PNG originals:
 
 ```sh
 bash scripts/publish_illustrations.sh
 ```
+
+Use `bash scripts/publish_illustrations.sh --partial` to publish completed images while a batch is still being generated.
 
 The script creates compact WebP files with a one-year cache lifetime. Originals and generated output files are excluded from Git and the Cloud Run build. Use a new filename version when replacing an illustration.

@@ -45,14 +45,14 @@ def test_hints_are_bilingual_and_available_immediately():
         assert client.get('/data/hints.json').status_code == 404
 
 
-def test_first_twenty_easy_puzzles_have_external_illustrations():
+def test_first_fifty_puzzles_have_external_illustrations():
     import json
     import re
     from puzzlebook.app import load_illustrations
 
     puzzles = load_puzzles()
     illustrations = load_illustrations(puzzles)
-    assert list(illustrations) == [p.id for p in puzzles if p.level == 'easy'][:20]
+    assert set(illustrations) == set(range(1, 51)) | {51, 57, 58}
     with TestClient(create_app()) as client:
         html = client.get('/').text
         embedded = json.loads(re.search(

@@ -1,0 +1,4 @@
+Use case: illustration-story
+Asset type: a mathematical puzzle illustration for ages 10–13.
+Style: simple polished 2D children's book cartoon, clean dark hand-drawn outlines, rounded shapes, warm colors, subtle soft shading and gentle paper texture. Warm cream/off-white isolated vignette background, landscape composition, generous empty margins. No room walls, environmental dressing, border, captions, text, numbers, equations, arrows, logos, watermark or mathematical explanation. Only depict the stated puzzle setup. Absolutely no solution or strategy clues.
+Subject: One completely intact rectangular milk chocolate bar divided into ordinary rectangular unit squares. Rich warm brown chocolate, appealing simple highlights. No bite marks, missing squares, removed pieces, highlighted corner, poison symbol, L-shape, player, hand, starting move or sequence. Plain intact rectangular chocolate on cream.

@@ -1,0 +1,5 @@
+Use case: illustration-story
+Asset type: illustration for a mathematical puzzle reader for ages 10–13.
+Style: very simple polished 2D children's book cartoon, clean dark hand-drawn outlines, rounded shapes, warm colors, subtle soft shading and gentle paper texture. Isolated on warm cream/off-white background, landscape composition with generous empty margins. No environment walls, room dressing or detailed backdrop.
+Subject: one friendly mother standing beside two cheerful children of slightly different heights, a larger boy and a smaller child whose clothing and hair are neutral and do not emphasize gender. Simple ochre, coral and sage clothes. All figures equally prominent, casual warm family portrait.
+Constraints: Depict a generic parent and two children only. No calendar, dates, birthday props, Tuesday labels, male/female symbols, outcome comparisons, duplicate families, count diagrams, labels or equation. Do not highlight either child or reveal the gender of the unspecified second child. No text, numbers, arrows, logos, watermark. Absolutely no probability or solution clues.

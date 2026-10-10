@@ -64,9 +64,9 @@ def load_illustrations(puzzles: tuple[Puzzle, ...]) -> dict[int, Illustration]:
     illustrations = TypeAdapter(list[Illustration]).validate_json(
         (PACKAGE / 'data' / 'illustrations.json').read_bytes()
     )
-    expected = [p.id for p in puzzles if p.level == 'easy'][:20]
-    if [i.id for i in illustrations] != expected:
-        raise ValueError('Illustrations must cover the first 20 easy puzzles in book order')
+    ids = [i.id for i in illustrations]
+    if ids != sorted(set(ids)) or not ids or ids[0] != 1 or not set(ids) <= {p.id for p in puzzles}:
+        raise ValueError('Illustrations must have unique valid puzzle IDs in book order, starting with puzzle 1')
     return {i.id: i for i in illustrations}
 
 
