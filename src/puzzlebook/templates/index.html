@@ -51,8 +51,7 @@
     .hint-toggle:hover { background: #f0ece2; }
     .hint-panel { margin-top: 16px; padding: 24px; border: 1px solid #d8d0e6; border-radius: 7px; background: #f6f3fa; }
     .hint-panel h2 { font-size: 19px; margin: 0 0 12px; }
-    .hint-copy, .hint-body { font-size: 16px; line-height: 1.8; margin: 0; white-space: pre-line; overflow-wrap: anywhere; }
-    .source { color: #96928a; border-top: 1px solid var(--line); margin-top: 48px; padding-top: 20px; font-size: 12px; }
+    .hint-body { font-size: 16px; line-height: 1.8; margin: 0; white-space: pre-line; overflow-wrap: anywhere; }
     .mobile-toggle { display: none; }
     .skip { position: absolute; top: -60px; background: var(--paper); padding: 12px; z-index: 5; }
     .skip:focus { top: 8px; }
@@ -106,17 +105,17 @@
         <button class="hint-toggle" id="hint-toggle" type="button" aria-expanded="false" aria-controls="hint-panel">רמז</button>
         <section class="hint-panel" id="hint-panel" aria-labelledby="hint-title" hidden>
           <h2 id="hint-title">רמז</h2>
-          <p class="hint-copy" id="hint-copy" role="status"></p>
-          <p class="hint-body" id="hint-body" tabindex="-1" hidden></p>
+          <p class="hint-body" id="hint-body" tabindex="-1"></p>
         </section>
-        <footer class="source" id="source">מתוך הספר · עמוד {{ puzzles[0].source_page }}</footer>
       </article>
     </main>
   </div>
   <noscript>יש להפעיל JavaScript כדי לעבור בין החידות ולקרוא את המקור באנגלית.</noscript>
   <script id="puzzle-data" type="application/json">{{ puzzles | tojson }}</script>
+  <script id="hint-data" type="application/json">{{ hints | tojson }}</script>
   <script>
     const puzzles = JSON.parse(document.getElementById('puzzle-data').textContent);
+    const hints = new Map(JSON.parse(document.getElementById('hint-data').textContent).map(h => [h.id, h]));
     const catalog = new Map(puzzles.map(p => [p.id, p]));
     const labels = {easy: 'קל', medium: 'בינוני', hard: 'קשה'};
     const sidebar = document.getElementById('sidebar');
@@ -125,41 +124,18 @@
     let current = puzzles[0], english = false;
     const hintToggle = document.getElementById('hint-toggle');
     const hintPanel = document.getElementById('hint-panel');
-    const freshHint = () => ({open: false, data: null, loading: false, error: false});
-    let hintState = freshHint();
-    function resetHint() { hintState = freshHint(); renderHint(); }
+    let hintOpen = false;
+    function resetHint() { hintOpen = false; renderHint(); }
     function renderHint() {
-      const revealed = Boolean(hintState.data);
-      hintPanel.hidden = !hintState.open;
+      hintPanel.hidden = !hintOpen;
       hintPanel.lang = english ? 'en' : 'he'; hintPanel.dir = english ? 'ltr' : 'rtl';
-      hintToggle.textContent = hintState.open ? (english ? 'Close hint' : 'סגור רמז') : (english ? 'Hint' : 'רמז');
-      hintToggle.setAttribute('aria-expanded', String(hintState.open));
+      hintToggle.textContent = hintOpen ? (english ? 'Close hint' : 'סגור רמז') : (english ? 'Hint' : 'רמז');
+      hintToggle.setAttribute('aria-expanded', String(hintOpen));
       document.getElementById('hint-title').textContent = english ? 'Hint' : 'רמז';
-      const copy = document.getElementById('hint-copy'); copy.hidden = revealed;
-      copy.textContent = hintState.error ? (english ? 'Could not load the hint. Close and try again.' : 'לא ניתן לטעון את הרמז. סגור ונסה שוב.') : (english ? 'Loading…' : 'טוען…');
-      const body = document.getElementById('hint-body'); body.hidden = !revealed;
-      setReadingText(body, revealed ? (english ? hintState.data.hint_en : hintState.data.hint_he) : '', english);
+      const hint = hints.get(current.id);
+      setReadingText(document.getElementById('hint-body'), hintOpen ? (english ? hint.hint_en : hint.hint_he) : '', english);
     }
-    hintToggle.addEventListener('click', async () => {
-      if (hintState.open) { resetHint(); return; }
-      hintState.open = true;
-      const state = hintState, puzzleId = current.id;
-      state.loading = true; state.error = false; renderHint();
-      try {
-        const response = await fetch(`/api/puzzles/${puzzleId}/hint`);
-        if (!response.ok) throw new Error('Hint unavailable');
-        const data = await response.json();
-        if (hintState !== state || current.id !== puzzleId) return;
-        if (data.id !== puzzleId || !data.hint_he || !data.hint_en) throw new Error('Invalid hint');
-        state.data = data;
-      } catch {
-        if (hintState !== state) return;
-        state.error = true;
-      }
-      if (hintState !== state) return;
-      state.loading = false; renderHint();
-      if (state.data) document.getElementById('hint-body').focus({preventScroll: true});
-    });
+    hintToggle.addEventListener('click', () => { hintOpen = !hintOpen; renderHint(); });
     function closeSidebar() {
       sidebar.classList.remove('is-open'); mobileToggle.setAttribute('aria-expanded', 'false'); mobileToggle.textContent = 'כל החידות';
     }
@@ -189,7 +165,6 @@
       document.getElementById('puzzle-number').textContent = 'חידה ' + String(current.id).padStart(3, '0');
       const level = document.getElementById('level'); level.textContent = labels[current.level]; level.dataset.level = current.level;
       original.textContent = english ? 'עברית ↩' : 'Original ↗'; original.setAttribute('aria-pressed', String(english));
-      document.getElementById('source').textContent = 'מתוך הספר · עמוד ' + current.source_page;
       document.title = current.title_he + ' · ספר החידות';
       const figures = document.getElementById('figures'); figures.replaceChildren();
       current.figures.forEach(path => { const img = document.createElement('img'); img.src = '/static/figures/' + path; img.alt = english ? 'Original puzzle diagram' : 'איור השאלה מתוך הספר'; figures.append(img); });
@@ -210,7 +185,7 @@
       current = catalog.get(Number(link.dataset.id)); english = false; resetHint(); render(); closeSidebar(); document.getElementById('reader').scrollTop = 0;
     });
     addEventListener('hashchange', selectFromHash);
-    addEventListener('keydown', event => { if (event.key === 'Escape') { closeSidebar(); if (hintState.open) { resetHint(); hintToggle.focus(); } } });
+    addEventListener('keydown', event => { if (event.key === 'Escape') { closeSidebar(); if (hintOpen) { resetHint(); hintToggle.focus(); } } });
     selectFromHash();
   </script>
 </body>

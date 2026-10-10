@@ -25,7 +25,7 @@ All 313 puzzle statements have Hebrew translations. The preface says 300, but th
 
 These labels describe mathematical preparation, not a guarantee that a puzzle will be quickly solved. A surprising elementary puzzle can still be challenging.
 
-`content/hebrew.tsv` contains the reviewed translations and labels. `content/classification.json` records the required background and the solution PDF page for every entry. Only the public statement catalog is included in the initial HTML. The Hint button immediately fetches and shows the bilingual hint in a separate panel. Closing it or selecting another puzzle resets the panel. The Original toggle also switches the hint language. Solutions and private classification records are never served.
+`content/hebrew.tsv` contains the reviewed translations and labels. `content/classification.json` records the required background and the solution PDF page for every entry. The initial HTML includes the public statement catalog and bilingual hints. The Hint button instantly shows the hint in a separate panel without a network request. Closing it or selecting another puzzle resets the panel. The Original toggle also switches the hint language. Solutions and private classification records are never served.
 
 Question diagrams are provided for 140, 154, and 221. The two permitted orientations in 248 are redrawn. Mathematical notation lost during PDF extraction is repaired in `scripts/build_catalog.py`. Necessary context is repeated for standalone questions, and assumptions needed for the intended interpretation are made explicit.
 

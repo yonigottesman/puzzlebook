@@ -25,13 +25,17 @@ def test_reader_exposes_only_public_catalog():
         assert client.get('/static/figures/140.png').status_code == 200
 
 
-def test_hints_are_bilingual_and_loaded_separately():
+def test_hints_are_bilingual_and_available_immediately():
     from puzzlebook.app import load_hints
     hints = load_hints()
     assert set(hints) == set(range(1, 314))
     with TestClient(create_app()) as client:
         html = client.get('/').text
-        assert '"hint_he"' not in html and '"hint_en"' not in html
+        import json
+        from re import search
+        embedded = json.loads(search(r'<script id="hint-data" type="application/json">(.*?)</script>', html, flags=16).group(1))
+        assert embedded == [h.model_dump() for h in hints.values()]
+        assert 'טוען' not in html and 'מתוך הספר · עמוד' not in html
         for ident in [1, 56, 141, 224, 313]:
             response = client.get(f'/api/puzzles/{ident}/hint')
             assert response.status_code == 200

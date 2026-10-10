@@ -1,4 +1,4 @@
-"""A single-page reader with deliberately gated bilingual hints."""
+"""A single-page reader with instant bilingual hints."""
 from contextlib import asynccontextmanager
 from pathlib import Path
 from typing import Literal
@@ -67,7 +67,7 @@ def create_app() -> FastAPI:
     async def index(request: Request):
         puzzles = [p.model_dump() for p in request.app.state.puzzles]
         return templates.TemplateResponse(request=request, name='index.html',
-            context={'puzzles': puzzles, 'levels': {'easy': 'קל', 'medium': 'בינוני', 'hard': 'קשה'}})
+            context={'puzzles': puzzles, 'hints': [h.model_dump() for h in request.app.state.hints.values()], 'levels': {'easy': 'קל', 'medium': 'בינוני', 'hard': 'קשה'}})
 
     @app.get('/healthz', include_in_schema=False)
     async def health():
