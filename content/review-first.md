@@ -1,0 +1,7 @@
+Reviewed all original English titles and puzzle statements for IDs 1–105 against the Hebrew translations. Updated 57 entries (52 bodies and 14 titles; overlap included).
+
+Restored omitted narrative, named people and organizations, dialogue, examples, motivations, and setup details rather than summarizing them. In No Twins Today, restored Mrs. O’Connor, Donald and Ronald Featheringstonehaugh (including the supplied Fanshaw pronunciation), their first-row seating, and the spoken exchange. Restored Jacobson’s book, McGregor, Elspeth/FBI, Chef Bouillon, Oskar/Empire State Building, Joanna, Zirconia, and painting/company names in other entries. Restored the full card-sum story, number-comparison baseline examples, hats ordering example, and mathematical motivation for Fewest Slopes. Preserved source terminology and all original numerical conditions, with existing mathematical clarifications retained where necessary.
+
+The original title of ID91 says red and blue, but its actual body says red and black; the translation now faithfully preserves that source inconsistency rather than silently changing the title. Classifications and skill tags unchanged.
+
+Second pass restored the explicit full iterative procedure in Three Sticks and stopping conditions in Divisibility Game. No corrupted mathematical extraction was found in this range; squared notation in ID97 matches the corrected public English. Existing mathematical assumptions and clarification were retained.

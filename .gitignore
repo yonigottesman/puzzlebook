@@ -1,0 +1,9 @@
+.venv/
+.uv-cache/
+__pycache__/
+.pytest_cache/
+*.pyc
+tmp/
+.DS_Store
+book.pdf
+docs/*.jpg

@@ -1,0 +1,1567 @@
+[
+  {
+    "id": 1,
+    "hint_en": "Do the math!",
+    "hint_he": "עשו את החשבון!"
+  },
+  {
+    "id": 2,
+    "hint_en": "It’s not a trick.",
+    "hint_he": "זה לא טריק."
+  },
+  {
+    "id": 3,
+    "hint_en": "Who is “my father’s son”?",
+    "hint_he": "מי הוא ״בנו של אבי״?"
+  },
+  {
+    "id": 4,
+    "hint_en": "Think about your own young relatives.",
+    "hint_he": "חשבו על קרובי המשפחה הצעירים שלכם."
+  },
+  {
+    "id": 5,
+    "hint_en": "What are the worst choices you can make?",
+    "hint_he": "מהן הבחירות הגרועות ביותר שאתם עלולים לעשות?"
+  },
+  {
+    "id": 6,
+    "hint_en": "Tackle this one hour at a time.",
+    "hint_he": "התמודדו עם ההפרש שעה אחת בכל פעם."
+  },
+  {
+    "id": 7,
+    "hint_en": "Start from the middle of the phrase.",
+    "hint_he": "התחילו מאמצע הביטוי."
+  },
+  {
+    "id": 8,
+    "hint_en": "Try it!",
+    "hint_he": "נסו בעצמכם!"
+  },
+  {
+    "id": 9,
+    "hint_en": "What is meant by inscribing West Virginia in a square is drawing a square around the shape of the state, on the plane, in such a way that the state is inside the square but touches all four sides.",
+    "hint_he": "הכוונה לחסימת מערב וירג׳יניה בריבוע היא לצייר במישור ריבוע סביב צורת המדינה, כך שהמדינה תהיה בתוך הריבוע ותיגע בכל ארבע צלעותיו."
+  },
+  {
+    "id": 10,
+    "hint_en": "What would happen to their answers if we changed all the truth-tellers to liars and vice-versa?",
+    "hint_he": "מה היה קורה לתשובותיהם אילו הפכנו את כל דוברי האמת לשקרנים ואת כל השקרנים לדוברי אמת?"
+  },
+  {
+    "id": 11,
+    "hint_en": "How many chances to win the match can you arrange to get?",
+    "hint_he": "כמה הזדמנויות לנצח במשחק תוכלו לסדר לעצמכם?"
+  },
+  {
+    "id": 12,
+    "hint_en": "Think about the face with the most sides.",
+    "hint_he": "חשבו על הפאה בעלת מספר הצלעות הגדול ביותר."
+  },
+  {
+    "id": 13,
+    "hint_en": "Each weighing can have three possible outcomes.",
+    "hint_he": "לכל שקילה יש שלוש תוצאות אפשריות."
+  },
+  {
+    "id": 14,
+    "hint_en": "Is there anything good that must happen when you flip a line that had negative sum?",
+    "hint_he": "האם משהו טוב בהכרח קורה כשמשנים את הסימנים בשורה או בעמודה שסכומה היה שלילי?"
+  },
+  {
+    "id": 15,
+    "hint_en": "Be careful; you want a match for yourself, not just any pair of people.",
+    "hint_he": "היזהרו: אתם מחפשים מישהו שיום הולדתו מתאים לשלכם, ולא סתם זוג אנשים בעלי אותו יום הולדת."
+  },
+  {
+    "id": 16,
+    "hint_en": "Draw a picture! Note that all times are GMT so you don’t have to worry about time zones.",
+    "hint_he": "ציירו תרשים! שימו לב שכל השעות נתונות לפי שעון גריניץ׳, ולכן אין צורך לדאוג לאזורי הזמן."
+  },
+  {
+    "id": 17,
+    "hint_en": "You may assume the players can sink whatever balls they want, so this is a deterministic game. Does it seem familiar?",
+    "hint_he": "אפשר להניח שהשחקנים מסוגלים להכניס לכיס כל כדור שיבחרו, ולכן זהו משחק דטרמיניסטי, ללא אקראיות. האם הוא נראה לכם מוכר?"
+  },
+  {
+    "id": 18,
+    "hint_en": "Superimpose the days.",
+    "hint_he": "דמיינו ששני הימים מתרחשים זה על גבי זה."
+  },
+  {
+    "id": 19,
+    "hint_en": "Visualize!",
+    "hint_he": "דמיינו את המצב!"
+  },
+  {
+    "id": 20,
+    "hint_en": "Consider labeling the sides of the coins.",
+    "hint_he": "חשבו על סימון הצדדים של המטבעות."
+  },
+  {
+    "id": 21,
+    "hint_en": "How would you actually do it? Can you do better?",
+    "hint_he": "איך הייתם עושים זאת בפועל? האם אפשר לשפר?"
+  },
+  {
+    "id": 22,
+    "hint_en": "Needs more than one second of thought, but two will do.",
+    "hint_he": "צריך לחשוב על זה יותר משנייה אחת, אבל שתי שניות יספיקו."
+  },
+  {
+    "id": 23,
+    "hint_en": "Try some numbers.",
+    "hint_he": "נסו להציב מספרים."
+  },
+  {
+    "id": 24,
+    "hint_en": "Count the cases carefully.",
+    "hint_he": "ספרו את המקרים בקפידה."
+  },
+  {
+    "id": 25,
+    "hint_en": "What can be said about the two-airline networks?",
+    "hint_he": "מה אפשר לומר על רשתות הקווים המורכבות משתי חברות תעופה?"
+  },
+  {
+    "id": 26,
+    "hint_en": "How much of the time does a given weight spend on each side of the scale?",
+    "hint_he": "איזה חלק מהזמן נמצאת משקולת נתונה בכל אחת מכפות המאזניים?"
+  },
+  {
+    "id": 27,
+    "hint_en": "Someone must have a winning strategy; what if it’s Bob?",
+    "hint_he": "למישהו חייבת להיות אסטרטגיית ניצחון; מה אם זה בוב?"
+  },
+  {
+    "id": 28,
+    "hint_en": "Check your intuition with math.",
+    "hint_he": "בדקו את האינטואיציה שלכם בעזרת חשבון."
+  },
+  {
+    "id": 29,
+    "hint_en": "Assume no wild cards, one opponent.",
+    "hint_he": "הניחו שאין קלפים שיכולים לשמש במקום כל קלף אחר, ושיש רק יריב אחד."
+  },
+  {
+    "id": 30,
+    "hint_en": "Nineteen parallel diagonals will do it. Can you do better?",
+    "hint_he": "תשעה־עשר אלכסונים מקבילים יספיקו. האם אפשר בפחות?"
+  },
+  {
+    "id": 31,
+    "hint_en": "Compute your expectation after a given bid.",
+    "hint_he": "חשבו את התוחלת שלכם לאחר הצעת מחיר נתונה."
+  },
+  {
+    "id": 32,
+    "hint_en": "Straight, vertical cuts can do the job.",
+    "hint_he": "חיתוכים ישרים ואנכיים יכולים לעשות את העבודה."
+  },
+  {
+    "id": 33,
+    "hint_en": "In general: Get the men across first.",
+    "hint_he": "באופן כללי: העבירו קודם את הגברים."
+  },
+  {
+    "id": 34,
+    "hint_en": "Experiment, and keep track of the numbers of females.",
+    "hint_he": "נסו כמה מקרים ועקבו אחר מספר הנקבות."
+  },
+  {
+    "id": 35,
+    "hint_en": "What points are closer to a given grid vertex than other grid vertices?",
+    "hint_he": "אילו נקודות קרובות לקודקוד נתון של הרשת יותר משהן קרובות לקודקודים האחרים?"
+  },
+  {
+    "id": 36,
+    "hint_en": "Nothing to prevent you from putting other things in bags...",
+    "hint_he": "שום דבר לא מונע מכם להכניס לשקיות גם דברים אחרים..."
+  },
+  {
+    "id": 37,
+    "hint_en": "What’s the answer among you and your siblings?",
+    "hint_he": "מה התשובה כשמסתכלים רק עליכם ועל האחים והאחיות שלכם?"
+  },
+  {
+    "id": 38,
+    "hint_en": "Think about your choice from your opponent’s point of view.",
+    "hint_he": "חשבו על הבחירה שלכם מנקודת מבטו של היריב."
+  },
+  {
+    "id": 39,
+    "hint_en": "Flip more than once, and look for equiprobable events.",
+    "hint_he": "הטילו את המטבע יותר מפעם אחת וחפשו מאורעות שווי הסתברות."
+  },
+  {
+    "id": 40,
+    "hint_en": "How much does each person’s annual salary go up, each year?",
+    "hint_he": "בכמה עולה השכר השנתי של כל אחד מהם בכל שנה?"
+  },
+  {
+    "id": 41,
+    "hint_en": "Relate sums and difference of distances covered to meeting time.",
+    "hint_he": "קשרו בין סכום המרחקים שעברו הרצים והפרשם לבין זמן המפגש."
+  },
+  {
+    "id": 42,
+    "hint_en": "What’s the most George can hope to get, considering that the machine’s only options are multiples of $6?",
+    "hint_he": "מהו הסכום המרבי שג׳ורג׳ יכול לקוות לקבל, בהתחשב בכך שכל סכומי הפעולות שהכספומט מאפשר הם כפולות של 6 דולר?"
+  },
+  {
+    "id": 43,
+    "hint_en": "Notice that a vertical domino can be turned horizontal if one of its rows has a hole.",
+    "hint_he": "שימו לב שאפשר להפוך אבן דומינו אנכית לאופקית אם באחת השורות שהיא מכסה יש משבצת ריקה."
+  },
+  {
+    "id": 44,
+    "hint_en": "Suppose not, and look separately at the biggest and next-biggest entries in each row.",
+    "hint_he": "הניחו שלא, ובחנו בנפרד את האיבר הגדול ביותר ואת השני בגודלו בכל שורה."
+  },
+  {
+    "id": 45,
+    "hint_en": "Compute the conditional probabilities.",
+    "hint_he": "חשבו את ההסתברויות המותנות."
+  },
+  {
+    "id": 46,
+    "hint_en": "Try regular polygons.",
+    "hint_he": "נסו מצולעים משוכללים."
+  },
+  {
+    "id": 47,
+    "hint_en": "You will get no information from the random native.",
+    "hint_he": "לא תקבלו שום מידע מאיש המאדים שמשיב באקראי."
+  },
+  {
+    "id": 48,
+    "hint_en": "Think of the experiment in stages.",
+    "hint_he": "חשבו על הניסוי כתהליך המורכב משלבים."
+  },
+  {
+    "id": 49,
+    "hint_en": "How might you extend a configuration that works for n, so that it could work for n+1?",
+    "hint_he": "איך תוכלו להרחיב סידור שעובד עבור n, כך שיעבוד עבור n+1?"
+  },
+  {
+    "id": 50,
+    "hint_en": "Consider the general two-bowl game first.",
+    "hint_he": "חשבו תחילה על המשחק הכללי עם שתי קערות."
+  },
+  {
+    "id": 51,
+    "hint_en": "How much information must be kept?",
+    "hint_he": "כמה מידע צריך לשמור?"
+  },
+  {
+    "id": 52,
+    "hint_en": "Compare Alice’s survival probabilities when she hits Bob, hits Carol, or misses both.",
+    "hint_he": "השוו את סיכויי ההישרדות של אליס כשהיא פוגעת בבוב, כשהיא פוגעת בקרול וכשהיא מחטיאה את שניהם."
+  },
+  {
+    "id": 53,
+    "hint_en": "Start with the triangles.",
+    "hint_he": "התחילו מהמשולשים."
+  },
+  {
+    "id": 54,
+    "hint_en": "Bend the segment into a circle.",
+    "hint_he": "כופפו את הקטע למעגל."
+  },
+  {
+    "id": 55,
+    "hint_en": "Use a letter for the earth’s circumference",
+    "hint_he": "השתמשו באות כדי לסמן את היקף כדור הארץ."
+  },
+  {
+    "id": 56,
+    "hint_en": "Think about each new birth separately. Does the decision to stop change the chances for that birth?",
+    "hint_he": "חשבו על כל לידה חדשה בנפרד. האם ההחלטה להפסיק ללדת משנה את הסיכויים בלידה הזאת?"
+  },
+  {
+    "id": 57,
+    "hint_en": "You’ll need more than one bit of information.",
+    "hint_he": "תצטרכו יותר מסיבית אחת של מידע."
+  },
+  {
+    "id": 58,
+    "hint_en": "How can you make the next cut produce the maximum number of new pieces?",
+    "hint_he": "איך תוכלו לגרום לחיתוך הבא ליצור את מספר החלקים החדשים הגדול ביותר?"
+  },
+  {
+    "id": 59,
+    "hint_en": "Each grid point can have one of four possible parities.",
+    "hint_he": "לכל נקודת סריג יש אחד מארבעת צירופי הזוגיות האפשריים של הקואורדינטות שלה."
+  },
+  {
+    "id": 60,
+    "hint_en": "Imagine the necklace laid out in a circle, with a line through the center cutting it twice.",
+    "hint_he": "דמיינו את השרשרת מונחת במעגל, וישר העובר דרך מרכזו וחותך אותה בשני מקומות."
+  },
+  {
+    "id": 61,
+    "hint_en": "Use a variable to stand for the answer.",
+    "hint_he": "השתמשו במשתנה כדי לייצג את התשובה."
+  },
+  {
+    "id": 62,
+    "hint_en": "Group the numbers so that each group can supply only one number to your set.",
+    "hint_he": "חלקו את המספרים לקבוצות, כך שכל קבוצה יכולה לתרום לכל היותר מספר אחד לקבוצה שתבחרו."
+  },
+  {
+    "id": 63,
+    "hint_en": "Try the two-switch version first.",
+    "hint_he": "נסו תחילה את הגרסה עם שני מתגים."
+  },
+  {
+    "id": 64,
+    "hint_en": "Draw a picture and use geometry.",
+    "hint_he": "ציירו תרשים והיעזרו בגאומטריה."
+  },
+  {
+    "id": 65,
+    "hint_en": "Assume the ceiling is flat, and inscribe a hexagon in it.",
+    "hint_he": "הניחו שהתקרה שטוחה, וציירו בה משושה חסום."
+  },
+  {
+    "id": 66,
+    "hint_en": "Pick random diameters first, then endpoints.",
+    "hint_he": "בחרו תחילה קטרים באקראי, ואז נקודות קצה."
+  },
+  {
+    "id": 67,
+    "hint_en": "You need to be very systematic to get them all!",
+    "hint_he": "תצטרכו לעבוד בשיטתיות רבה כדי למצוא את כולם!"
+  },
+  {
+    "id": 68,
+    "hint_en": "What if you found two overlapping sets with the same sum?",
+    "hint_he": "מה אם מצאתם שתי קבוצות עם איברים משותפים ועם אותו סכום?"
+  },
+  {
+    "id": 69,
+    "hint_en": "Think about communication in both directions.",
+    "hint_he": "חשבו על תקשורת בשני הכיוונים."
+  },
+  {
+    "id": 70,
+    "hint_en": "What’s the probability that your ith tying operation will make a loop?",
+    "hint_he": "מה ההסתברות שפעולת הקשירה ה־i שלכם תיצור לולאה?"
+  },
+  {
+    "id": 71,
+    "hint_en": "Start by getting an executive who belongs at one of the ends into her correct place.",
+    "hint_he": "התחילו בהבאת מנהלת שמקומה הנכון באחד מקצות השורה אל מקומה."
+  },
+  {
+    "id": 72,
+    "hint_en": "Start with the nim strategy itself, rather than its reverse.",
+    "hint_he": "התחילו באסטרטגיית נים עצמה, ולא בהיפוכה."
+  },
+  {
+    "id": 73,
+    "hint_en": "Represent the state of the pancake stack as a binary number.",
+    "hint_he": "ייצגו את מצב ערימת הפנקייקים כמספר בינארי."
+  },
+  {
+    "id": 74,
+    "hint_en": "The moon is about half a degree in diameter.",
+    "hint_he": "קוטרו הזוויתי של הירח הוא בערך חצי מעלה."
+  },
+  {
+    "id": 75,
+    "hint_en": "Think about Oskar’s situation after the first egg breaks.",
+    "hint_he": "חשבו על מצבו של אוסקר אחרי שהביצה הראשונה נשברת."
+  },
+  {
+    "id": 76,
+    "hint_en": "Can you alter a ball slightly without affecting its coordinate projections?",
+    "hint_he": "האם אפשר לשנות מעט כדור בלי להשפיע על ההטלות שלו על מישורי הקואורדינטות?"
+  },
+  {
+    "id": 77,
+    "hint_en": "Try it with a smaller deck.",
+    "hint_he": "נסו עם חפיסה קטנה יותר."
+  },
+  {
+    "id": 78,
+    "hint_en": "What is the cycle for our Gregorian calendar?",
+    "hint_he": "מהו המחזור של הלוח הגרגוריאני שלנו?"
+  },
+  {
+    "id": 79,
+    "hint_en": "What would the prisoners do if they knew the number of red hats was even?",
+    "hint_he": "מה היו האסירים עושים אילו ידעו שמספר הכובעים האדומים זוגי?"
+  },
+  {
+    "id": 80,
+    "hint_en": "Compare the picture’s value to the averages for the galleries.",
+    "hint_he": "השוו את שווי הציור לשווי הציורים הממוצע בכל גלריה."
+  },
+  {
+    "id": 81,
+    "hint_en": "List the alphabetically-early words that may arise in a number.",
+    "hint_he": "ערכו רשימה של המילים שיכולות להופיע בשמו של מספר באנגלית ומופיעות מוקדם בסדר האלפביתי."
+  },
+  {
+    "id": 82,
+    "hint_en": "When does the line segment between two lattice points contain another lattice point?",
+    "hint_he": "מתי הקטע שבין שתי נקודות סריג מכיל נקודת סריג נוספת?"
+  },
+  {
+    "id": 83,
+    "hint_en": "Try this, and see the light.",
+    "hint_he": "נסו בעצמכם, והכול יתבהר."
+  },
+  {
+    "id": 84,
+    "hint_en": "How many pairs of players play each other?",
+    "hint_he": "כמה זוגות של שחקניות משחקים זו מול זו?"
+  },
+  {
+    "id": 85,
+    "hint_en": "Big numbers work better.",
+    "hint_he": "מספרים גדולים עובדים טוב יותר."
+  },
+  {
+    "id": 86,
+    "hint_en": "There’s a bit more to this than the probability of flipping 5 heads.",
+    "hint_he": "יש כאן קצת יותר מאשר ההסתברות לקבל חמש תוצאות ״עץ״."
+  },
+  {
+    "id": 87,
+    "hint_en": "Prisoners don’t all need to have the same instructions.",
+    "hint_he": "לא כל האסירים צריכים לקבל אותן הוראות."
+  },
+  {
+    "id": 88,
+    "hint_en": "The jacks divide the deck into five parts.",
+    "hint_he": "הנסיכים מחלקים את החפיסה לחמישה חלקים."
+  },
+  {
+    "id": 89,
+    "hint_en": "Try lighting both fuses at once.",
+    "hint_he": "נסו להדליק את שני הפתילים בו־זמנית."
+  },
+  {
+    "id": 90,
+    "hint_en": "You’ll certainly need to see all the horses.",
+    "hint_he": "בהחלט תצטרכו לראות את כל הסוסים במרוץ."
+  },
+  {
+    "id": 91,
+    "hint_en": "How can the first one to guess help the others?",
+    "hint_he": "איך האסיר הראשון שמנחש יכול לעזור לאחרים?"
+  },
+  {
+    "id": 92,
+    "hint_en": "Can you pick the lengths so that an operation leaves their ratios unchanged?",
+    "hint_he": "האם תוכלו לבחור אורכים כך שפעולה אחת תשאיר את היחסים ביניהם ללא שינוי?"
+  },
+  {
+    "id": 93,
+    "hint_en": "How many spiders would be needed if the game were played on a tree?",
+    "hint_he": "כמה עכבישים היו דרושים אילו המשחק היה מתנהל על עץ, במובן של תורת הגרפים?"
+  },
+  {
+    "id": 94,
+    "hint_en": "What’s the probability that the frog never regresses from its current pad?",
+    "hint_he": "מה ההסתברות שהצפרדע לעולם לא תגיע לעלה שמאחורי העלה שבו היא נמצאת כעת?"
+  },
+  {
+    "id": 95,
+    "hint_en": "Bob gets the most out of small numbers.",
+    "hint_he": "בוב מפיק את המרב ממספרים קטנים."
+  },
+  {
+    "id": 96,
+    "hint_en": "What does the puzzle tell you about the distance from a fixed point on the circumference to the ith candle?",
+    "hint_he": "מה אומרת החידה על המרחק לאורך ההיקף מנקודה קבועה עליו עד לנר ה־i?"
+  },
+  {
+    "id": 97,
+    "hint_en": "Think of pairs of integers as lattice points in a circle.",
+    "hint_he": "חשבו על זוגות של מספרים שלמים כעל נקודות סריג בתוך מעגל."
+  },
+  {
+    "id": 98,
+    "hint_en": "Note that line segments connecting two max-distance pairs must cross.",
+    "hint_he": "שימו לב שהקטעים המחברים שני זוגות של נקודות במרחק המרבי חייבים להיחתך."
+  },
+  {
+    "id": 99,
+    "hint_en": "Have Victor pick a threshold.",
+    "hint_he": "בקשו מוויקטור לבחור ערך סף."
+  },
+  {
+    "id": 100,
+    "hint_en": "What would Paula do if Victor used 1/2 as his threshold?",
+    "hint_he": "מה פאולה הייתה עושה אילו ויקטור השתמש ב־1/2 כערך הסף שלו?"
+  },
+  {
+    "id": 101,
+    "hint_en": "Try to reduce the number of salaried citizens.",
+    "hint_he": "נסו להקטין את מספר האזרחים שמקבלים משכורת."
+  },
+  {
+    "id": 102,
+    "hint_en": "Multiply sums of two numbers and of five numbers.",
+    "hint_he": "כפלו סכומים של שני מספרים ושל חמישה מספרים."
+  },
+  {
+    "id": 103,
+    "hint_en": "Make use of the ordering of the four remaining cards.",
+    "hint_he": "נצלו את הסדר של ארבעת הקלפים הנותרים."
+  },
+  {
+    "id": 104,
+    "hint_en": "How many points does Bob win, on average, while Alice wins 21?",
+    "hint_he": "בכמה נקודות בוב זוכה בממוצע בזמן שאליס זוכה ב־21 נקודות?"
+  },
+  {
+    "id": 105,
+    "hint_en": "When you ride the bike, how does the pedal move relative to the ground?",
+    "hint_he": "כשאתם רוכבים על האופניים, איך הדוושה נעה ביחס לקרקע?"
+  },
+  {
+    "id": 106,
+    "hint_en": "Note that the order in which switches are flipped is irrelevant.",
+    "hint_he": "שימו לב שסדר הפעלת המתגים אינו משנה."
+  },
+  {
+    "id": 107,
+    "hint_en": "Paint space and carve out the big cube!",
+    "hint_he": "צבעו את המרחב, ואז חתכו ממנו את הקובייה הגדולה!"
+  },
+  {
+    "id": 108,
+    "hint_en": "What improves if you uncross two segments?",
+    "hint_he": "מה משתפר כשמחליפים שני קטעים נחתכים בקטעים שאינם נחתכים?"
+  },
+  {
+    "id": 109,
+    "hint_en": "Use the counter for reinforcement of your current name.",
+    "hint_he": "השתמשו במונה כדי לחזק את השם שאתם זוכרים כרגע."
+  },
+  {
+    "id": 110,
+    "hint_en": "How many angles can the ball take after it is shot?",
+    "hint_he": "בכמה זוויות שונות יכול הכדור לנוע אחרי שנורה?"
+  },
+  {
+    "id": 111,
+    "hint_en": "Making the stacks close in size limits one’s opponent.",
+    "hint_he": "כשהערימות קרובות בגודלן, אפשרויות היריב מוגבלות."
+  },
+  {
+    "id": 112,
+    "hint_en": "Try regular tetrahedra.",
+    "hint_he": "נסו ארבעונים משוכללים."
+  },
+  {
+    "id": 113,
+    "hint_en": "Have the prisoners choose a special hat sequence from each class of similar sequences.",
+    "hint_he": "תנו לאסירים לבחור סדרת כובעים מיוחדת מכל מחלקה של סדרות דומות."
+  },
+  {
+    "id": 114,
+    "hint_en": "Use both choice and parity.",
+    "hint_he": "השתמשו גם באקסיומת הבחירה וגם בזוגיות."
+  },
+  {
+    "id": 115,
+    "hint_en": "Try it with, say, six coins instead of a million.",
+    "hint_he": "נסו זאת, למשל, עם שישה מטבעות במקום מיליון."
+  },
+  {
+    "id": 116,
+    "hint_en": "Think about time spent walking.",
+    "hint_he": "חשבו על הזמן שמבלים בהליכה."
+  },
+  {
+    "id": 117,
+    "hint_en": "Flip several times, and note that some numbers of heads will allow you to decide between Alice and Bob. Can you give the rest to Charlie?",
+    "hint_he": "הטילו כמה פעמים, ושימו לב שמספרים מסוימים של תוצאות ״עץ״ יאפשרו לכם להכריע בין אליס לבוב. האם אפשר לתת לצ׳רלי את שאר המקרים?"
+  },
+  {
+    "id": 118,
+    "hint_en": "What numbers did Alexandra hear during her survey?",
+    "hint_he": "אילו מספרים שמעה אלכסנדרה כששאלה את המשתתפים?"
+  },
+  {
+    "id": 119,
+    "hint_en": "Factoring a polynomial might help here.",
+    "hint_he": "פירוק פולינום לגורמים עשוי לעזור כאן."
+  },
+  {
+    "id": 120,
+    "hint_en": "If you don’t find any small prime factors, what else can you try?",
+    "hint_he": "אם אינכם מוצאים גורמים ראשוניים קטנים, מה עוד אפשר לנסות?"
+  },
+  {
+    "id": 121,
+    "hint_en": "Try it with three passengers. What is the probability that third passenger ends up in the second passenger’s seat?",
+    "hint_he": "נסו זאת עם שלושה נוסעים. מה ההסתברות שהנוסע השלישי ימצא את עצמו במושב של הנוסע השני?"
+  },
+  {
+    "id": 122,
+    "hint_en": "If the lemming stays on the board, it must eventually cycle.",
+    "hint_he": "אם הלמינג נשאר על הלוח, בסופו של דבר הוא חייב להיכנס למסלול מחזורי."
+  },
+  {
+    "id": 123,
+    "hint_en": "In showing your solution is optimal, it may pay to consider the 12 outer vertices of the inside 3 × 3 grid.",
+    "hint_he": "כדי להוכיח שהפתרון שלכם מיטבי, כדאי אולי לבחון את 12 הקודקודים החיצוניים של הרשת הפנימית בגודל 3 × 3."
+  },
+  {
+    "id": 124,
+    "hint_en": "Could the second peek change your mind?",
+    "hint_he": "האם ההצצה השנייה יכולה לשנות את דעתכם?"
+  },
+  {
+    "id": 125,
+    "hint_en": "Observe that 16 is a power of 2.",
+    "hint_he": "שימו לב ש־16 הוא חזקה של 2."
+  },
+  {
+    "id": 126,
+    "hint_en": "Keep track of the lengths of the descending and ascending subsequences each player is at the end of, when lined up alphabetically.",
+    "hint_he": "כשהשחקנים עומדים לפי סדר אלפביתי, עקבו אחר אורכי תת־הסדרות היורדות והעולות שכל שחקן נמצא בסופן."
+  },
+  {
+    "id": 127,
+    "hint_en": "Replace the potatoes by holograms.",
+    "hint_he": "החליפו את תפוחי האדמה בהולוגרמות."
+  },
+  {
+    "id": 128,
+    "hint_en": "Note that ants are interchangeable, for the purposes of this puzzle.",
+    "hint_he": "שימו לב שלצורך החידה הזאת אפשר להחליף בין הנמלים בלי לשנות דבר."
+  },
+  {
+    "id": 129,
+    "hint_en": "What happens if you pick some arbitrary point on the plane and assume it is a vertex?",
+    "hint_he": "מה קורה אם בוחרים נקודה שרירותית במישור ומניחים שהיא קודקוד?"
+  },
+  {
+    "id": 130,
+    "hint_en": "You have to try this to see what’s happening.",
+    "hint_he": "צריך לנסות זאת כדי לראות מה קורה."
+  },
+  {
+    "id": 131,
+    "hint_en": "Number the bugs and ask: When one looks at the triangle made by the others, does she see them in clockwise or counterclockwise order?",
+    "hint_he": "מספרו את החרקים ושאלו: כשאחד מהם מסתכל על המשולש שיוצרים האחרים, האם הוא רואה אותם בסדר עם כיוון השעון או נגדו?"
+  },
+  {
+    "id": 132,
+    "hint_en": "Tile the board with dominoes!",
+    "hint_he": "רצפו את הלוח באבני דומינו!"
+  },
+  {
+    "id": 133,
+    "hint_en": "Consider the lowest two numbers in the set.",
+    "hint_he": "בחנו את שני המספרים הקטנים ביותר בקבוצה."
+  },
+  {
+    "id": 134,
+    "hint_en": "Consider the sum of the numbers, modulo 10.",
+    "hint_he": "בחנו את סכום המספרים מודולו 10."
+  },
+  {
+    "id": 135,
+    "hint_en": "In which case can the second flip change your mind?",
+    "hint_he": "באיזה מקרה ההטלה השנייה יכולה לשנות את דעתכם?"
+  },
+  {
+    "id": 136,
+    "hint_en": "Let the number of letters in the alphabet be a variable, and use induction.",
+    "hint_he": "התייחסו למספר האותיות באלפבית כאל משתנה, והשתמשו באינדוקציה."
+  },
+  {
+    "id": 137,
+    "hint_en": "Consider the majority second choice among each candidate’s fans.",
+    "hint_he": "בחנו מי הבחירה השנייה של הרוב בקרב תומכיו של כל מועמד."
+  },
+  {
+    "id": 138,
+    "hint_en": "Missy’s free-throw percentage jumps up when she hits (and down when she misses), so it should be easy to set up a situation where it jumps over 80%, right?",
+    "hint_he": "אחוז הקליעות של מיסי מהעונשין קופץ למעלה כשהיא קולעת, ולמטה כשהיא מחטיאה. לכן אמור להיות קל ליצור מצב שבו הוא מדלג מעל 80%, נכון?"
+  },
+  {
+    "id": 139,
+    "hint_en": "What’s the total area of the rectangles?",
+    "hint_he": "מהו השטח הכולל של המלבנים?"
+  },
+  {
+    "id": 140,
+    "hint_en": "Do the horizontal and vertical lines first.",
+    "hint_he": "טפלו תחילה בקווים האופקיים והאנכיים."
+  },
+  {
+    "id": 141,
+    "hint_en": "Cover the field with a 2ⁿ × 2ⁿ grid.",
+    "hint_he": "כסו את השדה ברשת בגודל 2^n × 2^n."
+  },
+  {
+    "id": 142,
+    "hint_en": "There’s more than one way to choose such a sequence.",
+    "hint_he": "יש יותר מדרך אחת לבחור סדרה כזאת."
+  },
+  {
+    "id": 143,
+    "hint_en": "Think of the coefficients as the expansion of a number in base x.",
+    "hint_he": "חשבו על המקדמים כעל הספרות בייצוג של מספר בבסיס x."
+  },
+  {
+    "id": 144,
+    "hint_en": "Try dividing the numbers from 1 to 8 into two groups, and using the fact that any combination must contain at least two from one of them.",
+    "hint_he": "נסו לחלק את המספרים 1 עד 8 לשתי קבוצות, ולהשתמש בכך שכל צירוף חייב להכיל לפחות שני מספרים מאחת הקבוצות."
+  },
+  {
+    "id": 145,
+    "hint_en": "For this you might want to consider parity of permutations.",
+    "hint_he": "כדאי אולי לבחון את הזוגיות של תמורות."
+  },
+  {
+    "id": 146,
+    "hint_en": "Make a graph whose vertices are the rows and columns of the grid, with edges where the intersecting square is braced.",
+    "hint_he": "בנו גרף שקודקודיו הם השורות והעמודות של הרשת, ויש בו קשת בין שורה לעמודה אם התא שבמפגש שלהן מחוזק."
+  },
+  {
+    "id": 147,
+    "hint_en": "If you’ve already bought k tickets, when is one more worth buying?",
+    "hint_he": "אם כבר קניתם k כרטיסים, מתי משתלם לקנות עוד אחד?"
+  },
+  {
+    "id": 148,
+    "hint_en": "Start by showing that if the tile’s sides have irrational ratio, then any tiling must be all horizontal or all vertical.",
+    "hint_he": "התחילו בהוכחה שאם היחס בין אורכי צלעות האריח אינו רציונלי, כל ריצוף חייב להיות כולו אופקי או כולו אנכי."
+  },
+  {
+    "id": 149,
+    "hint_en": "Try putting guard-posts at corners.",
+    "hint_he": "נסו להציב עמדות שמירה בפינות."
+  },
+  {
+    "id": 150,
+    "hint_en": "It’s important that the person beamed back down might not be the first one beamed up by the next saucer.",
+    "hint_he": "חשוב לזכור שהאדם שהוחזר לבית אינו בהכרח הראשון שתעלה הצלחת המעופפת הבאה."
+  },
+  {
+    "id": 151,
+    "hint_en": "Note that in a graph the average degree is twice the number of edges divided by the number of vertices.",
+    "hint_he": "שימו לב שבגרף, הדרגה הממוצעת היא פעמיים מספר הקשתות חלקי מספר הקודקודים."
+  },
+  {
+    "id": 152,
+    "hint_en": "Pick two points on the curve halfway around from each other, and imagine that the midpoint on the great circle connecting them is the North Pole.",
+    "hint_he": "בחרו שתי נקודות על העקומה, כך שהדרך לאורך העקומה מאחת לאחרת היא מחצית מאורכה. דמיינו שנקודת האמצע על המעגל הגדול המחבר ביניהן היא הקוטב הצפוני."
+  },
+  {
+    "id": 153,
+    "hint_en": "Fix a win–loss sequence that would result in going broke.",
+    "hint_he": "קבעו סדרת ניצחונות והפסדים שמסתיימת בפשיטת רגל."
+  },
+  {
+    "id": 154,
+    "hint_en": "Start with the busiest tiles.",
+    "hint_he": "התחילו באריחים שיש בהם הכי הרבה עקומות."
+  },
+  {
+    "id": 155,
+    "hint_en": "Consider, for each number in a good list, the length of the longest decreasing subsequence that ends there.",
+    "hint_he": "בחנו, עבור כל מספר בסידור טוב, את אורך תת־הסדרה היורדת הארוכה ביותר שמסתיימת בו."
+  },
+  {
+    "id": 156,
+    "hint_en": "Reason carefully with a population of 3.",
+    "hint_he": "הסיקו מסקנות בזהירות עבור אוכלוסייה של שלושה תושבים."
+  },
+  {
+    "id": 157,
+    "hint_en": "Order all the socks randomly and condition on the color of the last one.",
+    "hint_he": "סדרו את כל הגרביים באקראי, ובחנו את המקרים בהתאם לצבע הגרב האחרונה."
+  },
+  {
+    "id": 158,
+    "hint_en": "Recolor greedily with high-numbered colors, and start your path with a cell that still has color 1.",
+    "hint_he": "צבעו מחדש באופן חמדני בצבעים בעלי מספרים גבוהים, והתחילו את המסלול בתא שעדיין צבוע בצבע 1."
+  },
+  {
+    "id": 159,
+    "hint_en": "Assume you can inscribe a sphere, and triangulate the faces of the polyhedron using the tangent points as vertices.",
+    "hint_he": "הניחו שאפשר לחסום כדור בפאון, וחלקו את פאות הפאון למשולשים תוך שימוש בנקודות ההשקה כקודקודים."
+  },
+  {
+    "id": 160,
+    "hint_en": "Notice that prior to any declarations, handing your opponent either a Nim-0 position or a bunch of singletons is fatal.",
+    "hint_he": "שימו לב שלפני כל הכרזה, השארת היריב בעמדת נים שערכה 0, או עם אוסף ערימות שכל אחת מהן מכילה אסימון יחיד, היא מהלך קטלני עבורכם."
+  },
+  {
+    "id": 161,
+    "hint_en": "Give each child half the potential of its parent.",
+    "hint_he": "תנו לכל צאצא מחצית מהפוטנציאל של ההורה שלו."
+  },
+  {
+    "id": 162,
+    "hint_en": "You might need two tries.",
+    "hint_he": "ייתכן שתצטרכו שני ניסיונות."
+  },
+  {
+    "id": 163,
+    "hint_en": "Conservation of momentum applies!",
+    "hint_he": "חוק שימור התנע תקף כאן!"
+  },
+  {
+    "id": 164,
+    "hint_en": "Starting from (1,2), find a pattern linking the positions you don’t want to be in.",
+    "hint_he": "התחילו מ־(1,2), ומצאו דפוס המקשר בין העמדות שלא תרצו להגיע אליהן."
+  },
+  {
+    "id": 165,
+    "hint_en": "Try rectangles, then some sort of triangle.",
+    "hint_he": "נסו מלבנים, ואז סוג כלשהו של משולש."
+  },
+  {
+    "id": 166,
+    "hint_en": "What happens if you try to build your doublecover one line at a time?",
+    "hint_he": "מה קורה אם מנסים לבנות את הכיסוי הכפול, ישר אחד בכל פעם?"
+  },
+  {
+    "id": 167,
+    "hint_en": "There are many ways to do this one; one of them begins by nesting the big rectangle into the positive quadrant of the plane grid, and making a graph whose vertices are grid points that lie on corners of rectangles.",
+    "hint_he": "יש דרכים רבות לפתור את החידה הזאת. באחת מהן מתחילים בהצבת המלבן הגדול ברביע החיובי של הסריג המישורי, ובונים גרף שקודקודיו הם נקודות סריג הנמצאות בפינות של מלבנים."
+  },
+  {
+    "id": 168,
+    "hint_en": "You’ll need to consider two patterns to compute the number of ways to “roll a 4” by this strange method.",
+    "hint_he": "כדי לחשב בכמה דרכים אפשר ״להטיל 4״ בשיטה המשונה הזאת, תצטרכו לבחון שני דפוסים."
+  },
+  {
+    "id": 169,
+    "hint_en": "What would your answer be if there were no 9-ball?",
+    "hint_he": "מה הייתה תשובתכם אילו לא היה כדור מספר 9?"
+  },
+  {
+    "id": 170,
+    "hint_en": "You might have good use for a “friendship graph,” mentioned earlier in the same chapter.",
+    "hint_he": "ייתכן שתפיקו תועלת מ״גרף חברות״, שהוזכר קודם באותו פרק."
+  },
+  {
+    "id": 171,
+    "hint_en": "Consider the strength-of-schedule scores for the teams with the most wins, and for the teams with the fewest wins.",
+    "hint_he": "בחנו את ניקוד חוזק היריבות של הקבוצות בעלות מספר הניצחונות הגדול ביותר, ושל אלה בעלות מספר הניצחונות הקטן ביותר."
+  },
+  {
+    "id": 172,
+    "hint_en": "What numbers have an odd number of divisors (including 1 and themselves)?",
+    "hint_he": "לאילו מספרים יש מספר אי־זוגי של מחלקים, כולל 1 והמספר עצמו?"
+  },
+  {
+    "id": 173,
+    "hint_en": "Start by imagining a trip that starts with plenty of extra gas aboard.",
+    "hint_he": "התחילו בדמיון של נסיעה שבה יוצאים לדרך עם הרבה דלק נוסף במכל."
+  },
+  {
+    "id": 174,
+    "hint_en": "Think about the two closest soldiers.",
+    "hint_he": "חשבו על שני החיילים הקרובים ביותר זה לזה."
+  },
+  {
+    "id": 175,
+    "hint_en": "What if all seven games were always played?",
+    "hint_he": "מה היה קורה אילו תמיד היו משחקים את כל שבעת המשחקים?"
+  },
+  {
+    "id": 176,
+    "hint_en": "What happens when you subtract from a number another number with the same value modulo n?",
+    "hint_he": "מה קורה כשמחסרים ממספר מספר אחר שיש לו אותה שארית מודולו n?"
+  },
+  {
+    "id": 177,
+    "hint_en": "What is the probability that a particular point in one ball will end up inside the other as well?",
+    "hint_he": "מה ההסתברות שנקודה מסוימת בתוך אחד הכדורים תימצא גם בתוך הכדור האחר?"
+  },
+  {
+    "id": 178,
+    "hint_en": "Observe first that it can’t be as long as 40 months.",
+    "hint_he": "ראשית, שימו לב שהתקופה אינה יכולה להיות ארוכה כמו 40 חודשים."
+  },
+  {
+    "id": 179,
+    "hint_en": "Archimedes may be able to help you here.",
+    "hint_he": "ייתכן שארכימדס יוכל לעזור לכם כאן."
+  },
+  {
+    "id": 180,
+    "hint_en": "Weight the holes so that the entire lower halfplane has finite weight.",
+    "hint_he": "הקצו משקלים לנקודות הסריג, כך שלחצי המישור התחתון כולו יהיה משקל סופי."
+  },
+  {
+    "id": 181,
+    "hint_en": "Can you cross a line with just one domino?",
+    "hint_he": "האם אפשר לחצות קו באמצעות אבן דומינו אחת בלבד?"
+  },
+  {
+    "id": 182,
+    "hint_en": "Your position depends on the current sum, and also which numbers are available on the die.",
+    "hint_he": "העמדה שלכם תלויה בסכום הנוכחי, וגם במספרים שאפשר להגיע אליהם בסיבוב הקובייה."
+  },
+  {
+    "id": 183,
+    "hint_en": "Observe that the protected area cannot be convex.",
+    "hint_he": "שימו לב שהאזור המוגן אינו יכול להיות קמור."
+  },
+  {
+    "id": 184,
+    "hint_en": "You’ll need representative real sequences for this one.",
+    "hint_he": "לשם כך תזדקקו לסדרות מייצגות של מספרים ממשיים."
+  },
+  {
+    "id": 185,
+    "hint_en": "Cover the plane with reflected copies of the room.",
+    "hint_he": "כסו את המישור בהעתקים של החדר המתקבלים בהשתקפות."
+  },
+  {
+    "id": 186,
+    "hint_en": "A little experimentation might help you see the light.",
+    "hint_he": "מעט ניסוי וטעייה עשויים לעזור לכם לראות את הדרך."
+  },
+  {
+    "id": 187,
+    "hint_en": "Look not just at numbers of chameleons of a given color, but differences between numbers.",
+    "hint_he": "בחנו לא רק את מספר הזיקיות מכל צבע, אלא גם את ההפרשים בין המספרים."
+  },
+  {
+    "id": 188,
+    "hint_en": "Link wires in pairs at each end.",
+    "hint_he": "חברו את החוטים בזוגות בכל אחד משני הקצוות."
+  },
+  {
+    "id": 189,
+    "hint_en": "Divide the players into the good chess players and the good checkers players.",
+    "hint_he": "חלקו את השחקנים לשחקני השחמט הטובים ולשחקני הדמקה הטובים."
+  },
+  {
+    "id": 190,
+    "hint_en": "Consider the power of a big prime that factors each side of the expression.",
+    "hint_he": "בחנו באיזו חזקה מופיע גורם ראשוני גדול בכל אחד משני אגפי הביטוי."
+  },
+  {
+    "id": 191,
+    "hint_en": "One part of the conversation keeps the bus number from being too small, while another part keeps it from being too big.",
+    "hint_he": "חלק אחד של השיחה מונע ממספר האוטובוס להיות קטן מדי, וחלק אחר מונע ממנו להיות גדול מדי."
+  },
+  {
+    "id": 192,
+    "hint_en": "The shape of the table plays a part.",
+    "hint_he": "לצורת השולחן יש תפקיד."
+  },
+  {
+    "id": 193,
+    "hint_en": "How many wins does Elwyn need to come out ahead?",
+    "hint_he": "כמה ניצחונות אלווין צריך כדי לסיים ברווח?"
+  },
+  {
+    "id": 194,
+    "hint_en": "Start with integer weights, and make one odd.",
+    "hint_he": "התחילו במשקלים שלמים, והפכו אחד מהם לאי־זוגי."
+  },
+  {
+    "id": 195,
+    "hint_en": "Infinity is tricky—try covering a big finite piece instead.",
+    "hint_he": "האינסוף מתעתע — נסו במקום זאת לכסות חלק גדול אך סופי של המרחב."
+  },
+  {
+    "id": 196,
+    "hint_en": "Look for a useful way to two-color the holes.",
+    "hint_he": "חפשו דרך מועילה לצבוע את נקודות הסריג בשני צבעים."
+  },
+  {
+    "id": 197,
+    "hint_en": "How far can you get trying to keep all the buckets level?",
+    "hint_he": "עד כמה אפשר להתקדם כשמנסים לשמור על אותו מפלס מים בכל הדליים?"
+  },
+  {
+    "id": 198,
+    "hint_en": "What is the relationship of h or v to the polygon’s area?",
+    "hint_he": "מה הקשר בין h או v לבין שטח המצולע?"
+  },
+  {
+    "id": 199,
+    "hint_en": "What position can you put your opponent in that will force her to let you win on your next move?",
+    "hint_he": "לאיזו עמדה אפשר להביא את היריבה, כך שתיאלץ לאפשר לכם לנצח במהלך הבא?"
+  },
+  {
+    "id": 200,
+    "hint_en": "How can faces disappear other than by hiding them?",
+    "hint_he": "באיזו דרך פאות יכולות להיעלם, מלבד הסתרתן?"
+  },
+  {
+    "id": 201,
+    "hint_en": "What happens to the expression if you cut off the bottom x?",
+    "hint_he": "מה קורה לביטוי אם מסירים את ה־x התחתון?"
+  },
+  {
+    "id": 202,
+    "hint_en": "Try small numbers, and look for an explanation for what you find.",
+    "hint_he": "נסו מספרים קטנים, וחפשו הסבר למה שתמצאו."
+  },
+  {
+    "id": 203,
+    "hint_en": "An easy enough computation, if you know what it means.",
+    "hint_he": "החישוב פשוט למדי, אם יודעים מה פירוש הביטוי."
+  },
+  {
+    "id": 204,
+    "hint_en": "Do you remember “casting out nines”?",
+    "hint_he": "האם אתם זוכרים את שיטת ״הוצאת התשיעיות״?"
+  },
+  {
+    "id": 205,
+    "hint_en": "You are not asked for an optimal strategy, only one that gets Alix half the money.",
+    "hint_he": "לא מבקשים מכם אסטרטגיה מיטבית, אלא רק אסטרטגיה שתבטיח לאליקס לפחות מחצית מהכסף."
+  },
+  {
+    "id": 206,
+    "hint_en": "Add a time axis.",
+    "hint_he": "הוסיפו ציר זמן."
+  },
+  {
+    "id": 207,
+    "hint_en": "Imagine that each project requires the same total effort.",
+    "hint_he": "דמיינו שכל משימה דורשת אותה כמות כוללת של מאמץ."
+  },
+  {
+    "id": 208,
+    "hint_en": "Alice must, at the very least, stop Bob from making an ace-high straight flush.",
+    "hint_he": "אליס חייבת, לכל הפחות, למנוע מבוב להרכיב רצף קלפים מאותה סדרה שבו האס הוא הקלף הגבוה ביותר."
+  },
+  {
+    "id": 209,
+    "hint_en": "Somehow you must arrange the string so that it ultimately passes over each nail, when the other is ignored.",
+    "hint_he": "עליכם לסדר איכשהו את החוט כך שבסופו של דבר הוא יעבור מעל כל מסמר, כשמתעלמים מהמסמר האחר."
+  },
+  {
+    "id": 210,
+    "hint_en": "How many ways are there to start and point the robot?",
+    "hint_he": "בכמה דרכים אפשר לקבוע את נקודת ההתחלה ואת כיוון התנועה של הרובוט?"
+  },
+  {
+    "id": 211,
+    "hint_en": "How much time did the husband save?",
+    "hint_he": "כמה זמן חסך הבעל?"
+  },
+  {
+    "id": 212,
+    "hint_en": "Notice that odd numbers eventually disappear.",
+    "hint_he": "שימו לב שהמספרים האי־זוגיים נעלמים בסופו של דבר."
+  },
+  {
+    "id": 213,
+    "hint_en": "Try the 10th power, and see if you can guess what’s going on.",
+    "hint_he": "נסו את החזקה העשירית, ובדקו אם תוכלו לנחש מה קורה."
+  },
+  {
+    "id": 214,
+    "hint_en": "Look at the game from the bank’s point of view.",
+    "hint_he": "הסתכלו על המשחק מנקודת המבט של מי שמשלם את הזכיות וגובה את ההפסדים."
+  },
+  {
+    "id": 215,
+    "hint_en": "Close in on the body with parallel planes.",
+    "hint_he": "התקרבו אל הגוף משני הצדדים באמצעות מישורים מקבילים."
+  },
+  {
+    "id": 216,
+    "hint_en": "What do you encounter as you walk across the tiled 400-gon?",
+    "hint_he": "במה אתם נתקלים כשאתם חוצים בהליכה את המצולע המרוצף בעל 400 הצלעות?"
+  },
+  {
+    "id": 217,
+    "hint_en": "Note that there are only countably many rational points in the plane—or pairs of them, for that matter.",
+    "hint_he": "שימו לב שיש במישור רק מספר בן־מנייה של נקודות בעלות קואורדינטות רציונליות — וגם של זוגות של נקודות כאלה."
+  },
+  {
+    "id": 218,
+    "hint_en": "If you number the points in the order they get connected, which one do you not want to connect?",
+    "hint_he": "אם תמספרו את הנקודות לפי הסדר שבו הן מתחברות, איזו נקודה לא תרצו לחבר?"
+  },
+  {
+    "id": 219,
+    "hint_en": "How do you find a tile with sides parallel to two given sides of the 100-gon?",
+    "hint_he": "איך מוצאים אריח שצלעותיו מקבילות לשתי צלעות נתונות של המצולע בעל 100 הצלעות?"
+  },
+  {
+    "id": 220,
+    "hint_en": "Untwist one while you twist the other.",
+    "hint_he": "פרמו את הפיתולים של צמח אחד תוך כדי פיתול הצמח האחר."
+  },
+  {
+    "id": 221,
+    "hint_en": "Look at the more general problem of getting a single loop from tilings involving some of the given tiles, with some repetitions.",
+    "hint_he": "בחנו את הבעיה הכללית יותר: יצירת לולאה אחת בריצוף שמשתמש בחלק מהאריחים הנתונים, ומאפשר גם חזרות על אריחים."
+  },
+  {
+    "id": 222,
+    "hint_en": "Non-convex polygons are a problem, but you can start by passing a line through that’s not of the same slope as any side.",
+    "hint_he": "מצולעים שאינם קמורים יוצרים קושי, אבל אפשר להתחיל בהעברת ישר ששיפועו שונה משל כל אחת מהצלעות."
+  },
+  {
+    "id": 223,
+    "hint_en": "You can assume each path consists of a finite number of alternately ascending and descending line segments.",
+    "hint_he": "אפשר להניח שכל שביל מורכב ממספר סופי של קטעים ישרים, שעולים ויורדים לסירוגין."
+  },
+  {
+    "id": 224,
+    "hint_en": "Represent a die by a polynomial in which the coefficient of x^k is the number of faces with k pips.",
+    "hint_he": "ייצגו קובייה באמצעות פולינום שבו המקדם של x^k הוא מספר הפאות שעליהן k נקודות."
+  },
+  {
+    "id": 225,
+    "hint_en": "Prove it first when n is prime.",
+    "hint_he": "הוכיחו זאת תחילה כאשר n ראשוני."
+  },
+  {
+    "id": 226,
+    "hint_en": "Start by allowing yourself negative numbers of coconuts!",
+    "hint_he": "התחילו בכך שתאפשרו לעצמכם מספרים שליליים של אגוזי קוקוס!"
+  },
+  {
+    "id": 227,
+    "hint_en": "Try the process with various starting positions. What prevents the infected area from getting too “complicated”?",
+    "hint_he": "נסו את התהליך במצבי התחלה שונים. מה מונע מהאזור הנגוע להפוך ל״מסובך״ מדי?"
+  },
+  {
+    "id": 228,
+    "hint_en": "Note that f(x) = x −f(x²).",
+    "hint_he": "שימו לב ש־f(x) = x − f(x²)."
+  },
+  {
+    "id": 229,
+    "hint_en": "It may be convenient to assume that lots of games are played, regardless of outcomes.",
+    "hint_he": "אולי יהיה נוח להניח שמשחקים משחקונים רבים, בלי קשר לתוצאות."
+  },
+  {
+    "id": 230,
+    "hint_en": "A good start is to make sure your algorithm does the right thing when it’s about to win.",
+    "hint_he": "כדאי להתחיל בכך שתוודאו שהאלגוריתם שלכם עושה את הדבר הנכון כשהוא עומד להצליח."
+  },
+  {
+    "id": 231,
+    "hint_en": "It’s easier to prove a stronger statement about ordered dice.",
+    "hint_he": "קל יותר להוכיח טענה חזקה יותר על קוביות המסודרות בסדר מסוים."
+  },
+  {
+    "id": 232,
+    "hint_en": "Cher needs to use her coinflips to communicate information about coming flips.",
+    "hint_he": "שר צריכה להשתמש בניחושים שלה כדי להעביר מידע על ההטלות הבאות."
+  },
+  {
+    "id": 233,
+    "hint_en": "The best guarantee, for given expectation, is when the outcome is no longer random.",
+    "hint_he": "עבור תוחלת נתונה, ההבטחה הטובה ביותר מתקבלת כשהתוצאה כבר אינה אקראית."
+  },
+  {
+    "id": 234,
+    "hint_en": "Try small values for n, then prove your conclusion by comparing gains with losses going from n to n+1.",
+    "hint_he": "נסו ערכים קטנים של n, ואז הוכיחו את המסקנה שלכם באמצעות השוואת התוספות והגריעות במעבר מ־n ל־n+1."
+  },
+  {
+    "id": 235,
+    "hint_en": "Assume you can, and compute the volume of the set of all points within distance ε of the boxes.",
+    "hint_he": "הניחו שאפשר, וחשבו את נפח קבוצת כל הנקודות שמרחקן מהתיבות אינו עולה על ε."
+  },
+  {
+    "id": 236,
+    "hint_en": "What if there were just three prisoners?",
+    "hint_he": "מה היה קורה אילו היו רק שלושה אסירים?"
+  },
+  {
+    "id": 237,
+    "hint_en": "Consider the number of current instances where influence fails, that is, a voter thinks one way and her acquaintance disagrees the next day.",
+    "hint_he": "בחנו את מספר המקרים הנוכחיים שבהם ההשפעה נכשלת: תושב מחזיק בדעה אחת, ולמחרת דעתו של חברו שונה ממנה."
+  },
+  {
+    "id": 238,
+    "hint_en": "Consider first the situation in which the room is known to be dark at the start.",
+    "hint_he": "בחנו תחילה את המצב שבו ידוע שהחדר חשוך בהתחלה."
+  },
+  {
+    "id": 239,
+    "hint_en": "Weight the vertices so as to balance the edges at the tangent points.",
+    "hint_he": "תנו משקולות לקודקודים כך שכל צלע תתאזן בנקודת ההשקה שלה."
+  },
+  {
+    "id": 240,
+    "hint_en": "Jeremy has one threshold, Louise two.",
+    "hint_he": "לג׳רמי יש סף אחד, וללואיז שניים."
+  },
+  {
+    "id": 241,
+    "hint_en": "Do the plane with diagonals, and space with plane slabs that have holes and pegs.",
+    "hint_he": "רצפו את המישור בעזרת אלכסונים, ואת המרחב בעזרת שכבות שטוחות שיש בהן חורים ובליטות."
+  },
+  {
+    "id": 242,
+    "hint_en": "Put small rational circles around each Y’s endpoints.",
+    "hint_he": "הקיפו את קצות הזרועות של כל Y במעגלים קטנים בעלי מרכז ורדיוס רציונליים."
+  },
+  {
+    "id": 243,
+    "hint_en": "You need some way to generalize the diagonals that work in dimension 2.",
+    "hint_he": "דרושה דרך להכליל את האלכסונים שעובדים בשני ממדים."
+  },
+  {
+    "id": 244,
+    "hint_en": "Try it for just four houses; use various addresses, and experiment.",
+    "hint_he": "נסו זאת עם ארבעה בתים בלבד. בחרו מספרי כתובות שונים ונסו אפשרויות."
+  },
+  {
+    "id": 245,
+    "hint_en": "Use the fact that the product of perfect squares is itself a perfect square.",
+    "hint_he": "השתמשו בכך שמכפלה של ריבועים שלמים היא בעצמה ריבוע שלם."
+  },
+  {
+    "id": 246,
+    "hint_en": "If S has n points, they satisfy n linear equations with rational coefficients.",
+    "hint_he": "אם ב־S יש n נקודות, הן מקיימות n משוואות ליניאריות בעלות מקדמים רציונליים."
+  },
+  {
+    "id": 247,
+    "hint_en": "What would the answer be if instead you heard that at most six games were played?",
+    "hint_he": "מה הייתה התשובה אילו שמעתם במקום זאת ששוחקו לכל היותר שישה משחקים?"
+  },
+  {
+    "id": 248,
+    "hint_en": "Try it one row at a time, left to right.",
+    "hint_he": "נסו לרצף שורה אחת בכל פעם, משמאל לימין."
+  },
+  {
+    "id": 249,
+    "hint_en": "Begin with 12 flips each.",
+    "hint_he": "התחילו ב־12 הטלות לכל אחד."
+  },
+  {
+    "id": 250,
+    "hint_en": "Imagine that there’s one judge that would take part either way.",
+    "hint_he": "דמיינו שיש שופט אחד שישתתף במשפט בכל אחת מהאפשרויות."
+  },
+  {
+    "id": 251,
+    "hint_en": "Translate the convex closure of the points.",
+    "hint_he": "הזיזו את המעטפת הקמורה של קבוצת הנקודות."
+  },
+  {
+    "id": 252,
+    "hint_en": "Imagine playing four games instead of three.",
+    "hint_he": "דמיינו שמשחקים ארבעה משחקים במקום שלושה."
+  },
+  {
+    "id": 253,
+    "hint_en": "Assign a 6-digit nimber to each square of the chessboard.",
+    "hint_he": "שייכו לכל משבצת בלוח השחמט מספר נים (nimber) בן שש ספרות בינאריות."
+  },
+  {
+    "id": 254,
+    "hint_en": "Imagine that for some reason the split games might not be counted.",
+    "hint_he": "דמיינו שמסיבה כלשהי ייתכן ששני המשחקים שבהם הניצחונות התחלקו לא ייחשבו."
+  },
+  {
+    "id": 255,
+    "hint_en": "Look for a set of cells the parity of whose number of red cells doesn’t change.",
+    "hint_he": "חפשו קבוצת משבצות שבה הזוגיות של מספר המשבצות האדומות אינה משתנה."
+  },
+  {
+    "id": 256,
+    "hint_en": "What happens after the last tie?",
+    "hint_he": "מה קורה אחרי השוויון האחרון?"
+  },
+  {
+    "id": 257,
+    "hint_en": "Draw an arrow from each face through its bug to the next face.",
+    "hint_he": "ציירו מכל פאה חץ שעובר דרך החרק שלה אל הפאה הבאה."
+  },
+  {
+    "id": 258,
+    "hint_en": "Imagine betting on each candidate as he or she becomes serious.",
+    "hint_he": "דמיינו שאתם מהמרים על כל מועמד ברגע שהוא הופך לרציני."
+  },
+  {
+    "id": 259,
+    "hint_en": "Suppose otherwise and start by considering the highest number.",
+    "hint_he": "הניחו שהטענה אינה נכונה, והתחילו בבחינת המספר הגדול ביותר."
+  },
+  {
+    "id": 260,
+    "hint_en": "You may as well assume the Hominids will score again, and that if the game goes to overtime, either team is equally likely to win.",
+    "hint_he": "אפשר להניח שההומינידים ישיגו טאצ׳דאון נוסף, ושאם המשחק יגיע להארכה, לשתי הקבוצות יהיה אותו סיכוי לנצח."
+  },
+  {
+    "id": 261,
+    "hint_en": "Think about betting the highest allowed number, versus “cheating” and betting higher.",
+    "hint_he": "חשבו על בחירת המספר הגדול ביותר שמותר, לעומת ״רמאות״ ובחירת מספר גדול עוד יותר."
+  },
+  {
+    "id": 262,
+    "hint_en": "Does it matter how the random chord is chosen?",
+    "hint_he": "האם משנה כיצד בוחרים את המיתר האקראי?"
+  },
+  {
+    "id": 263,
+    "hint_en": "Orient the cube to get a large projection.",
+    "hint_he": "בחרו כיוון לקובייה שייתן הטלה גדולה."
+  },
+  {
+    "id": 264,
+    "hint_en": "Can you somehow “do the flips” before the coin is chosen?",
+    "hint_he": "האם אפשר איכשהו ״לבצע את ההטלות״ לפני שבוחרים את המטבע?"
+  },
+  {
+    "id": 265,
+    "hint_en": "If you think of strength as money, each bout becomes a fair game.",
+    "hint_he": "אם חושבים על העוצמה כעל כסף, כל קרב הופך למשחק הוגן."
+  },
+  {
+    "id": 266,
+    "hint_en": "Think of each gladiator as a light bulb trying to outlast his opponent.",
+    "hint_he": "חשבו על כל גלדיאטור כעל נורה שמנסה להמשיך לדלוק יותר מיריבתה."
+  },
+  {
+    "id": 267,
+    "hint_en": "Watch out—this is not the same as ignoring odd rolls.",
+    "hint_he": "זהירות — אין זה אותו דבר כמו להתעלם מהטלות שבהן התקבל מספר אי־זוגי."
+  },
+  {
+    "id": 268,
+    "hint_en": "Compare Lavish’s kth most costly flight to Frugal’s.",
+    "hint_he": "השוו את הטיסה של בוריס לאביש שנמצאת במקום ה־k בדירוג מהיקרה לזולה, לטיסה שבאותו מקום בדירוג של אלכסיי פרוגל."
+  },
+  {
+    "id": 269,
+    "hint_en": "It’s helpful to think of each diner having flipped a coin to decide which napkin she would prefer to take.",
+    "hint_he": "כדאי לדמיין שכל סועדת הטילה מטבע כדי להחליט איזו מפית היא מעדיפה לקחת."
+  },
+  {
+    "id": 270,
+    "hint_en": "What happens if you try this on an n × n board for various (even) n?",
+    "hint_he": "מה קורה אם מנסים זאת על לוח n × n עבור ערכים זוגיים שונים של n?"
+  },
+  {
+    "id": 271,
+    "hint_en": "You need to keep the number of flips of each coin as equal as possible—but there’s more.",
+    "hint_he": "צריך לשמור על מספרי ההטלות של שני המטבעות שווים ככל האפשר — אבל זה לא הכול."
+  },
+  {
+    "id": 272,
+    "hint_en": "Try curves made from grid lines.",
+    "hint_he": "נסו עקומות המורכבות מקווי רשת."
+  },
+  {
+    "id": 273,
+    "hint_en": "Can you beat the “preponderance” strategy, where each prisoner guesses the color he sees most of?",
+    "hint_he": "האם תוכלו לשפר את אסטרטגיית ״הצבע השולט״, שבה כל אסיר מנחש את הצבע שהוא רואה יותר ממנו?"
+  },
+  {
+    "id": 274,
+    "hint_en": "First, check that the bug cannot wander forever without going off to infinity.",
+    "hint_he": "ראשית, בדקו שהחרק אינו יכול לשוטט לנצח בלי להתקדם לאינסוף."
+  },
+  {
+    "id": 275,
+    "hint_en": "When is the woman close enough to the fence to make a straight run for it, if the dog is at the opposite point?",
+    "hint_he": "מתי האישה קרובה מספיק לגדר כדי לרוץ אליה בקו ישר, אם הכלב נמצא בנקודה הנגדית על הגדר?"
+  },
+  {
+    "id": 276,
+    "hint_en": "Notice that if the pegs begin at grid points, they stay on grid points.",
+    "hint_he": "שימו לב שאם היתדות מתחילות בנקודות רשת, הן נשארות בנקודות רשת."
+  },
+  {
+    "id": 277,
+    "hint_en": "Note that you can tile a sphere, minus any two points, with circles.",
+    "hint_he": "שימו לב שאפשר לחלק פני כדור, לאחר שמסירים מהם כל שתי נקודות, למעגלים."
+  },
+  {
+    "id": 278,
+    "hint_en": "Let the “nimsum” of the broadcast be the message.",
+    "hint_he": "תנו ל״סכום נים״ (nimsum) של השידור להיות המסר."
+  },
+  {
+    "id": 279,
+    "hint_en": "A reasonable thing to try as a potential might be some measure of how close the numbers are to one another.",
+    "hint_he": "כפוטנציאל, סביר לנסות מדד כלשהו למידת הקרבה של המספרים זה לזה."
+  },
+  {
+    "id": 280,
+    "hint_en": "Can Jan somehow get one of his locks on the box?",
+    "hint_he": "האם יאן יכול איכשהו לשים אחד ממנעוליו על הקופסה?"
+  },
+  {
+    "id": 281,
+    "hint_en": "What do you need to know about Aloysius at a particular moment?",
+    "hint_he": "מה צריך לדעת על אלויסיוס ברגע מסוים?"
+  },
+  {
+    "id": 282,
+    "hint_en": "Note that you can tell what time it is when the hands coincide.",
+    "hint_he": "שימו לב שכאשר המחוגים חופפים, אפשר לדעת מה השעה."
+  },
+  {
+    "id": 283,
+    "hint_en": "Keep track of the remainders, modulo n, of two successive Fibonacci numbers.",
+    "hint_he": "עקבו אחר השאריות מודולו n של שני מספרי פיבונאצ׳י עוקבים."
+  },
+  {
+    "id": 284,
+    "hint_en": "You’ll need something over Lori that the worms can’t crawl underneath.",
+    "hint_he": "תצטרכו משהו מעל לורי שהתולעים לא יוכלו לזחול מתחתיו."
+  },
+  {
+    "id": 285,
+    "hint_en": "Don’t forget to keep track of which bulb you’re looking at, as well as the state of all bulbs.",
+    "hint_he": "אל תשכחו לעקוב גם אחר הנורה שאתם בוחנים, ולא רק אחר מצב כל הנורות."
+  },
+  {
+    "id": 286,
+    "hint_en": "Note that you easily get all fractions whose denominators are powers of 2.",
+    "hint_he": "שימו לב שקל לקבל את כל השברים שהמכנים שלהם הם חזקות של 2."
+  },
+  {
+    "id": 287,
+    "hint_en": "One way to do it, paradoxically, is to show that the contents of one bucket can be increased until another is empty.",
+    "hint_he": "באופן פרדוקסלי, דרך אחת היא להראות שאפשר להגדיל את תכולתו של דלי אחד עד שדלי אחר מתרוקן."
+  },
+  {
+    "id": 288,
+    "hint_en": "How can you give one die an advantage over another, even though they both have the same average roll?",
+    "hint_he": "איך אפשר לתת לקובייה אחת יתרון על אחרת, אף שהתוצאה הממוצעת של שתיהן זהה?"
+  },
+  {
+    "id": 289,
+    "hint_en": "What happens if you just pick a committee at random and try to fix it?",
+    "hint_he": "מה קורה אם פשוט בוחרים ועדה באקראי ומנסים לתקן אותה?"
+  },
+  {
+    "id": 290,
+    "hint_en": "It’s easier to keep track if you cut the cake in the same place each time, but rotate the cake between cuts.",
+    "hint_he": "קל יותר לעקוב אם חותכים את העוגה באותו מקום בכל פעם, אבל מסובבים אותה בין החיתוכים."
+  },
+  {
+    "id": 291,
+    "hint_en": "The even case is easy; try the odd case with pieces of size 0(!) and 1.",
+    "hint_he": "המקרה הזוגי קל; נסו את המקרה האי־זוגי עם פרוסות בגודל 0(!) ו־1."
+  },
+  {
+    "id": 292,
+    "hint_en": "Start from when the moth first gets to 5 o’clock or 7 o’clock.",
+    "hint_he": "התחילו מהרגע שבו העש מגיע לראשונה ל־5 או ל־7 בלוח השעון."
+  },
+  {
+    "id": 293,
+    "hint_en": "Nothing prevents a prisoner from using what he finds in a box to decide what box to open next.",
+    "hint_he": "שום דבר אינו מונע מאסיר להשתמש במה שמצא בקופסה כדי להחליט איזו קופסה לפתוח אחריה."
+  },
+  {
+    "id": 294,
+    "hint_en": "Try it for just apples and bananas; adding cherries brings a ham sandwich(!) into the picture.",
+    "hint_he": "נסו זאת עם תפוחים ובננות בלבד; הוספת דובדבנים מכניסה לתמונה כריך עם בשר חזיר(!)."
+  },
+  {
+    "id": 295,
+    "hint_en": "Who would you want to be if one of you picks HHHH and the other THHH?",
+    "hint_he": "באיזה צד תרצו להיות אם אחד מכם בוחר ״עץ, עץ, עץ, עץ״ והאחר ״פלי, עץ, עץ, עץ״?"
+  },
+  {
+    "id": 296,
+    "hint_en": "Every bet loses money, so you want speed as well as accuracy.",
+    "hint_he": "בכל הימור מפסידים כסף בתוחלת, ולכן צריך גם מהירות וגם דיוק."
+  },
+  {
+    "id": 297,
+    "hint_en": "You can start by putting yourself in a room made from six non-touching planks.",
+    "hint_he": "אפשר להתחיל בכך שתמקמו את עצמכם בחדר הבנוי משישה קרשים שאינם נוגעים זה בזה."
+  },
+  {
+    "id": 298,
+    "hint_en": "Imagine repeating the whole experiment 100 times.",
+    "hint_he": "דמיינו שחוזרים על הניסוי כולו 100 פעמים."
+  },
+  {
+    "id": 299,
+    "hint_en": "Start by thinking about what would happen if the board came down to just its three most senior members.",
+    "hint_he": "התחילו במחשבה על מה שיקרה אם חבר הנאמנים יצטמצם לשלושת חבריו הוותיקים ביותר."
+  },
+  {
+    "id": 300,
+    "hint_en": "What is expected number of lines crossed, per unit length, by a randomly placed unit-diameter circle?",
+    "hint_he": "מהי תוחלת מספר חציות הקווים, ליחידת אורך, של מעגל בקוטר 1 שמונח באקראי?"
+  },
+  {
+    "id": 301,
+    "hint_en": "Equilateral triangles are your best friends for this puzzle.",
+    "hint_he": "משולשים שווי־צלעות הם החברים הטובים ביותר שלכם בחידה הזו."
+  },
+  {
+    "id": 302,
+    "hint_en": "If you can do Names in Boxes, you can do this one.",
+    "hint_he": "אם פתרתם את ״שמות בקופסאות״, תוכלו לפתור גם את החידה הזאת."
+  },
+  {
+    "id": 303,
+    "hint_en": "Try to set this up so that each urn acquires coins at random moments.",
+    "hint_he": "נסו לבנות את התהליך כך שכל כד יקבל מטבעות ברגעים אקראיים."
+  },
+  {
+    "id": 304,
+    "hint_en": "How would you try to cover the stains if you had left your glasses at home, and couldn’t see where the stains were?",
+    "hint_he": "איך הייתם מנסים לכסות את הכתמים אילו השארתם את המשקפיים בבית ולא יכולתם לראות היכן הכתמים נמצאים?"
+  },
+  {
+    "id": 305,
+    "hint_en": "Try to build a sequence of new rows whose partial sums are tightly controlled.",
+    "hint_he": "נסו לבנות סדרה של שורות מהטבלה החדשה, שהסכומים החלקיים שלה נשלטים בקפידה."
+  },
+  {
+    "id": 306,
+    "hint_en": "Notice that the distance between two points in the plane is proportional to the probability that a random line, suitably constrained, passes between them.",
+    "hint_he": "שימו לב שהמרחק בין שתי נקודות במישור פרופורציונלי להסתברות שישר אקראי, שנבחר תחת מגבלות מתאימות, יעבור ביניהן."
+  },
+  {
+    "id": 307,
+    "hint_en": "Have Lew and Ralph agree on a list of partitions of the suspect set into pairs, such that each pair of suspects appears once on the list.",
+    "hint_he": "תנו לשריפים לו (Lew) וראלף (Ralph) להסכים על רשימה של חלוקות קבוצת החשודים לזוגות, כך שכל זוג חשודים יופיע ברשימה פעם אחת."
+  },
+  {
+    "id": 308,
+    "hint_en": "How does the question of whether an interval between painters gets painted depend on its length, relative to the lengths of its neighbor intervals?",
+    "hint_he": "כיצד השאלה אם קטע גדר בין שני צובעים ייצבע תלויה באורכו, ביחס לאורכי הקטעים הסמוכים לו?"
+  },
+  {
+    "id": 309,
+    "hint_en": "Try putting the ballots in random circular order, instead of random linear order.",
+    "hint_he": "נסו לסדר את פתקי ההצבעה במעגל בסדר אקראי, במקום בשורה בסדר אקראי."
+  },
+  {
+    "id": 310,
+    "hint_en": "If you try a number and it doesn’t work, what’s the simplest way to try to fix it?",
+    "hint_he": "אם ניסיתם מספר והוא אינו מתאים, מהי הדרך הפשוטה ביותר לנסות לתקן אותו?"
+  },
+  {
+    "id": 311,
+    "hint_en": "Note that the fractional parts of the amount of rice you have got so far also constitutes a sequence of independent uniform random variables.",
+    "hint_he": "שימו לב שגם החלקים השבריים של כמויות האורז המצטברות שקיבלתם יוצרים סדרה של משתנים אקראיים בלתי תלויים ואחידים."
+  },
+  {
+    "id": 312,
+    "hint_en": "Plot the velocities of the balls, making use of conservation of energy and momentum.",
+    "hint_he": "שרטטו את מהירויות הכדורים, תוך שימוש בשימור האנרגיה והתנע."
+  },
+  {
+    "id": 313,
+    "hint_en": "Rotate the configuration 45° and think about gravity.",
+    "hint_he": "סובבו את סידור הערימות ב־45 מעלות וחשבו על כוח הכבידה."
+  }
+]

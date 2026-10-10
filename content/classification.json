@@ -1,0 +1,2506 @@
+[
+  {
+    "id": 1,
+    "title_en": "Bat and Ball",
+    "level": "easy",
+    "background_required": "ארבע פעולות חשבון ושברים",
+    "solution_pdf_page": 133,
+    "basis": "סיווג ידני לפי הידע והטיעון שבפתרון הספר; רמת הגיל אינה הבטחת הצלחה."
+  },
+  {
+    "id": 2,
+    "title_en": "No Twins Today",
+    "level": "easy",
+    "background_required": "הסקה לוגית קונקרטית, ללא נוסחאות",
+    "solution_pdf_page": 207,
+    "basis": "סיווג ידני לפי הידע והטיעון שבפתרון הספר; רמת הגיל אינה הבטחת הצלחה."
+  },
+  {
+    "id": 3,
+    "title_en": "Portrait",
+    "level": "easy",
+    "background_required": "הסקה לוגית קונקרטית, ללא נוסחאות",
+    "solution_pdf_page": 355,
+    "basis": "סיווג ידני לפי הידע והטיעון שבפתרון הספר; רמת הגיל אינה הבטחת הצלחה."
+  },
+  {
+    "id": 4,
+    "title_en": "Half Grown",
+    "level": "easy",
+    "background_required": "הסקה לוגית קונקרטית, ללא נוסחאות",
+    "solution_pdf_page": 85,
+    "basis": "סיווג ידני לפי הידע והטיעון שבפתרון הספר; רמת הגיל אינה הבטחת הצלחה."
+  },
+  {
+    "id": 5,
+    "title_en": "Shoes, Socks, and Gloves",
+    "level": "easy",
+    "background_required": "ספירה שיטתית וחשבון בסיסי",
+    "solution_pdf_page": 221,
+    "basis": "סיווג ידני לפי הידע והטיעון שבפתרון הספר; רמת הגיל אינה הבטחת הצלחה."
+  },
+  {
+    "id": 6,
+    "title_en": "Phone Call",
+    "level": "medium",
+    "background_required": "ידע חיצוני: שפה, כללי משחק או מוסכמות",
+    "solution_pdf_page": 327,
+    "basis": "סיווג ידני לפי הידע והטיעון שבפתרון הספר; רמת הגיל אינה הבטחת הצלחה."
+  },
+  {
+    "id": 7,
+    "title_en": "Powers of Two",
+    "level": "easy",
+    "background_required": "ארבע פעולות חשבון ושברים",
+    "solution_pdf_page": 86,
+    "basis": "סיווג ידני לפי הידע והטיעון שבפתרון הספר; רמת הגיל אינה הבטחת הצלחה."
+  },
+  {
+    "id": 8,
+    "title_en": "Rotating Coin",
+    "level": "easy",
+    "background_required": "צורות בסיסיות ותפיסה מרחבית",
+    "solution_pdf_page": 347,
+    "basis": "סיווג ידני לפי הידע והטיעון שבפתרון הספר; רמת הגיל אינה הבטחת הצלחה."
+  },
+  {
+    "id": 9,
+    "title_en": "Boxing the Mountain State",
+    "level": "medium",
+    "background_required": "רציפות ומשפט ערך הביניים",
+    "solution_pdf_page": 109,
+    "basis": "סיווג ידני לפי הידע והטיעון שבפתרון הספר; רמת הגיל אינה הבטחת הצלחה."
+  },
+  {
+    "id": 10,
+    "title_en": "Martians in a Circle",
+    "level": "medium",
+    "background_required": "הסקה רב־שלבית והוכחה",
+    "solution_pdf_page": 208,
+    "basis": "סיווג ידני לפי הידע והטיעון שבפתרון הספר; רמת הגיל אינה הבטחת הצלחה."
+  },
+  {
+    "id": 11,
+    "title_en": "Winning at Wimbledon",
+    "level": "medium",
+    "background_required": "הסתברות בסיסית, סימטריה וספירת מקרים",
+    "solution_pdf_page": 182,
+    "basis": "סיווג ידני לפי הידע והטיעון שבפתרון הספר; רמת הגיל אינה הבטחת הצלחה."
+  },
+  {
+    "id": 12,
+    "title_en": "Polyhedron Faces",
+    "level": "medium",
+    "background_required": "קומבינטוריקה והוכחת חסם",
+    "solution_pdf_page": 222,
+    "basis": "סיווג ידני לפי הידע והטיעון שבפתרון הספר; רמת הגיל אינה הבטחת הצלחה."
+  },
+  {
+    "id": 13,
+    "title_en": "Finding the Counterfeit",
+    "level": "medium",
+    "background_required": "הסקה רב־שלבית והוכחה",
+    "solution_pdf_page": 233,
+    "basis": "סיווג ידני לפי הידע והטיעון שבפתרון הספר; רמת הגיל אינה הבטחת הצלחה."
+  },
+  {
+    "id": 14,
+    "title_en": "Signs in an Array",
+    "level": "hard",
+    "background_required": "פונקציות פוטנציאל, אינווריאנטים והוכחת סיום",
+    "solution_pdf_page": 309,
+    "basis": "סיווג ידני לפי הידע והטיעון שבפתרון הספר; רמת הגיל אינה הבטחת הצלחה."
+  },
+  {
+    "id": 15,
+    "title_en": "Birthday Match",
+    "level": "medium",
+    "background_required": "הסתברות בסיסית, סימטריה וספירת מקרים",
+    "solution_pdf_page": 182,
+    "basis": "סיווג ידני לפי הידע והטיעון שבפתרון הספר; רמת הגיל אינה הבטחת הצלחה."
+  },
+  {
+    "id": 16,
+    "title_en": "Meeting the Ferry",
+    "level": "easy",
+    "background_required": "ספירה שיטתית וחשבון בסיסי",
+    "solution_pdf_page": 377,
+    "basis": "סיווג ידני לפי הידע והטיעון שבפתרון הספר; רמת הגיל אינה הבטחת הצלחה."
+  },
+  {
+    "id": 17,
+    "title_en": "Sinking 15",
+    "level": "easy",
+    "background_required": "משחקים קטנים ובדיקת אפשרויות",
+    "solution_pdf_page": 403,
+    "basis": "סיווג ידני לפי הידע והטיעון שבפתרון הספר; רמת הגיל אינה הבטחת הצלחה."
+  },
+  {
+    "id": 18,
+    "title_en": "Monk on a Mountain",
+    "level": "easy",
+    "background_required": "הסקה לוגית קונקרטית, ללא נוסחאות",
+    "solution_pdf_page": 110,
+    "basis": "סיווג ידני לפי הידע והטיעון שבפתרון הספר; רמת הגיל אינה הבטחת הצלחה."
+  },
+  {
+    "id": 19,
+    "title_en": "Mathematical Bookworm",
+    "level": "easy",
+    "background_required": "צורות בסיסיות ותפיסה מרחבית",
+    "solution_pdf_page": 378,
+    "basis": "סיווג ידני לפי הידע והטיעון שבפתרון הספר; רמת הגיל אינה הבטחת הצלחה."
+  },
+  {
+    "id": 20,
+    "title_en": "Other Side of the Coin",
+    "level": "medium",
+    "background_required": "הסתברות מותנית והגדרת מרחב המדגם",
+    "solution_pdf_page": 183,
+    "basis": "סיווג ידני לפי הידע והטיעון שבפתרון הספר; רמת הגיל אינה הבטחת הצלחה."
+  },
+  {
+    "id": 21,
+    "title_en": "Slicing the Cube",
+    "level": "easy",
+    "background_required": "צורות בסיסיות ותפיסה מרחבית",
+    "solution_pdf_page": 404,
+    "basis": "סיווג ידני לפי הידע והטיעון שבפתרון הספר; רמת הגיל אינה הבטחת הצלחה."
+  },
+  {
+    "id": 22,
+    "title_en": "Rolling Pencil",
+    "level": "easy",
+    "background_required": "צורות בסיסיות ותפיסה מרחבית",
+    "solution_pdf_page": 378,
+    "basis": "סיווג ידני לפי הידע והטיעון שבפתרון הספר; רמת הגיל אינה הבטחת הצלחה."
+  },
+  {
+    "id": 23,
+    "title_en": "Watermelons",
+    "level": "easy",
+    "background_required": "אחוזים ויחסים",
+    "solution_pdf_page": 86,
+    "basis": "סיווג ידני לפי הידע והטיעון שבפתרון הספר; רמת הגיל אינה הבטחת הצלחה."
+  },
+  {
+    "id": 24,
+    "title_en": "Boy Born on Tuesday",
+    "level": "medium",
+    "background_required": "הסתברות מותנית והגדרת מרחב המדגם",
+    "solution_pdf_page": 184,
+    "basis": "סיווג ידני לפי הידע והטיעון שבפתרון הספר; רמת הגיל אינה הבטחת הצלחה."
+  },
+  {
+    "id": 25,
+    "title_en": "Air Routes in Aerostan",
+    "level": "medium",
+    "background_required": "תורת גרפים: מסלולים, קשירות או צביעה",
+    "solution_pdf_page": 122,
+    "basis": "סיווג ידני לפי הידע והטיעון שבפתרון הספר; רמת הגיל אינה הבטחת הצלחה."
+  },
+  {
+    "id": 26,
+    "title_en": "Tipping the Scales",
+    "level": "hard",
+    "background_required": "שיטת הממוצעים והשיטה ההסתברותית",
+    "solution_pdf_page": 166,
+    "basis": "סיווג ידני לפי הידע והטיעון שבפתרון הספר; רמת הגיל אינה הבטחת הצלחה."
+  },
+  {
+    "id": 27,
+    "title_en": "Chomp",
+    "level": "medium",
+    "background_required": "אסטרטגיות משחק והוכחת ניצחון",
+    "solution_pdf_page": 173,
+    "basis": "סיווג ידני לפי הידע והטיעון שבפתרון הספר; רמת הגיל אינה הבטחת הצלחה."
+  },
+  {
+    "id": 28,
+    "title_en": "Whose Bullet?",
+    "level": "medium",
+    "background_required": "הסתברות מותנית והגדרת מרחב המדגם",
+    "solution_pdf_page": 185,
+    "basis": "סיווג ידני לפי הידע והטיעון שבפתרון הספר; רמת הגיל אינה הבטחת הצלחה."
+  },
+  {
+    "id": 29,
+    "title_en": "Poker Quickie",
+    "level": "medium",
+    "background_required": "קומבינטוריקה והוכחת חסם",
+    "solution_pdf_page": 208,
+    "basis": "סיווג ידני לפי הידע והטיעון שבפתרון הספר; רמת הגיל אינה הבטחת הצלחה."
+  },
+  {
+    "id": 30,
+    "title_en": "Lines Through a Grid",
+    "level": "medium",
+    "background_required": "גאומטריה והוכחות, כולל חסמים ובניות",
+    "solution_pdf_page": 223,
+    "basis": "סיווג ידני לפי הידע והטיעון שבפתרון הספר; רמת הגיל אינה הבטחת הצלחה."
+  },
+  {
+    "id": 31,
+    "title_en": "Bidding in the Dark",
+    "level": "medium",
+    "background_required": "תוחלת, זמני המתנה או לינאריות התוחלת",
+    "solution_pdf_page": 248,
+    "basis": "סיווג ידני לפי הידע והטיעון שבפתרון הספר; רמת הגיל אינה הבטחת הצלחה."
+  },
+  {
+    "id": 32,
+    "title_en": "Easy Cake Division",
+    "level": "medium",
+    "background_required": "גאומטריה והוכחות, כולל חסמים ובניות",
+    "solution_pdf_page": 283,
+    "basis": "סיווג ידני לפי הידע והטיעון שבפתרון הספר; רמת הגיל אינה הבטחת הצלחה."
+  },
+  {
+    "id": 33,
+    "title_en": "Crossing the River",
+    "level": "easy",
+    "background_required": "הסקה לוגית קונקרטית, ללא נוסחאות",
+    "solution_pdf_page": 327,
+    "basis": "סיווג ידני לפי הידע והטיעון שבפתרון הספר; רמת הגיל אינה הבטחת הצלחה."
+  },
+  {
+    "id": 34,
+    "title_en": "Bacterial Reproduction",
+    "level": "easy",
+    "background_required": "זוגי ואי־זוגי",
+    "solution_pdf_page": 99,
+    "basis": "סיווג ידני לפי הידע והטיעון שבפתרון הספר; רמת הגיל אינה הבטחת הצלחה."
+  },
+  {
+    "id": 35,
+    "title_en": "Sprinklers in a Field",
+    "level": "medium",
+    "background_required": "גאומטריה והוכחות, כולל חסמים ובניות",
+    "solution_pdf_page": 329,
+    "basis": "סיווג ידני לפי הידע והטיעון שבפתרון הספר; רמת הגיל אינה הבטחת הצלחה."
+  },
+  {
+    "id": 36,
+    "title_en": "Bags of Marbles",
+    "level": "easy",
+    "background_required": "הסקה לוגית קונקרטית, ללא נוסחאות",
+    "solution_pdf_page": 86,
+    "basis": "סיווג ידני לפי הידע והטיעון שבפתרון הספר; רמת הגיל אינה הבטחת הצלחה."
+  },
+  {
+    "id": 37,
+    "title_en": "Men with Sisters",
+    "level": "medium",
+    "background_required": "הסתברות בסיסית, סימטריה וספירת מקרים",
+    "solution_pdf_page": 166,
+    "basis": "סיווג ידני לפי הידע והטיעון שבפתרון הספר; רמת הגיל אינה הבטחת הצלחה."
+  },
+  {
+    "id": 38,
+    "title_en": "Dots and Boxes Variation",
+    "level": "medium",
+    "background_required": "אסטרטגיות משחק והוכחת ניצחון",
+    "solution_pdf_page": 174,
+    "basis": "סיווג ידני לפי הידע והטיעון שבפתרון הספר; רמת הגיל אינה הבטחת הצלחה."
+  },
+  {
+    "id": 39,
+    "title_en": "Fair Play",
+    "level": "medium",
+    "background_required": "הסתברות בסיסית, סימטריה וספירת מקרים",
+    "solution_pdf_page": 329,
+    "basis": "סיווג ידני לפי הידע והטיעון שבפתרון הספר; רמת הגיל אינה הבטחת הצלחה."
+  },
+  {
+    "id": 40,
+    "title_en": "Salaries and Raises",
+    "level": "medium",
+    "background_required": "סדרות חשבוניות וסכומים",
+    "solution_pdf_page": 86,
+    "basis": "סיווג ידני לפי הידע והטיעון שבפתרון הספר; רמת הגיל אינה הבטחת הצלחה."
+  },
+  {
+    "id": 41,
+    "title_en": "Two Runners",
+    "level": "medium",
+    "background_required": "אלגברה תיכונית ומשוואות",
+    "solution_pdf_page": 133,
+    "basis": "סיווג ידני לפי הידע והטיעון שבפתרון הספר; רמת הגיל אינה הבטחת הצלחה."
+  },
+  {
+    "id": 42,
+    "title_en": "Broken ATM",
+    "level": "medium",
+    "background_required": "תורת המספרים: שאריות, גורמים וחלוקה",
+    "solution_pdf_page": 143,
+    "basis": "סיווג ידני לפי הידע והטיעון שבפתרון הספר; רמת הגיל אינה הבטחת הצלחה."
+  },
+  {
+    "id": 43,
+    "title_en": "Domino Task",
+    "level": "hard",
+    "background_required": "בנייה קומבינטורית והוכחת תקפות",
+    "solution_pdf_page": 153,
+    "basis": "סיווג ידני לפי הידע והטיעון שבפתרון הספר; רמת הגיל אינה הבטחת הצלחה."
+  },
+  {
+    "id": 44,
+    "title_en": "Big Pairs in a Matrix",
+    "level": "medium",
+    "background_required": "אלגברה, אי־שוויונות והוכחות",
+    "solution_pdf_page": 175,
+    "basis": "סיווג ידני לפי הידע והטיעון שבפתרון הספר; רמת הגיל אינה הבטחת הצלחה."
+  },
+  {
+    "id": 45,
+    "title_en": "Second Ace",
+    "level": "medium",
+    "background_required": "הסתברות מותנית והגדרת מרחב המדגם",
+    "solution_pdf_page": 186,
+    "basis": "סיווג ידני לפי הידע והטיעון שבפתרון הספר; רמת הגיל אינה הבטחת הצלחה."
+  },
+  {
+    "id": 46,
+    "title_en": "Fewest Slopes",
+    "level": "medium",
+    "background_required": "גאומטריה והוכחות, כולל חסמים ובניות",
+    "solution_pdf_page": 208,
+    "basis": "סיווג ידני לפי הידע והטיעון שבפתרון הספר; רמת הגיל אינה הבטחת הצלחה."
+  },
+  {
+    "id": 47,
+    "title_en": "Three Martians at the Crossroads",
+    "level": "medium",
+    "background_required": "הסקה רב־שלבית והוכחה",
+    "solution_pdf_page": 234,
+    "basis": "סיווג ידני לפי הידע והטיעון שבפתרון הספר; רמת הגיל אינה הבטחת הצלחה."
+  },
+  {
+    "id": 48,
+    "title_en": "Rolling All the Numbers",
+    "level": "hard",
+    "background_required": "תוחלת, זמני המתנה או לינאריות התוחלת",
+    "solution_pdf_page": 248,
+    "basis": "סיווג ידני לפי הידע והטיעון שבפתרון הספר; רמת הגיל אינה הבטחת הצלחה."
+  },
+  {
+    "id": 49,
+    "title_en": "Uniform Unit Distances",
+    "level": "hard",
+    "background_required": "אינדוקציה מתמטית ובנייה רקורסיבית",
+    "solution_pdf_page": 267,
+    "basis": "סיווג ידני לפי הידע והטיעון שבפתרון הספר; רמת הגיל אינה הבטחת הצלחה."
+  },
+  {
+    "id": 50,
+    "title_en": "Life Is a Bowl of Cherries",
+    "level": "hard",
+    "background_required": "תורת משחקים, נים וייצוג בינארי",
+    "solution_pdf_page": 294,
+    "basis": "סיווג ידני לפי הידע והטיעון שבפתרון הספר; רמת הגיל אינה הבטחת הצלחה."
+  },
+  {
+    "id": 51,
+    "title_en": "Finding the Missing Number",
+    "level": "easy",
+    "background_required": "ארבע פעולות חשבון ושברים",
+    "solution_pdf_page": 330,
+    "basis": "סיווג ידני לפי הידע והטיעון שבפתרון הספר; רמת הגיל אינה הבטחת הצלחה."
+  },
+  {
+    "id": 52,
+    "title_en": "Three-Way Duel",
+    "level": "hard",
+    "background_required": "אסטרטגיות והסתברות רב־שלבית",
+    "solution_pdf_page": 355,
+    "basis": "סיווג ידני לפי הידע והטיעון שבפתרון הספר; רמת הגיל אינה הבטחת הצלחה."
+  },
+  {
+    "id": 53,
+    "title_en": "Splitting a Hexagon",
+    "level": "medium",
+    "background_required": "גאומטריה והוכחות, כולל חסמים ובניות",
+    "solution_pdf_page": 379,
+    "basis": "סיווג ידני לפי הידע והטיעון שבפתרון הספר; רמת הגיל אינה הבטחת הצלחה."
+  },
+  {
+    "id": 54,
+    "title_en": "Expecting the Worst",
+    "level": "hard",
+    "background_required": "תוחלת, זמני המתנה או לינאריות התוחלת",
+    "solution_pdf_page": 404,
+    "basis": "סיווג ידני לפי הידע והטיעון שבפתרון הספר; רמת הגיל אינה הבטחת הצלחה."
+  },
+  {
+    "id": 55,
+    "title_en": "Belt Around the Earth",
+    "level": "medium",
+    "background_required": "אלגברה תיכונית ומשוואות",
+    "solution_pdf_page": 134,
+    "basis": "סיווג ידני לפי הידע והטיעון שבפתרון הספר; רמת הגיל אינה הבטחת הצלחה."
+  },
+  {
+    "id": 56,
+    "title_en": "Stopping After the Boy",
+    "level": "medium",
+    "background_required": "הסתברות בסיסית, סימטריה וספירת מקרים",
+    "solution_pdf_page": 186,
+    "basis": "סיווג ידני לפי הידע והטיעון שבפתרון הספר; רמת הגיל אינה הבטחת הצלחה."
+  },
+  {
+    "id": 57,
+    "title_en": "Attic Lamp",
+    "level": "easy",
+    "background_required": "הסקה לוגית קונקרטית, ללא נוסחאות",
+    "solution_pdf_page": 235,
+    "basis": "סיווג ידני לפי הידע והטיעון שבפתרון הספר; רמת הגיל אינה הבטחת הצלחה."
+  },
+  {
+    "id": 58,
+    "title_en": "Efficient Pizza-cutting",
+    "level": "easy",
+    "background_required": "ספירה שיטתית וחשבון בסיסי",
+    "solution_pdf_page": 87,
+    "basis": "סיווג ידני לפי הידע והטיעון שבפתרון הספר; רמת הגיל אינה הבטחת הצלחה."
+  },
+  {
+    "id": 59,
+    "title_en": "Fourth Corner",
+    "level": "medium",
+    "background_required": "קואורדינטות, סימטריות ואינווריאנטים",
+    "solution_pdf_page": 99,
+    "basis": "סיווג ידני לפי הידע והטיעון שבפתרון הספר; רמת הגיל אינה הבטחת הצלחה."
+  },
+  {
+    "id": 60,
+    "title_en": "Cutting the Necklace",
+    "level": "medium",
+    "background_required": "רציפות ומשפט ערך הביניים",
+    "solution_pdf_page": 111,
+    "basis": "סיווג ידני לפי הידע והטיעון שבפתרון הספר; רמת הגיל אינה הבטחת הצלחה."
+  },
+  {
+    "id": 61,
+    "title_en": "Odd Run of Heads",
+    "level": "hard",
+    "background_required": "תוחלת, זמני המתנה או לינאריות התוחלת",
+    "solution_pdf_page": 134,
+    "basis": "סיווג ידני לפי הידע והטיעון שבפתרון הספר; רמת הגיל אינה הבטחת הצלחה."
+  },
+  {
+    "id": 62,
+    "title_en": "Subsets with Constraints",
+    "level": "medium",
+    "background_required": "תורת המספרים: שאריות, גורמים וחלוקה",
+    "solution_pdf_page": 143,
+    "basis": "סיווג ידני לפי הידע והטיעון שבפתרון הספר; רמת הגיל אינה הבטחת הצלחה."
+  },
+  {
+    "id": 63,
+    "title_en": "Spinning Switches",
+    "level": "hard",
+    "background_required": "בנייה קומבינטורית והוכחת תקפות",
+    "solution_pdf_page": 154,
+    "basis": "סיווג ידני לפי הידע והטיעון שבפתרון הספר; רמת הגיל אינה הבטחת הצלחה."
+  },
+  {
+    "id": 64,
+    "title_en": "Watches on the Table",
+    "level": "hard",
+    "background_required": "שיטת הממוצעים והשיטה ההסתברותית",
+    "solution_pdf_page": 167,
+    "basis": "סיווג ידני לפי הידע והטיעון שבפתרון הספר; רמת הגיל אינה הבטחת הצלחה."
+  },
+  {
+    "id": 65,
+    "title_en": "Bugging a Disk",
+    "level": "hard",
+    "background_required": "גאומטריה והוכחות, כולל חסמים ובניות",
+    "solution_pdf_page": 175,
+    "basis": "סיווג ידני לפי הידע והטיעון שבפתרון הספר; רמת הגיל אינה הבטחת הצלחה."
+  },
+  {
+    "id": 66,
+    "title_en": "Points on a Circle",
+    "level": "medium",
+    "background_required": "הסתברות בסיסית, סימטריה וספירת מקרים",
+    "solution_pdf_page": 187,
+    "basis": "סיווג ידני לפי הידע והטיעון שבפתרון הספר; רמת הגיל אינה הבטחת הצלחה."
+  },
+  {
+    "id": 67,
+    "title_en": "Two Different Distances",
+    "level": "hard",
+    "background_required": "גאומטריה והוכחות, כולל חסמים ובניות",
+    "solution_pdf_page": 209,
+    "basis": "סיווג ידני לפי הידע והטיעון שבפתרון הספר; רמת הגיל אינה הבטחת הצלחה."
+  },
+  {
+    "id": 68,
+    "title_en": "Same Sum Subsets",
+    "level": "medium",
+    "background_required": "קומבינטוריקה והוכחת חסם",
+    "solution_pdf_page": 223,
+    "basis": "סיווג ידני לפי הידע והטיעון שבפתרון הספר; רמת הגיל אינה הבטחת הצלחה."
+  },
+  {
+    "id": 69,
+    "title_en": "Players and Winners",
+    "level": "hard",
+    "background_required": "מידע, קידוד וקומבינטוריקה",
+    "solution_pdf_page": 236,
+    "basis": "סיווג ידני לפי הידע והטיעון שבפתרון הספר; רמת הגיל אינה הבטחת הצלחה."
+  },
+  {
+    "id": 70,
+    "title_en": "Spaghetti Loops",
+    "level": "hard",
+    "background_required": "תוחלת, זמני המתנה או לינאריות התוחלת",
+    "solution_pdf_page": 249,
+    "basis": "סיווג ידני לפי הידע והטיעון שבפתרון הספר; רמת הגיל אינה הבטחת הצלחה."
+  },
+  {
+    "id": 71,
+    "title_en": "Swapping Executives",
+    "level": "hard",
+    "background_required": "אינדוקציה מתמטית ובנייה רקורסיבית",
+    "solution_pdf_page": 268,
+    "basis": "סיווג ידני לפי הידע והטיעון שבפתרון הספר; רמת הגיל אינה הבטחת הצלחה."
+  },
+  {
+    "id": 72,
+    "title_en": "Life Isn’t a Bowl of Cherries?",
+    "level": "hard",
+    "background_required": "תורת משחקים, נים וייצוג בינארי",
+    "solution_pdf_page": 296,
+    "basis": "סיווג ידני לפי הידע והטיעון שבפתרון הספר; רמת הגיל אינה הבטחת הצלחה."
+  },
+  {
+    "id": 73,
+    "title_en": "Righting the Pancakes",
+    "level": "hard",
+    "background_required": "פונקציות פוטנציאל, אינווריאנטים והוכחת סיום",
+    "solution_pdf_page": 310,
+    "basis": "סיווג ידני לפי הידע והטיעון שבפתרון הספר; רמת הגיל אינה הבטחת הצלחה."
+  },
+  {
+    "id": 74,
+    "title_en": "Pie in the Sky",
+    "level": "hard",
+    "background_required": "גאומטריה מרחבית והטלות",
+    "solution_pdf_page": 347,
+    "basis": "סיווג ידני לפי הידע והטיעון שבפתרון הספר; רמת הגיל אינה הבטחת הצלחה."
+  },
+  {
+    "id": 75,
+    "title_en": "Testing Ostrich Eggs",
+    "level": "medium",
+    "background_required": "קומבינטוריקה והוכחת חסם",
+    "solution_pdf_page": 356,
+    "basis": "סיווג ידני לפי הידע והטיעון שבפתרון הספר; רמת הגיל אינה הבטחת הצלחה."
+  },
+  {
+    "id": 76,
+    "title_en": "Circular Shadows I",
+    "level": "medium",
+    "background_required": "גאומטריה מרחבית והטלות",
+    "solution_pdf_page": 379,
+    "basis": "סיווג ידני לפי הידע והטיעון שבפתרון הספר; רמת הגיל אינה הבטחת הצלחה."
+  },
+  {
+    "id": 77,
+    "title_en": "Next Card Red",
+    "level": "hard",
+    "background_required": "אסטרטגיות והסתברות רב־שלבית",
+    "solution_pdf_page": 404,
+    "basis": "סיווג ידני לפי הידע והטיעון שבפתרון הספר; רמת הגיל אינה הבטחת הצלחה."
+  },
+  {
+    "id": 78,
+    "title_en": "Attention Paraskevidekatriaphobes",
+    "level": "medium",
+    "background_required": "ידע חיצוני: שפה, כללי משחק או מוסכמות",
+    "solution_pdf_page": 88,
+    "basis": "סיווג ידני לפי הידע והטיעון שבפתרון הספר; רמת הגיל אינה הבטחת הצלחה."
+  },
+  {
+    "id": 79,
+    "title_en": "Unanimous Hats",
+    "level": "medium",
+    "background_required": "זוגיות, אינווריאנטים והוכחות",
+    "solution_pdf_page": 100,
+    "basis": "סיווג ידני לפי הידע והטיעון שבפתרון הספר; רמת הגיל אינה הבטחת הצלחה."
+  },
+  {
+    "id": 80,
+    "title_en": "Raising Art Value",
+    "level": "medium",
+    "background_required": "אלגברה, אי־שוויונות והוכחות",
+    "solution_pdf_page": 168,
+    "basis": "סיווג ידני לפי הידע והטיעון שבפתרון הספר; רמת הגיל אינה הבטחת הצלחה."
+  },
+  {
+    "id": 81,
+    "title_en": "First Odd Number",
+    "level": "medium",
+    "background_required": "ידע חיצוני: שפה, כללי משחק או מוסכמות",
+    "solution_pdf_page": 210,
+    "basis": "סיווג ידני לפי הידע והטיעון שבפתרון הספר; רמת הגיל אינה הבטחת הצלחה."
+  },
+  {
+    "id": 82,
+    "title_en": "Lattice Points and Line Segments",
+    "level": "medium",
+    "background_required": "קואורדינטות, סימטריות ואינווריאנטים",
+    "solution_pdf_page": 224,
+    "basis": "סיווג ידני לפי הידע והטיעון שבפתרון הספר; רמת הגיל אינה הבטחת הצלחה."
+  },
+  {
+    "id": 83,
+    "title_en": "Breaking a Chocolate Bar",
+    "level": "easy",
+    "background_required": "ספירה שיטתית וחשבון בסיסי",
+    "solution_pdf_page": 311,
+    "basis": "סיווג ידני לפי הידע והטיעון שבפתרון הספר; רמת הגיל אינה הבטחת הצלחה."
+  },
+  {
+    "id": 84,
+    "title_en": "Meet the Williams Sisters",
+    "level": "medium",
+    "background_required": "הסתברות בסיסית, סימטריה וספירת מקרים",
+    "solution_pdf_page": 89,
+    "basis": "סיווג ידני לפי הידע והטיעון שבפתרון הספר; רמת הגיל אינה הבטחת הצלחה."
+  },
+  {
+    "id": 85,
+    "title_en": "Cards from Their Sum",
+    "level": "medium",
+    "background_required": "קומבינטוריקה והוכחת חסם",
+    "solution_pdf_page": 144,
+    "basis": "סיווג ידני לפי הידע והטיעון שבפתרון הספר; רמת הגיל אינה הבטחת הצלחה."
+  },
+  {
+    "id": 86,
+    "title_en": "Waiting for Heads",
+    "level": "hard",
+    "background_required": "תוחלת, זמני המתנה או לינאריות התוחלת",
+    "solution_pdf_page": 169,
+    "basis": "סיווג ידני לפי הידע והטיעון שבפתרון הספר; רמת הגיל אינה הבטחת הצלחה."
+  },
+  {
+    "id": 87,
+    "title_en": "Half-right Hats",
+    "level": "medium",
+    "background_required": "זוגיות, אינווריאנטים והוכחות",
+    "solution_pdf_page": 101,
+    "basis": "סיווג ידני לפי הידע והטיעון שבפתרון הספר; רמת הגיל אינה הבטחת הצלחה."
+  },
+  {
+    "id": 88,
+    "title_en": "Finding a Jack",
+    "level": "hard",
+    "background_required": "תוחלת, זמני המתנה או לינאריות התוחלת",
+    "solution_pdf_page": 169,
+    "basis": "סיווג ידני לפי הידע והטיעון שבפתרון הספר; רמת הגיל אינה הבטחת הצלחה."
+  },
+  {
+    "id": 89,
+    "title_en": "Measuring with Fuses",
+    "level": "easy",
+    "background_required": "הסקה לוגית קונקרטית, ללא נוסחאות",
+    "solution_pdf_page": 211,
+    "basis": "סיווג ידני לפי הידע והטיעון שבפתרון הספר; רמת הגיל אינה הבטחת הצלחה."
+  },
+  {
+    "id": 90,
+    "title_en": "Rating the Horses",
+    "level": "medium",
+    "background_required": "הסקה רב־שלבית והוכחה",
+    "solution_pdf_page": 89,
+    "basis": "סיווג ידני לפי הידע והטיעון שבפתרון הספר; רמת הגיל אינה הבטחת הצלחה."
+  },
+  {
+    "id": 91,
+    "title_en": "Red and Blue Hats in a Line",
+    "level": "medium",
+    "background_required": "זוגיות, אינווריאנטים והוכחות",
+    "solution_pdf_page": 101,
+    "basis": "סיווג ידני לפי הידע והטיעון שבפתרון הספר; רמת הגיל אינה הבטחת הצלחה."
+  },
+  {
+    "id": 92,
+    "title_en": "Three Sticks",
+    "level": "hard",
+    "background_required": "רציפות ומשפט ערך הביניים",
+    "solution_pdf_page": 112,
+    "basis": "סיווג ידני לפי הידע והטיעון שבפתרון הספר; רמת הגיל אינה הבטחת הצלחה."
+  },
+  {
+    "id": 93,
+    "title_en": "Spiders on a Cube",
+    "level": "hard",
+    "background_required": "תורת גרפים: מסלולים, קשירות או צביעה",
+    "solution_pdf_page": 122,
+    "basis": "סיווג ידני לפי הידע והטיעון שבפתרון הספר; רמת הגיל אינה הבטחת הצלחה."
+  },
+  {
+    "id": 94,
+    "title_en": "Hopping and Skipping",
+    "level": "hard",
+    "background_required": "הילוכים אקראיים והסתברות",
+    "solution_pdf_page": 135,
+    "basis": "סיווג ידני לפי הידע והטיעון שבפתרון הספר; רמת הגיל אינה הבטחת הצלחה."
+  },
+  {
+    "id": 95,
+    "title_en": "Divisibility Game",
+    "level": "medium",
+    "background_required": "תורת המספרים: שאריות, גורמים וחלוקה",
+    "solution_pdf_page": 145,
+    "basis": "סיווג ידני לפי הידע והטיעון שבפתרון הספר; רמת הגיל אינה הבטחת הצלחה."
+  },
+  {
+    "id": 96,
+    "title_en": "Candles on a Cake",
+    "level": "hard",
+    "background_required": "אלגברה, אי־שוויונות והוכחות",
+    "solution_pdf_page": 155,
+    "basis": "סיווג ידני לפי הידע והטיעון שבפתרון הספר; רמת הגיל אינה הבטחת הצלחה."
+  },
+  {
+    "id": 97,
+    "title_en": "Sums of Two Squares",
+    "level": "hard",
+    "background_required": "גבולות, טורים והתכנסות",
+    "solution_pdf_page": 170,
+    "basis": "סיווג ידני לפי הידע והטיעון שבפתרון הספר; רמת הגיל אינה הבטחת הצלחה."
+  },
+  {
+    "id": 98,
+    "title_en": "Pairs at Maximum Distance",
+    "level": "hard",
+    "background_required": "גאומטריה והוכחות, כולל חסמים ובניות",
+    "solution_pdf_page": 175,
+    "basis": "סיווג ידני לפי הידע והטיעון שבפתרון הספר; רמת הגיל אינה הבטחת הצלחה."
+  },
+  {
+    "id": 99,
+    "title_en": "Comparing Numbers, Version I",
+    "level": "hard",
+    "background_required": "התפלגויות הסתברות בדידות או רציפות",
+    "solution_pdf_page": 187,
+    "basis": "סיווג ידני לפי הידע והטיעון שבפתרון הספר; רמת הגיל אינה הבטחת הצלחה."
+  },
+  {
+    "id": 100,
+    "title_en": "Comparing Numbers, Version II",
+    "level": "hard",
+    "background_required": "אסטרטגיות והסתברות רב־שלבית",
+    "solution_pdf_page": 188,
+    "basis": "סיווג ידני לפי הידע והטיעון שבפתרון הספר; רמת הגיל אינה הבטחת הצלחה."
+  },
+  {
+    "id": 101,
+    "title_en": "King’s Salary",
+    "level": "medium",
+    "background_required": "הסקה רב־שלבית והוכחה",
+    "solution_pdf_page": 211,
+    "basis": "סיווג ידני לפי הידע והטיעון שבפתרון הספר; רמת הגיל אינה הבטחת הצלחה."
+  },
+  {
+    "id": 102,
+    "title_en": "Adding, Multiplying, and Grouping",
+    "level": "hard",
+    "background_required": "תורת המספרים: שאריות, גורמים וחלוקה",
+    "solution_pdf_page": 224,
+    "basis": "סיווג ידני לפי הידע והטיעון שבפתרון הספר; רמת הגיל אינה הבטחת הצלחה."
+  },
+  {
+    "id": 103,
+    "title_en": "Missing Card",
+    "level": "hard",
+    "background_required": "מידע, קידוד וקומבינטוריקה",
+    "solution_pdf_page": 237,
+    "basis": "סיווג ידני לפי הידע והטיעון שבפתרון הספר; רמת הגיל אינה הבטחת הצלחה."
+  },
+  {
+    "id": 104,
+    "title_en": "Ping-pong Progression",
+    "level": "hard",
+    "background_required": "תוחלת, זמני המתנה או לינאריות התוחלת",
+    "solution_pdf_page": 250,
+    "basis": "סיווג ידני לפי הידע והטיעון שבפתרון הספר; רמת הגיל אינה הבטחת הצלחה."
+  },
+  {
+    "id": 105,
+    "title_en": "Pushing the Pedal",
+    "level": "medium",
+    "background_required": "מכניקה, תנועה והתנגשויות",
+    "solution_pdf_page": 348,
+    "basis": "סיווג ידני לפי הידע והטיעון שבפתרון הספר; רמת הגיל אינה הבטחת הצלחה."
+  },
+  {
+    "id": 106,
+    "title_en": "Odd Light Flips",
+    "level": "hard",
+    "background_required": "אינדוקציה מתמטית ובנייה רקורסיבית",
+    "solution_pdf_page": 269,
+    "basis": "סיווג ידני לפי הידע והטיעון שבפתרון הספר; רמת הגיל אינה הבטחת הצלחה."
+  },
+  {
+    "id": 107,
+    "title_en": "Painting the Cubes",
+    "level": "hard",
+    "background_required": "בנייה קומבינטורית והוכחת תקפות",
+    "solution_pdf_page": 284,
+    "basis": "סיווג ידני לפי הידע והטיעון שבפתרון הספר; רמת הגיל אינה הבטחת הצלחה."
+  },
+  {
+    "id": 108,
+    "title_en": "Red Points and Blue",
+    "level": "medium",
+    "background_required": "גאומטריה והוכחות, כולל חסמים ובניות",
+    "solution_pdf_page": 311,
+    "basis": "סיווג ידני לפי הידע והטיעון שבפתרון הספר; רמת הגיל אינה הבטחת הצלחה."
+  },
+  {
+    "id": 109,
+    "title_en": "Identifying the Majority",
+    "level": "medium",
+    "background_required": "אלגוריתמים והוכחת נכונות או סיום",
+    "solution_pdf_page": 330,
+    "basis": "סיווג ידני לפי הידע והטיעון שבפתרון הספר; רמת הגיל אינה הבטחת הצלחה."
+  },
+  {
+    "id": 110,
+    "title_en": "Returning Pool Shot",
+    "level": "medium",
+    "background_required": "גאומטריה והוכחות, כולל חסמים ובניות",
+    "solution_pdf_page": 348,
+    "basis": "סיווג ידני לפי הידע והטיעון שבפתרון הספר; רמת הגיל אינה הבטחת הצלחה."
+  },
+  {
+    "id": 111,
+    "title_en": "Pancake Stacks",
+    "level": "hard",
+    "background_required": "אסטרטגיות משחק והוכחת ניצחון",
+    "solution_pdf_page": 358,
+    "basis": "סיווג ידני לפי הידע והטיעון שבפתרון הספר; רמת הגיל אינה הבטחת הצלחה."
+  },
+  {
+    "id": 112,
+    "title_en": "Trapped in Thickland",
+    "level": "hard",
+    "background_required": "גאומטריה מרחבית והטלות",
+    "solution_pdf_page": 380,
+    "basis": "סיווג ידני לפי הידע והטיעון שבפתרון הספר; רמת הגיל אינה הבטחת הצלחה."
+  },
+  {
+    "id": 113,
+    "title_en": "Hats and Infinity",
+    "level": "hard",
+    "background_required": "קבוצות אינסופיות, מנייה או אקסיומת הבחירה",
+    "solution_pdf_page": 392,
+    "basis": "סיווג ידני לפי הידע והטיעון שבפתרון הספר; רמת הגיל אינה הבטחת הצלחה."
+  },
+  {
+    "id": 114,
+    "title_en": "All Right or All Wrong",
+    "level": "hard",
+    "background_required": "קבוצות אינסופיות, מנייה או אקסיומת הבחירה",
+    "solution_pdf_page": 393,
+    "basis": "סיווג ידני לפי הידע והטיעון שבפתרון הספר; רמת הגיל אינה הבטחת הצלחה."
+  },
+  {
+    "id": 115,
+    "title_en": "Magnetic Dollars",
+    "level": "hard",
+    "background_required": "תוחלת, זמני המתנה או לינאריות התוחלת",
+    "solution_pdf_page": 405,
+    "basis": "סיווג ידני לפי הידע והטיעון שבפתרון הספר; רמת הגיל אינה הבטחת הצלחה."
+  },
+  {
+    "id": 116,
+    "title_en": "Shoelaces at the Airport",
+    "level": "easy",
+    "background_required": "הסקה לוגית קונקרטית, ללא נוסחאות",
+    "solution_pdf_page": 90,
+    "basis": "סיווג ידני לפי הידע והטיעון שבפתרון הספר; רמת הגיל אינה הבטחת הצלחה."
+  },
+  {
+    "id": 117,
+    "title_en": "Hazards of Electronic Coinflipping",
+    "level": "hard",
+    "background_required": "רציפות ומשפט ערך הביניים",
+    "solution_pdf_page": 113,
+    "basis": "סיווג ידני לפי הידע והטיעון שבפתרון הספר; רמת הגיל אינה הבטחת הצלחה."
+  },
+  {
+    "id": 118,
+    "title_en": "Handshakes at a Party",
+    "level": "medium",
+    "background_required": "הסקה רב־שלבית והוכחה",
+    "solution_pdf_page": 124,
+    "basis": "סיווג ידני לפי הידע והטיעון שבפתרון הספר; רמת הגיל אינה הבטחת הצלחה."
+  },
+  {
+    "id": 119,
+    "title_en": "Area–Perimeter Match",
+    "level": "medium",
+    "background_required": "אלגברה תיכונית ומשוואות",
+    "solution_pdf_page": 136,
+    "basis": "סיווג ידני לפי הידע והטיעון שבפתרון הספר; רמת הגיל אינה הבטחת הצלחה."
+  },
+  {
+    "id": 120,
+    "title_en": "Prime Test",
+    "level": "medium",
+    "background_required": "אלגברה תיכונית ומשוואות",
+    "solution_pdf_page": 146,
+    "basis": "סיווג ידני לפי הידע והטיעון שבפתרון הספר; רמת הגיל אינה הבטחת הצלחה."
+  },
+  {
+    "id": 121,
+    "title_en": "Lost Boarding Pass",
+    "level": "medium",
+    "background_required": "הסתברות בסיסית, סימטריה וספירת מקרים",
+    "solution_pdf_page": 156,
+    "basis": "סיווג ידני לפי הידע והטיעון שבפתרון הספר; רמת הגיל אינה הבטחת הצלחה."
+  },
+  {
+    "id": 122,
+    "title_en": "Lemming on a Chessboard",
+    "level": "hard",
+    "background_required": "טופולוגיה וגאומטריה רציפה",
+    "solution_pdf_page": 176,
+    "basis": "סיווג ידני לפי הידע והטיעון שבפתרון הספר; רמת הגיל אינה הבטחת הצלחה."
+  },
+  {
+    "id": 123,
+    "title_en": "Packing Slashes",
+    "level": "medium",
+    "background_required": "קומבינטוריקה והוכחת חסם",
+    "solution_pdf_page": 212,
+    "basis": "סיווג ידני לפי הידע והטיעון שבפתרון הספר; רמת הגיל אינה הבטחת הצלחה."
+  },
+  {
+    "id": 124,
+    "title_en": "Peek Advantage",
+    "level": "medium",
+    "background_required": "הסתברות מותנית והגדרת מרחב המדגם",
+    "solution_pdf_page": 238,
+    "basis": "סיווג ידני לפי הידע והטיעון שבפתרון הספר; רמת הגיל אינה הבטחת הצלחה."
+  },
+  {
+    "id": 125,
+    "title_en": "Truly Even Split",
+    "level": "hard",
+    "background_required": "אינדוקציה מתמטית ובנייה רקורסיבית",
+    "solution_pdf_page": 270,
+    "basis": "סיווג ידני לפי הידע והטיעון שבפתרון הספר; רמת הגיל אינה הבטחת הצלחה."
+  },
+  {
+    "id": 126,
+    "title_en": "Line Up by Height",
+    "level": "hard",
+    "background_required": "קומבינטוריקה והוכחת חסם",
+    "solution_pdf_page": 225,
+    "basis": "סיווג ידני לפי הידע והטיעון שבפתרון הספר; רמת הגיל אינה הבטחת הצלחה."
+  },
+  {
+    "id": 127,
+    "title_en": "Curves on Potatoes",
+    "level": "medium",
+    "background_required": "גאומטריה מרחבית והטלות",
+    "solution_pdf_page": 284,
+    "basis": "סיווג ידני לפי הידע והטיעון שבפתרון הספר; רמת הגיל אינה הבטחת הצלחה."
+  },
+  {
+    "id": 128,
+    "title_en": "Falling Ants",
+    "level": "easy",
+    "background_required": "הסקה לוגית קונקרטית, ללא נוסחאות",
+    "solution_pdf_page": 349,
+    "basis": "סיווג ידני לפי הידע והטיעון שבפתרון הספר; רמת הגיל אינה הבטחת הצלחה."
+  },
+  {
+    "id": 129,
+    "title_en": "Polygon Midpoints",
+    "level": "medium",
+    "background_required": "קואורדינטות, סימטריות ואינווריאנטים",
+    "solution_pdf_page": 381,
+    "basis": "סיווג ידני לפי הידע והטיעון שבפתרון הספר; רמת הגיל אינה הבטחת הצלחה."
+  },
+  {
+    "id": 130,
+    "title_en": "Rows and Columns",
+    "level": "medium",
+    "background_required": "אלגברה, אי־שוויונות והוכחות",
+    "solution_pdf_page": 90,
+    "basis": "סיווג ידני לפי הידע והטיעון שבפתרון הספר; רמת הגיל אינה הבטחת הצלחה."
+  },
+  {
+    "id": 131,
+    "title_en": "Bugs on a Pyramid",
+    "level": "hard",
+    "background_required": "רציפות ומשפט ערך הביניים",
+    "solution_pdf_page": 114,
+    "basis": "סיווג ידני לפי הידע והטיעון שבפתרון הספר; רמת הגיל אינה הבטחת הצלחה."
+  },
+  {
+    "id": 132,
+    "title_en": "Snake Game",
+    "level": "medium",
+    "background_required": "אסטרטגיות משחק והוכחת ניצחון",
+    "solution_pdf_page": 125,
+    "basis": "סיווג ידני לפי הידע והטיעון שבפתרון הספר; רמת הגיל אינה הבטחת הצלחה."
+  },
+  {
+    "id": 133,
+    "title_en": "Three Negatives",
+    "level": "medium",
+    "background_required": "אלגברה, אי־שוויונות והוכחות",
+    "solution_pdf_page": 136,
+    "basis": "סיווג ידני לפי הידע והטיעון שבפתרון הספר; רמת הגיל אינה הבטחת הצלחה."
+  },
+  {
+    "id": 134,
+    "title_en": "Numbers on Foreheads",
+    "level": "medium",
+    "background_required": "תורת המספרים: שאריות, גורמים וחלוקה",
+    "solution_pdf_page": 146,
+    "basis": "סיווג ידני לפי הידע והטיעון שבפתרון הספר; רמת הגיל אינה הבטחת הצלחה."
+  },
+  {
+    "id": 135,
+    "title_en": "Bias Test",
+    "level": "medium",
+    "background_required": "הסתברות מותנית והגדרת מרחב המדגם",
+    "solution_pdf_page": 239,
+    "basis": "סיווג ידני לפי הידע והטיעון שבפתרון הספר; רמת הגיל אינה הבטחת הצלחה."
+  },
+  {
+    "id": 136,
+    "title_en": "Nonrepeating String",
+    "level": "hard",
+    "background_required": "אינדוקציה מתמטית ובנייה רקורסיבית",
+    "solution_pdf_page": 271,
+    "basis": "סיווג ידני לפי הידע והטיעון שבפתרון הספר; רמת הגיל אינה הבטחת הצלחה."
+  },
+  {
+    "id": 137,
+    "title_en": "Three-Way Election",
+    "level": "medium",
+    "background_required": "קומבינטוריקה והוכחת חסם",
+    "solution_pdf_page": 91,
+    "basis": "סיווג ידני לפי הידע והטיעון שבפתרון הספר; רמת הגיל אינה הבטחת הצלחה."
+  },
+  {
+    "id": 138,
+    "title_en": "Skipping a Number",
+    "level": "medium",
+    "background_required": "תורת המספרים: שאריות, גורמים וחלוקה",
+    "solution_pdf_page": 114,
+    "basis": "סיווג ידני לפי הידע והטיעון שבפתרון הספר; רמת הגיל אינה הבטחת הצלחה."
+  },
+  {
+    "id": 139,
+    "title_en": "Red and Black Sides",
+    "level": "medium",
+    "background_required": "גאומטריה והוכחות, כולל חסמים ובניות",
+    "solution_pdf_page": 136,
+    "basis": "סיווג ידני לפי הידע והטיעון שבפתרון הספר; רמת הגיל אינה הבטחת הצלחה."
+  },
+  {
+    "id": 140,
+    "title_en": "Unbroken Lines",
+    "level": "medium",
+    "background_required": "הסקה רב־שלבית והוכחה",
+    "solution_pdf_page": 214,
+    "basis": "סיווג ידני לפי הידע והטיעון שבפתרון הספר; רמת הגיל אינה הבטחת הצלחה."
+  },
+  {
+    "id": 141,
+    "title_en": "Baby Frog",
+    "level": "hard",
+    "background_required": "אינדוקציה מתמטית ובנייה רקורסיבית",
+    "solution_pdf_page": 271,
+    "basis": "סיווג ידני לפי הידע והטיעון שבפתרון הספר; רמת הגיל אינה הבטחת הצלחה."
+  },
+  {
+    "id": 142,
+    "title_en": "Sequencing the Digits",
+    "level": "medium",
+    "background_required": "קומבינטוריקה והוכחת חסם",
+    "solution_pdf_page": 91,
+    "basis": "סיווג ידני לפי הידע והטיעון שבפתרון הספר; רמת הגיל אינה הבטחת הצלחה."
+  },
+  {
+    "id": 143,
+    "title_en": "Recovering the Polynomial",
+    "level": "medium",
+    "background_required": "פולינומים, מקדמים ובסיסי ספירה",
+    "solution_pdf_page": 137,
+    "basis": "סיווג ידני לפי הידע והטיעון שבפתרון הספר; רמת הגיל אינה הבטחת הצלחה."
+  },
+  {
+    "id": 144,
+    "title_en": "Faulty Combination Lock",
+    "level": "hard",
+    "background_required": "בנייה קומבינטורית והוכחת תקפות",
+    "solution_pdf_page": 92,
+    "basis": "סיווג ידני לפי הידע והטיעון שבפתרון הספר; רמת הגיל אינה הבטחת הצלחה."
+  },
+  {
+    "id": 145,
+    "title_en": "Prisoners and Gloves",
+    "level": "hard",
+    "background_required": "תמורות, זוגיות או פירוק למחזורים",
+    "solution_pdf_page": 102,
+    "basis": "סיווג ידני לפי הידע והטיעון שבפתרון הספר; רמת הגיל אינה הבטחת הצלחה."
+  },
+  {
+    "id": 146,
+    "title_en": "Bracing the Grid",
+    "level": "hard",
+    "background_required": "תורת גרפים: מסלולים, קשירות או צביעה",
+    "solution_pdf_page": 125,
+    "basis": "סיווג ידני לפי הידע והטיעון שבפתרון הספר; רמת הגיל אינה הבטחת הצלחה."
+  },
+  {
+    "id": 147,
+    "title_en": "Gaming the Quilt",
+    "level": "medium",
+    "background_required": "תוחלת, זמני המתנה או לינאריות התוחלת",
+    "solution_pdf_page": 137,
+    "basis": "סיווג ידני לפי הידע והטיעון שבפתרון הספר; רמת הגיל אינה הבטחת הצלחה."
+  },
+  {
+    "id": 148,
+    "title_en": "Rectangles Tall and Wide",
+    "level": "hard",
+    "background_required": "תורת המספרים: שאריות, גורמים וחלוקה",
+    "solution_pdf_page": 147,
+    "basis": "סיווג ידני לפי הידע והטיעון שבפתרון הספר; רמת הגיל אינה הבטחת הצלחה."
+  },
+  {
+    "id": 149,
+    "title_en": "Guarding the Gallery",
+    "level": "hard",
+    "background_required": "אינדוקציה מתמטית ובנייה רקורסיבית",
+    "solution_pdf_page": 272,
+    "basis": "סיווג ידני לפי הידע והטיעון שבפתרון הספר; רמת הגיל אינה הבטחת הצלחה."
+  },
+  {
+    "id": 150,
+    "title_en": "Flying Saucers",
+    "level": "hard",
+    "background_required": "הסתברות בסיסית, סימטריה וספירת מקרים",
+    "solution_pdf_page": 157,
+    "basis": "סיווג ידני לפי הידע והטיעון שבפתרון הספר; רמת הגיל אינה הבטחת הצלחה."
+  },
+  {
+    "id": 151,
+    "title_en": "Increasing Routes",
+    "level": "hard",
+    "background_required": "תורת גרפים: מסלולים, קשירות או צביעה",
+    "solution_pdf_page": 171,
+    "basis": "סיווג ידני לפי הידע והטיעון שבפתרון הספר; רמת הגיל אינה הבטחת הצלחה."
+  },
+  {
+    "id": 152,
+    "title_en": "Curve on a Sphere",
+    "level": "hard",
+    "background_required": "גאומטריה מרחבית והטלות",
+    "solution_pdf_page": 177,
+    "basis": "סיווג ידני לפי הידע והטיעון שבפתרון הספר; רמת הגיל אינה הבטחת הצלחה."
+  },
+  {
+    "id": 153,
+    "title_en": "Biased Betting",
+    "level": "hard",
+    "background_required": "הילוכים אקראיים והסתברות",
+    "solution_pdf_page": 189,
+    "basis": "סיווג ידני לפי הידע והטיעון שבפתרון הספר; רמת הגיל אינה הבטחת הצלחה."
+  },
+  {
+    "id": 154,
+    "title_en": "Unbroken Curves",
+    "level": "medium",
+    "background_required": "הסקה רב־שלבית והוכחה",
+    "solution_pdf_page": 215,
+    "basis": "סיווג ידני לפי הידע והטיעון שבפתרון הספר; רמת הגיל אינה הבטחת הצלחה."
+  },
+  {
+    "id": 155,
+    "title_en": "Ascending and Descending",
+    "level": "hard",
+    "background_required": "קומבינטוריקה והוכחת חסם",
+    "solution_pdf_page": 226,
+    "basis": "סיווג ידני לפי הידע והטיעון שבפתרון הספר; רמת הגיל אינה הבטחת הצלחה."
+  },
+  {
+    "id": 156,
+    "title_en": "Dot-town Exodus",
+    "level": "hard",
+    "background_required": "הסקה רב־שלבית והוכחה",
+    "solution_pdf_page": 240,
+    "basis": "סיווג ידני לפי הידע והטיעון שבפתרון הספר; רמת הגיל אינה הבטחת הצלחה."
+  },
+  {
+    "id": 157,
+    "title_en": "Drawing Socks",
+    "level": "hard",
+    "background_required": "תוחלת, זמני המתנה או לינאריות התוחלת",
+    "solution_pdf_page": 251,
+    "basis": "סיווג ידני לפי הידע והטיעון שבפתרון הספר; רמת הגיל אינה הבטחת הצלחה."
+  },
+  {
+    "id": 158,
+    "title_en": "Path Through the Cells",
+    "level": "hard",
+    "background_required": "תורת גרפים: מסלולים, קשירות או צביעה",
+    "solution_pdf_page": 273,
+    "basis": "סיווג ידני לפי הידע והטיעון שבפתרון הספר; רמת הגיל אינה הבטחת הצלחה."
+  },
+  {
+    "id": 159,
+    "title_en": "Painting the Polyhedron",
+    "level": "medium",
+    "background_required": "גאומטריה והוכחות, כולל חסמים ובניות",
+    "solution_pdf_page": 285,
+    "basis": "סיווג ידני לפי הידע והטיעון שבפתרון הספר; רמת הגיל אינה הבטחת הצלחה."
+  },
+  {
+    "id": 160,
+    "title_en": "Whim-Nim",
+    "level": "hard",
+    "background_required": "תורת משחקים, נים וייצוג בינארי",
+    "solution_pdf_page": 297,
+    "basis": "סיווג ידני לפי הידע והטיעון שבפתרון הספר; רמת הגיל אינה הבטחת הצלחה."
+  },
+  {
+    "id": 161,
+    "title_en": "Bacteria on the Plane",
+    "level": "hard",
+    "background_required": "פונקציות פוטנציאל, אינווריאנטים והוכחת סיום",
+    "solution_pdf_page": 312,
+    "basis": "סיווג ידני לפי הידע והטיעון שבפתרון הספר; רמת הגיל אינה הבטחת הצלחה."
+  },
+  {
+    "id": 162,
+    "title_en": "Poorly Placed Dominoes",
+    "level": "hard",
+    "background_required": "קומבינטוריקה והוכחת חסם",
+    "solution_pdf_page": 331,
+    "basis": "סיווג ידני לפי הידע והטיעון שבפתרון הספר; רמת הגיל אינה הבטחת הצלחה."
+  },
+  {
+    "id": 163,
+    "title_en": "Ants on the Circle",
+    "level": "medium",
+    "background_required": "הסתברות בסיסית, סימטריה וספירת מקרים",
+    "solution_pdf_page": 350,
+    "basis": "סיווג ידני לפי הידע והטיעון שבפתרון הספר; רמת הגיל אינה הבטחת הצלחה."
+  },
+  {
+    "id": 164,
+    "title_en": "Chinese Nim",
+    "level": "hard",
+    "background_required": "אסטרטגיות משחק והוכחת ניצחון",
+    "solution_pdf_page": 359,
+    "basis": "סיווג ידני לפי הידע והטיעון שבפתרון הספר; רמת הגיל אינה הבטחת הצלחה."
+  },
+  {
+    "id": 165,
+    "title_en": "Not Burning Brownies",
+    "level": "hard",
+    "background_required": "בנייה קומבינטורית והוכחת תקפות",
+    "solution_pdf_page": 381,
+    "basis": "סיווג ידני לפי הידע והטיעון שבפתרון הספר; רמת הגיל אינה הבטחת הצלחה."
+  },
+  {
+    "id": 166,
+    "title_en": "Double Cover by Lines",
+    "level": "hard",
+    "background_required": "קבוצות אינסופיות, מנייה או אקסיומת הבחירה",
+    "solution_pdf_page": 394,
+    "basis": "סיווג ידני לפי הידע והטיעון שבפתרון הספר; רמת הגיל אינה הבטחת הצלחה."
+  },
+  {
+    "id": 167,
+    "title_en": "Integral Rectangles",
+    "level": "hard",
+    "background_required": "תורת גרפים: מסלולים, קשירות או צביעה",
+    "solution_pdf_page": 407,
+    "basis": "סיווג ידני לפי הידע והטיעון שבפתרון הספר; רמת הגיל אינה הבטחת הצלחה."
+  },
+  {
+    "id": 168,
+    "title_en": "Losing at Dice",
+    "level": "hard",
+    "background_required": "הילוכים אקראיים והסתברות",
+    "solution_pdf_page": 93,
+    "basis": "סיווג ידני לפי הידע והטיעון שבפתרון הספר; רמת הגיל אינה הבטחת הצלחה."
+  },
+  {
+    "id": 169,
+    "title_en": "Even-sum Billiards",
+    "level": "medium",
+    "background_required": "הסתברות בסיסית, סימטריה וספירת מקרים",
+    "solution_pdf_page": 103,
+    "basis": "סיווג ידני לפי הידע והטיעון שבפתרון הספר; רמת הגיל אינה הבטחת הצלחה."
+  },
+  {
+    "id": 170,
+    "title_en": "Competing for Programmers",
+    "level": "hard",
+    "background_required": "תורת גרפים: מסלולים, קשירות או צביעה",
+    "solution_pdf_page": 127,
+    "basis": "סיווג ידני לפי הידע והטיעון שבפתרון הספר; רמת הגיל אינה הבטחת הצלחה."
+  },
+  {
+    "id": 171,
+    "title_en": "Strength of Schedule",
+    "level": "medium",
+    "background_required": "אלגברה, אי־שוויונות והוכחות",
+    "solution_pdf_page": 138,
+    "basis": "סיווג ידני לפי הידע והטיעון שבפתרון הספר; רמת הגיל אינה הבטחת הצלחה."
+  },
+  {
+    "id": 172,
+    "title_en": "Locker Doors",
+    "level": "easy",
+    "background_required": "מחלקים וזוגיות",
+    "solution_pdf_page": 148,
+    "basis": "סיווג ידני לפי הידע והטיעון שבפתרון הספר; רמת הגיל אינה הבטחת הצלחה."
+  },
+  {
+    "id": 173,
+    "title_en": "Gasoline Crisis",
+    "level": "medium",
+    "background_required": "אלגוריתמים והוכחת נכונות או סיום",
+    "solution_pdf_page": 158,
+    "basis": "סיווג ידני לפי הידע והטיעון שבפתרון הספר; רמת הגיל אינה הבטחת הצלחה."
+  },
+  {
+    "id": 174,
+    "title_en": "Soldiers in a Field",
+    "level": "medium",
+    "background_required": "הסקה רב־שלבית והוכחה",
+    "solution_pdf_page": 177,
+    "basis": "סיווג ידני לפי הידע והטיעון שבפתרון הספר; רמת הגיל אינה הבטחת הצלחה."
+  },
+  {
+    "id": 175,
+    "title_en": "Home-field Advantage",
+    "level": "medium",
+    "background_required": "הסתברות בסיסית, סימטריה וספירת מקרים",
+    "solution_pdf_page": 190,
+    "basis": "סיווג ידני לפי הידע והטיעון שבפתרון הספר; רמת הגיל אינה הבטחת הצלחה."
+  },
+  {
+    "id": 176,
+    "title_en": "Zeroes and Ones",
+    "level": "medium",
+    "background_required": "תורת המספרים: שאריות, גורמים וחלוקה",
+    "solution_pdf_page": 227,
+    "basis": "סיווג ידני לפי הידע והטיעון שבפתרון הספר; רמת הגיל אינה הבטחת הצלחה."
+  },
+  {
+    "id": 177,
+    "title_en": "Random Intersection",
+    "level": "hard",
+    "background_required": "תוחלת, זמני המתנה או לינאריות התוחלת",
+    "solution_pdf_page": 251,
+    "basis": "סיווג ידני לפי הידע והטיעון שבפתרון הספר; רמת הגיל אינה הבטחת הצלחה."
+  },
+  {
+    "id": 178,
+    "title_en": "Profit and Loss",
+    "level": "hard",
+    "background_required": "אינדוקציה מתמטית ובנייה רקורסיבית",
+    "solution_pdf_page": 274,
+    "basis": "סיווג ידני לפי הידע והטיעון שבפתרון הספר; רמת הגיל אינה הבטחת הצלחה."
+  },
+  {
+    "id": 179,
+    "title_en": "Boarding the Manhole",
+    "level": "hard",
+    "background_required": "גאומטריה מרחבית והטלות",
+    "solution_pdf_page": 285,
+    "basis": "סיווג ידני לפי הידע והטיעון שבפתרון הספר; רמת הגיל אינה הבטחת הצלחה."
+  },
+  {
+    "id": 180,
+    "title_en": "Pegs on the Half-plane",
+    "level": "hard",
+    "background_required": "פונקציות פוטנציאל, אינווריאנטים והוכחת סיום",
+    "solution_pdf_page": 313,
+    "basis": "סיווג ידני לפי הידע והטיעון שבפתרון הספר; רמת הגיל אינה הבטחת הצלחה."
+  },
+  {
+    "id": 181,
+    "title_en": "Unbreakable Domino Cover",
+    "level": "medium",
+    "background_required": "זוגיות, אינווריאנטים והוכחות",
+    "solution_pdf_page": 332,
+    "basis": "סיווג ידני לפי הידע והטיעון שבפתרון הספר; רמת הגיל אינה הבטחת הצלחה."
+  },
+  {
+    "id": 182,
+    "title_en": "Turning the Die",
+    "level": "hard",
+    "background_required": "אסטרטגיות משחק והוכחת ניצחון",
+    "solution_pdf_page": 361,
+    "basis": "סיווג ידני לפי הידע והטיעון שבפתרון הספר; רמת הגיל אינה הבטחת הצלחה."
+  },
+  {
+    "id": 183,
+    "title_en": "Protecting the Statue",
+    "level": "hard",
+    "background_required": "גאומטריה והוכחות, כולל חסמים ובניות",
+    "solution_pdf_page": 382,
+    "basis": "סיווג ידני לפי הידע והטיעון שבפתרון הספר; רמת הגיל אינה הבטחת הצלחה."
+  },
+  {
+    "id": 184,
+    "title_en": "Wild Guess",
+    "level": "hard",
+    "background_required": "קבוצות אינסופיות, מנייה או אקסיומת הבחירה",
+    "solution_pdf_page": 395,
+    "basis": "סיווג ידני לפי הידע והטיעון שבפתרון הספר; רמת הגיל אינה הבטחת הצלחה."
+  },
+  {
+    "id": 185,
+    "title_en": "Laser Gun",
+    "level": "hard",
+    "background_required": "קואורדינטות, סימטריות ואינווריאנטים",
+    "solution_pdf_page": 408,
+    "basis": "סיווג ידני לפי הידע והטיעון שבפתרון הספר; רמת הגיל אינה הבטחת הצלחה."
+  },
+  {
+    "id": 186,
+    "title_en": "Splitting the Stacks",
+    "level": "easy",
+    "background_required": "ספירה שיטתית וחשבון בסיסי",
+    "solution_pdf_page": 94,
+    "basis": "סיווג ידני לפי הידע והטיעון שבפתרון הספר; רמת הגיל אינה הבטחת הצלחה."
+  },
+  {
+    "id": 187,
+    "title_en": "Chameleons",
+    "level": "medium",
+    "background_required": "תורת המספרים: שאריות, גורמים וחלוקה",
+    "solution_pdf_page": 103,
+    "basis": "סיווג ידני לפי הידע והטיעון שבפתרון הספר; רמת הגיל אינה הבטחת הצלחה."
+  },
+  {
+    "id": 188,
+    "title_en": "Wires under the Hudson",
+    "level": "medium",
+    "background_required": "תורת גרפים: מסלולים, קשירות או צביעה",
+    "solution_pdf_page": 128,
+    "basis": "סיווג ידני לפי הידע והטיעון שבפתרון הספר; רמת הגיל אינה הבטחת הצלחה."
+  },
+  {
+    "id": 189,
+    "title_en": "Two Round-robins",
+    "level": "hard",
+    "background_required": "אלגברה, אי־שוויונות והוכחות",
+    "solution_pdf_page": 139,
+    "basis": "סיווג ידני לפי הידע והטיעון שבפתרון הספר; רמת הגיל אינה הבטחת הצלחה."
+  },
+  {
+    "id": 190,
+    "title_en": "Factorial Coincidence",
+    "level": "hard",
+    "background_required": "תורת המספרים: שאריות, גורמים וחלוקה",
+    "solution_pdf_page": 149,
+    "basis": "סיווג ידני לפי הידע והטיעון שבפתרון הספר; רמת הגיל אינה הבטחת הצלחה."
+  },
+  {
+    "id": 191,
+    "title_en": "Conversation on a Bus",
+    "level": "hard",
+    "background_required": "הסקה רב־שלבית והוכחה",
+    "solution_pdf_page": 242,
+    "basis": "סיווג ידני לפי הידע והטיעון שבפתרון הספר; רמת הגיל אינה הבטחת הצלחה."
+  },
+  {
+    "id": 192,
+    "title_en": "Coins on the Table",
+    "level": "hard",
+    "background_required": "גאומטריה והוכחות, כולל חסמים ובניות",
+    "solution_pdf_page": 158,
+    "basis": "סיווג ידני לפי הידע והטיעון שבפתרון הספר; רמת הגיל אינה הבטחת הצלחה."
+  },
+  {
+    "id": 193,
+    "title_en": "Roulette for the Unwary",
+    "level": "medium",
+    "background_required": "הסתברות בסיסית, סימטריה וספירת מקרים",
+    "solution_pdf_page": 253,
+    "basis": "סיווג ידני לפי הידע והטיעון שבפתרון הספר; רמת הגיל אינה הבטחת הצלחה."
+  },
+  {
+    "id": 194,
+    "title_en": "Uniformity at the Bakery",
+    "level": "hard",
+    "background_required": "אינדוקציה מתמטית ובנייה רקורסיבית",
+    "solution_pdf_page": 276,
+    "basis": "סיווג ידני לפי הידע והטיעון שבפתרון הספר; רמת הגיל אינה הבטחת הצלחה."
+  },
+  {
+    "id": 195,
+    "title_en": "Slabs in 3-Space",
+    "level": "hard",
+    "background_required": "גאומטריה מרחבית והטלות",
+    "solution_pdf_page": 287,
+    "basis": "סיווג ידני לפי הידע והטיעון שבפתרון הספר; רמת הגיל אינה הבטחת הצלחה."
+  },
+  {
+    "id": 196,
+    "title_en": "Pegs in a Square",
+    "level": "hard",
+    "background_required": "זוגיות, אינווריאנטים והוכחות",
+    "solution_pdf_page": 314,
+    "basis": "סיווג ידני לפי הידע והטיעון שבפתרון הספר; רמת הגיל אינה הבטחת הצלחה."
+  },
+  {
+    "id": 197,
+    "title_en": "Filling a Bucket",
+    "level": "hard",
+    "background_required": "אסטרטגיות משחק והוכחת ניצחון",
+    "solution_pdf_page": 333,
+    "basis": "סיווג ידני לפי הידע והטיעון שבפתרון הספר; רמת הגיל אינה הבטחת הצלחה."
+  },
+  {
+    "id": 198,
+    "title_en": "Polygon on the Grid",
+    "level": "medium",
+    "background_required": "גאומטריה והוכחות, כולל חסמים ובניות",
+    "solution_pdf_page": 334,
+    "basis": "סיווג ידני לפי הידע והטיעון שבפתרון הספר; רמת הגיל אינה הבטחת הצלחה."
+  },
+  {
+    "id": 199,
+    "title_en": "Game of Desperation",
+    "level": "hard",
+    "background_required": "אסטרטגיות משחק והוכחת ניצחון",
+    "solution_pdf_page": 362,
+    "basis": "סיווג ידני לפי הידע והטיעון שבפתרון הספר; רמת הגיל אינה הבטחת הצלחה."
+  },
+  {
+    "id": 200,
+    "title_en": "Gluing Pyramids",
+    "level": "medium",
+    "background_required": "גאומטריה מרחבית והטלות",
+    "solution_pdf_page": 382,
+    "basis": "סיווג ידני לפי הידע והטיעון שבפתרון הספר; רמת הגיל אינה הבטחת הצלחה."
+  },
+  {
+    "id": 201,
+    "title_en": "Exponent upon Exponent",
+    "level": "hard",
+    "background_required": "גבולות, טורים והתכנסות",
+    "solution_pdf_page": 396,
+    "basis": "סיווג ידני לפי הידע והטיעון שבפתרון הספר; רמת הגיל אינה הבטחת הצלחה."
+  },
+  {
+    "id": 202,
+    "title_en": "Random Intervals",
+    "level": "hard",
+    "background_required": "הסתברות בסיסית, סימטריה וספירת מקרים",
+    "solution_pdf_page": 410,
+    "basis": "סיווג ידני לפי הידע והטיעון שבפתרון הספר; רמת הגיל אינה הבטחת הצלחה."
+  },
+  {
+    "id": 203,
+    "title_en": "North by Northwest",
+    "level": "medium",
+    "background_required": "ידע חיצוני: שפה, כללי משחק או מוסכמות",
+    "solution_pdf_page": 94,
+    "basis": "סיווג ידני לפי הידע והטיעון שבפתרון הספר; רמת הגיל אינה הבטחת הצלחה."
+  },
+  {
+    "id": 204,
+    "title_en": "Missing Digit",
+    "level": "medium",
+    "background_required": "תורת המספרים: שאריות, גורמים וחלוקה",
+    "solution_pdf_page": 104,
+    "basis": "סיווג ידני לפי הידע והטיעון שבפתרון הספר; רמת הגיל אינה הבטחת הצלחה."
+  },
+  {
+    "id": 205,
+    "title_en": "Coins in a Row",
+    "level": "medium",
+    "background_required": "אסטרטגיות משחק והוכחת ניצחון",
+    "solution_pdf_page": 160,
+    "basis": "סיווג ידני לפי הידע והטיעון שבפתרון הספר; רמת הגיל אינה הבטחת הצלחה."
+  },
+  {
+    "id": 206,
+    "title_en": "Bugs on Four Lines",
+    "level": "hard",
+    "background_required": "גאומטריה מרחבית והטלות",
+    "solution_pdf_page": 287,
+    "basis": "סיווג ידני לפי הידע והטיעון שבפתרון הספר; רמת הגיל אינה הבטחת הצלחה."
+  },
+  {
+    "id": 207,
+    "title_en": "First-grade Division",
+    "level": "medium",
+    "background_required": "פונקציות פוטנציאל, אינווריאנטים והוכחת סיום",
+    "solution_pdf_page": 314,
+    "basis": "סיווג ידני לפי הידע והטיעון שבפתרון הספר; רמת הגיל אינה הבטחת הצלחה."
+  },
+  {
+    "id": 208,
+    "title_en": "Deterministic Poker",
+    "level": "hard",
+    "background_required": "אסטרטגיות משחק והוכחת ניצחון",
+    "solution_pdf_page": 363,
+    "basis": "סיווג ידני לפי הידע והטיעון שבפתרון הספר; רמת הגיל אינה הבטחת הצלחה."
+  },
+  {
+    "id": 209,
+    "title_en": "Precarious Picture",
+    "level": "medium",
+    "background_required": "טופולוגיה וגאומטריה רציפה",
+    "solution_pdf_page": 384,
+    "basis": "סיווג ידני לפי הידע והטיעון שבפתרון הספר; רמת הגיל אינה הבטחת הצלחה."
+  },
+  {
+    "id": 210,
+    "title_en": "Find the Robot",
+    "level": "hard",
+    "background_required": "קבוצות אינסופיות, מנייה או אקסיומת הבחירה",
+    "solution_pdf_page": 398,
+    "basis": "סיווג ידני לפי הידע והטיעון שבפתרון הספר; רמת הגיל אינה הבטחת הצלחה."
+  },
+  {
+    "id": 211,
+    "title_en": "Early Commuter",
+    "level": "easy",
+    "background_required": "ארבע פעולות חשבון ושברים",
+    "solution_pdf_page": 95,
+    "basis": "סיווג ידני לפי הידע והטיעון שבפתרון הספר; רמת הגיל אינה הבטחת הצלחה."
+  },
+  {
+    "id": 212,
+    "title_en": "Subtracting Around the Corner",
+    "level": "hard",
+    "background_required": "תורת המספרים: שאריות, גורמים וחלוקה",
+    "solution_pdf_page": 105,
+    "basis": "סיווג ידני לפי הידע והטיעון שבפתרון הספר; רמת הגיל אינה הבטחת הצלחה."
+  },
+  {
+    "id": 213,
+    "title_en": "Powers of Roots",
+    "level": "hard",
+    "background_required": "אלגברה, אי־שוויונות והוכחות",
+    "solution_pdf_page": 161,
+    "basis": "סיווג ידני לפי הידע והטיעון שבפתרון הספר; רמת הגיל אינה הבטחת הצלחה."
+  },
+  {
+    "id": 214,
+    "title_en": "An Attractive Game",
+    "level": "medium",
+    "background_required": "תוחלת, זמני המתנה או לינאריות התוחלת",
+    "solution_pdf_page": 254,
+    "basis": "סיווג ידני לפי הידע והטיעון שבפתרון הספר; רמת הגיל אינה הבטחת הצלחה."
+  },
+  {
+    "id": 215,
+    "title_en": "Circular Shadows II",
+    "level": "medium",
+    "background_required": "גאומטריה מרחבית והטלות",
+    "solution_pdf_page": 288,
+    "basis": "סיווג ידני לפי הידע והטיעון שבפתרון הספר; רמת הגיל אינה הבטחת הצלחה."
+  },
+  {
+    "id": 216,
+    "title_en": "Finding the Rectangles",
+    "level": "hard",
+    "background_required": "גאומטריה והוכחות, כולל חסמים ובניות",
+    "solution_pdf_page": 385,
+    "basis": "סיווג ידני לפי הידע והטיעון שבפתרון הספר; רמת הגיל אינה הבטחת הצלחה."
+  },
+  {
+    "id": 217,
+    "title_en": "Figure Eights in the Plane",
+    "level": "hard",
+    "background_required": "קבוצות אינסופיות, מנייה או אקסיומת הבחירה",
+    "solution_pdf_page": 398,
+    "basis": "סיווג ידני לפי הידע והטיעון שבפתרון הספר; רמת הגיל אינה הבטחת הצלחה."
+  },
+  {
+    "id": 218,
+    "title_en": "Alternate Connection",
+    "level": "medium",
+    "background_required": "אסטרטגיות משחק והוכחת ניצחון",
+    "solution_pdf_page": 95,
+    "basis": "סיווג ידני לפי הידע והטיעון שבפתרון הספר; רמת הגיל אינה הבטחת הצלחה."
+  },
+  {
+    "id": 219,
+    "title_en": "Tiling a Polygon",
+    "level": "hard",
+    "background_required": "גאומטריה והוכחות, כולל חסמים ובניות",
+    "solution_pdf_page": 385,
+    "basis": "סיווג ידני לפי הידע והטיעון שבפתרון הספר; רמת הגיל אינה הבטחת הצלחה."
+  },
+  {
+    "id": 220,
+    "title_en": "Bindweed and Honeysuckle",
+    "level": "easy",
+    "background_required": "צורות בסיסיות ותפיסה מרחבית",
+    "solution_pdf_page": 95,
+    "basis": "סיווג ידני לפי הידע והטיעון שבפתרון הספר; רמת הגיל אינה הבטחת הצלחה."
+  },
+  {
+    "id": 221,
+    "title_en": "Uniting the Loops",
+    "level": "hard",
+    "background_required": "זוגיות, אינווריאנטים והוכחות",
+    "solution_pdf_page": 105,
+    "basis": "סיווג ידני לפי הידע והטיעון שבפתרון הספר; רמת הגיל אינה הבטחת הצלחה."
+  },
+  {
+    "id": 222,
+    "title_en": "Splitting a Polygon",
+    "level": "hard",
+    "background_required": "רציפות ומשפט ערך הביניים",
+    "solution_pdf_page": 115,
+    "basis": "סיווג ידני לפי הידע והטיעון שבפתרון הספר; רמת הגיל אינה הבטחת הצלחה."
+  },
+  {
+    "id": 223,
+    "title_en": "Two Monks on a Mountain",
+    "level": "hard",
+    "background_required": "תורת גרפים: מסלולים, קשירות או צביעה",
+    "solution_pdf_page": 128,
+    "basis": "סיווג ידני לפי הידע והטיעון שבפתרון הספר; רמת הגיל אינה הבטחת הצלחה."
+  },
+  {
+    "id": 224,
+    "title_en": "Alternative Dice",
+    "level": "hard",
+    "background_required": "פולינומים, מקדמים ובסיסי ספירה",
+    "solution_pdf_page": 140,
+    "basis": "סיווג ידני לפי הידע והטיעון שבפתרון הספר; רמת הגיל אינה הבטחת הצלחה."
+  },
+  {
+    "id": 225,
+    "title_en": "Even Split",
+    "level": "hard",
+    "background_required": "תורת המספרים: שאריות, גורמים וחלוקה",
+    "solution_pdf_page": 149,
+    "basis": "סיווג ידני לפי הידע והטיעון שבפתרון הספר; רמת הגיל אינה הבטחת הצלחה."
+  },
+  {
+    "id": 226,
+    "title_en": "Coconut Classic",
+    "level": "medium",
+    "background_required": "תורת המספרים: שאריות, גורמים וחלוקה",
+    "solution_pdf_page": 161,
+    "basis": "סיווג ידני לפי הידע והטיעון שבפתרון הספר; רמת הגיל אינה הבטחת הצלחה."
+  },
+  {
+    "id": 227,
+    "title_en": "Infected Checkerboard",
+    "level": "medium",
+    "background_required": "גאומטריה והוכחות, כולל חסמים ובניות",
+    "solution_pdf_page": 315,
+    "basis": "סיווג ידני לפי הידע והטיעון שבפתרון הספר; רמת הגיל אינה הבטחת הצלחה."
+  },
+  {
+    "id": 228,
+    "title_en": "Alternating Powers",
+    "level": "hard",
+    "background_required": "גבולות, טורים והתכנסות",
+    "solution_pdf_page": 178,
+    "basis": "סיווג ידני לפי הידע והטיעון שבפתרון הספר; רמת הגיל אינה הבטחת הצלחה."
+  },
+  {
+    "id": 229,
+    "title_en": "Service Options",
+    "level": "medium",
+    "background_required": "הסתברות בסיסית, סימטריה וספירת מקרים",
+    "solution_pdf_page": 191,
+    "basis": "סיווג ידני לפי הידע והטיעון שבפתרון הספר; רמת הגיל אינה הבטחת הצלחה."
+  },
+  {
+    "id": 230,
+    "title_en": "Conway’s Immobilizer",
+    "level": "hard",
+    "background_required": "אלגוריתמים והוכחת נכונות או סיום",
+    "solution_pdf_page": 215,
+    "basis": "סיווג ידני לפי הידע והטיעון שבפתרון הספר; רמת הגיל אינה הבטחת הצלחה."
+  },
+  {
+    "id": 231,
+    "title_en": "Same Sum Dice",
+    "level": "hard",
+    "background_required": "קומבינטוריקה והוכחת חסם",
+    "solution_pdf_page": 228,
+    "basis": "סיווג ידני לפי הידע והטיעון שבפתרון הספר; רמת הגיל אינה הבטחת הצלחה."
+  },
+  {
+    "id": 232,
+    "title_en": "Matching Coins",
+    "level": "hard",
+    "background_required": "מידע, קידוד וקומבינטוריקה",
+    "solution_pdf_page": 243,
+    "basis": "סיווג ידני לפי הידע והטיעון שבפתרון הספר; רמת הגיל אינה הבטחת הצלחה."
+  },
+  {
+    "id": 233,
+    "title_en": "Next Card Bet",
+    "level": "hard",
+    "background_required": "תוחלת, זמני המתנה או לינאריות התוחלת",
+    "solution_pdf_page": 255,
+    "basis": "סיווג ידני לפי הידע והטיעון שבפתרון הספר; רמת הגיל אינה הבטחת הצלחה."
+  },
+  {
+    "id": 234,
+    "title_en": "Summing Fractions",
+    "level": "hard",
+    "background_required": "אינדוקציה מתמטית ובנייה רקורסיבית",
+    "solution_pdf_page": 276,
+    "basis": "סיווג ידני לפי הידע והטיעון שבפתרון הספר; רמת הגיל אינה הבטחת הצלחה."
+  },
+  {
+    "id": 235,
+    "title_en": "Box in a Box",
+    "level": "hard",
+    "background_required": "גאומטריה מרחבית והטלות",
+    "solution_pdf_page": 288,
+    "basis": "סיווג ידני לפי הידע והטיעון שבפתרון הספר; רמת הגיל אינה הבטחת הצלחה."
+  },
+  {
+    "id": 236,
+    "title_en": "Option Hats",
+    "level": "hard",
+    "background_required": "קידוד בינארי וקודים לתיקון שגיאות",
+    "solution_pdf_page": 298,
+    "basis": "סיווג ידני לפי הידע והטיעון שבפתרון הספר; רמת הגיל אינה הבטחת הצלחה."
+  },
+  {
+    "id": 237,
+    "title_en": "Impressionable Thinkers",
+    "level": "hard",
+    "background_required": "פונקציות פוטנציאל, אינווריאנטים והוכחת סיום",
+    "solution_pdf_page": 316,
+    "basis": "סיווג ידני לפי הידע והטיעון שבפתרון הספר; רמת הגיל אינה הבטחת הצלחה."
+  },
+  {
+    "id": 238,
+    "title_en": "One-bulb Room",
+    "level": "medium",
+    "background_required": "אלגוריתמים והוכחת נכונות או סיום",
+    "solution_pdf_page": 334,
+    "basis": "סיווג ידני לפי הידע והטיעון שבפתרון הספר; רמת הגיל אינה הבטחת הצלחה."
+  },
+  {
+    "id": 239,
+    "title_en": "Sphere and Quadrilateral",
+    "level": "hard",
+    "background_required": "גאומטריה מרחבית והטלות",
+    "solution_pdf_page": 350,
+    "basis": "סיווג ידני לפי הידע והטיעון שבפתרון הספר; רמת הגיל אינה הבטחת הצלחה."
+  },
+  {
+    "id": 240,
+    "title_en": "Bluffing with Reals",
+    "level": "hard",
+    "background_required": "אסטרטגיות והסתברות רב־שלבית",
+    "solution_pdf_page": 364,
+    "basis": "סיווג ידני לפי הידע והטיעון שבפתרון הספר; רמת הגיל אינה הבטחת הצלחה."
+  },
+  {
+    "id": 241,
+    "title_en": "Tiling with Crosses",
+    "level": "medium",
+    "background_required": "בנייה קומבינטורית והוכחת תקפות",
+    "solution_pdf_page": 386,
+    "basis": "סיווג ידני לפי הידע והטיעון שבפתרון הספר; רמת הגיל אינה הבטחת הצלחה."
+  },
+  {
+    "id": 242,
+    "title_en": "Y’s in the Plane",
+    "level": "hard",
+    "background_required": "קבוצות אינסופיות, מנייה או אקסיומת הבחירה",
+    "solution_pdf_page": 399,
+    "basis": "סיווג ידני לפי הידע והטיעון שבפתרון הספר; רמת הגיל אינה הבטחת הצלחה."
+  },
+  {
+    "id": 243,
+    "title_en": "Infected Cubes",
+    "level": "hard",
+    "background_required": "בנייה קומבינטורית והוכחת תקפות",
+    "solution_pdf_page": 411,
+    "basis": "סיווג ידני לפי הידע והטיעון שבפתרון הספר; רמת הגיל אינה הבטחת הצלחה."
+  },
+  {
+    "id": 244,
+    "title_en": "Worst Route",
+    "level": "medium",
+    "background_required": "אלגוריתמים והוכחת נכונות או סיום",
+    "solution_pdf_page": 130,
+    "basis": "סיווג ידני לפי הידע והטיעון שבפתרון הספר; רמת הגיל אינה הבטחת הצלחה."
+  },
+  {
+    "id": 245,
+    "title_en": "Factorials and Squares",
+    "level": "medium",
+    "background_required": "תורת המספרים: שאריות, גורמים וחלוקה",
+    "solution_pdf_page": 150,
+    "basis": "סיווג ידני לפי הידע והטיעון שבפתרון הספר; רמת הגיל אינה הבטחת הצלחה."
+  },
+  {
+    "id": 246,
+    "title_en": "Halfway Points",
+    "level": "hard",
+    "background_required": "וקטורים ומערכות משוואות לינאריות",
+    "solution_pdf_page": 178,
+    "basis": "סיווג ידני לפי הידע והטיעון שבפתרון הספר; רמת הגיל אינה הבטחת הצלחה."
+  },
+  {
+    "id": 247,
+    "title_en": "Who Won the Series?",
+    "level": "medium",
+    "background_required": "הסתברות מותנית והגדרת מרחב המדגם",
+    "solution_pdf_page": 192,
+    "basis": "סיווג ידני לפי הידע והטיעון שבפתרון הספר; רמת הגיל אינה הבטחת הצלחה."
+  },
+  {
+    "id": 248,
+    "title_en": "Tiling with L’s",
+    "level": "hard",
+    "background_required": "אינדוקציה מתמטית ובנייה רקורסיבית",
+    "solution_pdf_page": 277,
+    "basis": "סיווג ידני לפי הידע והטיעון שבפתרון הספר; רמת הגיל אינה הבטחת הצלחה."
+  },
+  {
+    "id": 249,
+    "title_en": "Dishwashing Game",
+    "level": "easy",
+    "background_required": "הסתברות בסיסית, סימטריה וספירת מקרים",
+    "solution_pdf_page": 193,
+    "basis": "סיווג ידני לפי הידע והטיעון שבפתרון הספר; רמת הגיל אינה הבטחת הצלחה."
+  },
+  {
+    "id": 250,
+    "title_en": "Random Judge",
+    "level": "medium",
+    "background_required": "הסתברות בסיסית, סימטריה וספירת מקרים",
+    "solution_pdf_page": 194,
+    "basis": "סיווג ידני לפי הידע והטיעון שבפתרון הספר; רמת הגיל אינה הבטחת הצלחה."
+  },
+  {
+    "id": 251,
+    "title_en": "Angles in Space",
+    "level": "hard",
+    "background_required": "גאומטריה מרחבית והטלות",
+    "solution_pdf_page": 289,
+    "basis": "סיווג ידני לפי הידע והטיעון שבפתרון הספר; רמת הגיל אינה הבטחת הצלחה."
+  },
+  {
+    "id": 252,
+    "title_en": "Wins in a Row",
+    "level": "medium",
+    "background_required": "הסתברות בסיסית, סימטריה וספירת מקרים",
+    "solution_pdf_page": 195,
+    "basis": "סיווג ידני לפי הידע והטיעון שבפתרון הספר; רמת הגיל אינה הבטחת הצלחה."
+  },
+  {
+    "id": 253,
+    "title_en": "Chessboard Guess",
+    "level": "hard",
+    "background_required": "קידוד בינארי וקודים לתיקון שגיאות",
+    "solution_pdf_page": 302,
+    "basis": "סיווג ידני לפי הידע והטיעון שבפתרון הספר; רמת הגיל אינה הבטחת הצלחה."
+  },
+  {
+    "id": 254,
+    "title_en": "Split Games",
+    "level": "medium",
+    "background_required": "הסתברות מותנית והגדרת מרחב המדגם",
+    "solution_pdf_page": 195,
+    "basis": "סיווג ידני לפי הידע והטיעון שבפתרון הספר; רמת הגיל אינה הבטחת הצלחה."
+  },
+  {
+    "id": 255,
+    "title_en": "Frames on a Chessboard",
+    "level": "hard",
+    "background_required": "זוגיות, אינווריאנטים והוכחות",
+    "solution_pdf_page": 316,
+    "basis": "סיווג ידני לפי הידע והטיעון שבפתרון הספר; רמת הגיל אינה הבטחת הצלחה."
+  },
+  {
+    "id": 256,
+    "title_en": "Angry Baseball",
+    "level": "medium",
+    "background_required": "הסתברות בסיסית, סימטריה וספירת מקרים",
+    "solution_pdf_page": 197,
+    "basis": "סיווג ידני לפי הידע והטיעון שבפתרון הספר; רמת הגיל אינה הבטחת הצלחה."
+  },
+  {
+    "id": 257,
+    "title_en": "Bugs on a Polyhedron",
+    "level": "hard",
+    "background_required": "פונקציות פוטנציאל, אינווריאנטים והוכחת סיום",
+    "solution_pdf_page": 317,
+    "basis": "סיווג ידני לפי הידע והטיעון שבפתרון הספר; רמת הגיל אינה הבטחת הצלחה."
+  },
+  {
+    "id": 258,
+    "title_en": "Serious Candidates",
+    "level": "hard",
+    "background_required": "תוחלת, זמני המתנה או לינאריות התוחלת",
+    "solution_pdf_page": 256,
+    "basis": "סיווג ידני לפי הידע והטיעון שבפתרון הספר; רמת הגיל אינה הבטחת הצלחה."
+  },
+  {
+    "id": 259,
+    "title_en": "Sums and Differences",
+    "level": "medium",
+    "background_required": "אלגברה, אי־שוויונות והוכחות",
+    "solution_pdf_page": 335,
+    "basis": "סיווג ידני לפי הידע והטיעון שבפתרון הספר; רמת הגיל אינה הבטחת הצלחה."
+  },
+  {
+    "id": 260,
+    "title_en": "Two-point Conversion",
+    "level": "medium",
+    "background_required": "אסטרטגיות והסתברות רב־שלבית",
+    "solution_pdf_page": 198,
+    "basis": "סיווג ידני לפי הידע והטיעון שבפתרון הספר; רמת הגיל אינה הבטחת הצלחה."
+  },
+  {
+    "id": 261,
+    "title_en": "Swedish Lottery",
+    "level": "medium",
+    "background_required": "אסטרטגיות והסתברות רב־שלבית",
+    "solution_pdf_page": 365,
+    "basis": "סיווג ידני לפי הידע והטיעון שבפתרון הספר; רמת הגיל אינה הבטחת הצלחה."
+  },
+  {
+    "id": 262,
+    "title_en": "Random Chord",
+    "level": "medium",
+    "background_required": "הסתברות בסיסית, סימטריה וספירת מקרים",
+    "solution_pdf_page": 199,
+    "basis": "סיווג ידני לפי הידע והטיעון שבפתרון הספר; רמת הגיל אינה הבטחת הצלחה."
+  },
+  {
+    "id": 263,
+    "title_en": "Cube Magic",
+    "level": "hard",
+    "background_required": "גאומטריה מרחבית והטלות",
+    "solution_pdf_page": 387,
+    "basis": "סיווג ידני לפי הידע והטיעון שבפתרון הספר; רמת הגיל אינה הבטחת הצלחה."
+  },
+  {
+    "id": 264,
+    "title_en": "Random Bias",
+    "level": "hard",
+    "background_required": "התפלגויות הסתברות בדידות או רציפות",
+    "solution_pdf_page": 200,
+    "basis": "סיווג ידני לפי הידע והטיעון שבפתרון הספר; רמת הגיל אינה הבטחת הצלחה."
+  },
+  {
+    "id": 265,
+    "title_en": "Gladiators, Version I",
+    "level": "hard",
+    "background_required": "תוחלת, זמני המתנה או לינאריות התוחלת",
+    "solution_pdf_page": 413,
+    "basis": "סיווג ידני לפי הידע והטיעון שבפתרון הספר; רמת הגיל אינה הבטחת הצלחה."
+  },
+  {
+    "id": 266,
+    "title_en": "Gladiators, Version II",
+    "level": "hard",
+    "background_required": "התפלגויות הסתברות בדידות או רציפות",
+    "solution_pdf_page": 414,
+    "basis": "סיווג ידני לפי הידע והטיעון שבפתרון הספר; רמת הגיל אינה הבטחת הצלחה."
+  },
+  {
+    "id": 267,
+    "title_en": "Rolling a Six",
+    "level": "hard",
+    "background_required": "הסתברות מותנית והגדרת מרחב המדגם",
+    "solution_pdf_page": 257,
+    "basis": "סיווג ידני לפי הידע והטיעון שבפתרון הספר; רמת הגיל אינה הבטחת הצלחה."
+  },
+  {
+    "id": 268,
+    "title_en": "Traveling Salesmen",
+    "level": "hard",
+    "background_required": "אינדוקציה מתמטית ובנייה רקורסיבית",
+    "solution_pdf_page": 278,
+    "basis": "סיווג ידני לפי הידע והטיעון שבפתרון הספר; רמת הגיל אינה הבטחת הצלחה."
+  },
+  {
+    "id": 269,
+    "title_en": "Napkins in a Random Setting",
+    "level": "hard",
+    "background_required": "גבולות, טורים והתכנסות",
+    "solution_pdf_page": 258,
+    "basis": "סיווג ידני לפי הידע והטיעון שבפתרון הספר; רמת הגיל אינה הבטחת הצלחה."
+  },
+  {
+    "id": 270,
+    "title_en": "Lame Rook",
+    "level": "hard",
+    "background_required": "זוגיות, אינווריאנטים והוכחות",
+    "solution_pdf_page": 279,
+    "basis": "סיווג ידני לפי הידע והטיעון שבפתרון הספר; רמת הגיל אינה הבטחת הצלחה."
+  },
+  {
+    "id": 271,
+    "title_en": "Coin Testing",
+    "level": "hard",
+    "background_required": "הסתברות בסיסית, סימטריה וספירת מקרים",
+    "solution_pdf_page": 201,
+    "basis": "סיווג ידני לפי הידע והטיעון שבפתרון הספר; רמת הגיל אינה הבטחת הצלחה."
+  },
+  {
+    "id": 272,
+    "title_en": "Curve and Three Shadows",
+    "level": "hard",
+    "background_required": "גאומטריה מרחבית והטלות",
+    "solution_pdf_page": 289,
+    "basis": "סיווג ידני לפי הידע והטיעון שבפתרון הספר; רמת הגיל אינה הבטחת הצלחה."
+  },
+  {
+    "id": 273,
+    "title_en": "Majority Hats",
+    "level": "hard",
+    "background_required": "קידוד בינארי וקודים לתיקון שגיאות",
+    "solution_pdf_page": 302,
+    "basis": "סיווג ידני לפי הידע והטיעון שבפתרון הספר; רמת הגיל אינה הבטחת הצלחה."
+  },
+  {
+    "id": 274,
+    "title_en": "Bugs on a Line",
+    "level": "hard",
+    "background_required": "פונקציות פוטנציאל, אינווריאנטים והוכחת סיום",
+    "solution_pdf_page": 319,
+    "basis": "סיווג ידני לפי הידע והטיעון שבפתרון הספר; רמת הגיל אינה הבטחת הצלחה."
+  },
+  {
+    "id": 275,
+    "title_en": "Prisoner and Dog",
+    "level": "medium",
+    "background_required": "גאומטריה והוכחות, כולל חסמים ובניות",
+    "solution_pdf_page": 335,
+    "basis": "סיווג ידני לפי הידע והטיעון שבפתרון הספר; רמת הגיל אינה הבטחת הצלחה."
+  },
+  {
+    "id": 276,
+    "title_en": "Pegs on the Corners",
+    "level": "medium",
+    "background_required": "קואורדינטות, סימטריות ואינווריאנטים",
+    "solution_pdf_page": 366,
+    "basis": "סיווג ידני לפי הידע והטיעון שבפתרון הספר; רמת הגיל אינה הבטחת הצלחה."
+  },
+  {
+    "id": 277,
+    "title_en": "Circles in Space",
+    "level": "hard",
+    "background_required": "קבוצות אינסופיות, מנייה או אקסיומת הבחירה",
+    "solution_pdf_page": 388,
+    "basis": "סיווג ידני לפי הידע והטיעון שבפתרון הספר; רמת הגיל אינה הבטחת הצלחה."
+  },
+  {
+    "id": 278,
+    "title_en": "Fifteen Bits and a Spy",
+    "level": "hard",
+    "background_required": "קידוד בינארי וקודים לתיקון שגיאות",
+    "solution_pdf_page": 305,
+    "basis": "סיווג ידני לפי הידע והטיעון שבפתרון הספר; רמת הגיל אינה הבטחת הצלחה."
+  },
+  {
+    "id": 279,
+    "title_en": "Flipping the Pentagon",
+    "level": "hard",
+    "background_required": "פונקציות פוטנציאל, אינווריאנטים והוכחת סיום",
+    "solution_pdf_page": 320,
+    "basis": "סיווג ידני לפי הידע והטיעון שבפתרון הספר; רמת הגיל אינה הבטחת הצלחה."
+  },
+  {
+    "id": 280,
+    "title_en": "Love in Kleptopia",
+    "level": "easy",
+    "background_required": "הסקה לוגית קונקרטית, ללא נוסחאות",
+    "solution_pdf_page": 336,
+    "basis": "סיווג ידני לפי הידע והטיעון שבפתרון הספר; רמת הגיל אינה הבטחת הצלחה."
+  },
+  {
+    "id": 281,
+    "title_en": "Touring an Island",
+    "level": "medium",
+    "background_required": "אלגוריתמים והוכחת נכונות או סיום",
+    "solution_pdf_page": 367,
+    "basis": "סיווג ידני לפי הידע והטיעון שבפתרון הספר; רמת הגיל אינה הבטחת הצלחה."
+  },
+  {
+    "id": 282,
+    "title_en": "Badly Designed Clock",
+    "level": "medium",
+    "background_required": "אלגברה תיכונית ומשוואות",
+    "solution_pdf_page": 337,
+    "basis": "סיווג ידני לפי הידע והטיעון שבפתרון הספר; רמת הגיל אינה הבטחת הצלחה."
+  },
+  {
+    "id": 283,
+    "title_en": "Fibonacci Multiples",
+    "level": "medium",
+    "background_required": "תורת המספרים: שאריות, גורמים וחלוקה",
+    "solution_pdf_page": 367,
+    "basis": "סיווג ידני לפי הידע והטיעון שבפתרון הספר; רמת הגיל אינה הבטחת הצלחה."
+  },
+  {
+    "id": 284,
+    "title_en": "Worms and Water",
+    "level": "easy",
+    "background_required": "הסקה לוגית קונקרטית, ללא נוסחאות",
+    "solution_pdf_page": 337,
+    "basis": "סיווג ידני לפי הידע והטיעון שבפתרון הספר; רמת הגיל אינה הבטחת הצלחה."
+  },
+  {
+    "id": 285,
+    "title_en": "Light Bulbs in a Circle",
+    "level": "medium",
+    "background_required": "אלגוריתמים והוכחת נכונות או סיום",
+    "solution_pdf_page": 368,
+    "basis": "סיווג ידני לפי הידע והטיעון שבפתרון הספר; רמת הגיל אינה הבטחת הצלחה."
+  },
+  {
+    "id": 286,
+    "title_en": "Generating the Rationals",
+    "level": "hard",
+    "background_required": "תורת המספרים: שאריות, גורמים וחלוקה",
+    "solution_pdf_page": 338,
+    "basis": "סיווג ידני לפי הידע והטיעון שבפתרון הספר; רמת הגיל אינה הבטחת הצלחה."
+  },
+  {
+    "id": 287,
+    "title_en": "Emptying a Bucket",
+    "level": "hard",
+    "background_required": "אלגוריתמים והוכחת נכונות או סיום",
+    "solution_pdf_page": 368,
+    "basis": "סיווג ידני לפי הידע והטיעון שבפתרון הספר; רמת הגיל אינה הבטחת הצלחה."
+  },
+  {
+    "id": 288,
+    "title_en": "Funny Dice",
+    "level": "medium",
+    "background_required": "הסתברות בסיסית, סימטריה וספירת מקרים",
+    "solution_pdf_page": 339,
+    "basis": "סיווג ידני לפי הידע והטיעון שבפתרון הספר; רמת הגיל אינה הבטחת הצלחה."
+  },
+  {
+    "id": 289,
+    "title_en": "Picking the Athletic Committee",
+    "level": "hard",
+    "background_required": "פונקציות פוטנציאל, אינווריאנטים והוכחת סיום",
+    "solution_pdf_page": 321,
+    "basis": "סיווג ידני לפי הידע והטיעון שבפתרון הספר; רמת הגיל אינה הבטחת הצלחה."
+  },
+  {
+    "id": 290,
+    "title_en": "Ice Cream Cake",
+    "level": "hard",
+    "background_required": "אלגוריתמים והוכחת נכונות או סיום",
+    "solution_pdf_page": 369,
+    "basis": "סיווג ידני לפי הידע והטיעון שבפתרון הספר; רמת הגיל אינה הבטחת הצלחה."
+  },
+  {
+    "id": 291,
+    "title_en": "Sharing a Pizza",
+    "level": "hard",
+    "background_required": "אסטרטגיות משחק והוכחת ניצחון",
+    "solution_pdf_page": 339,
+    "basis": "סיווג ידני לפי הידע והטיעון שבפתרון הספר; רמת הגיל אינה הבטחת הצלחה."
+  },
+  {
+    "id": 292,
+    "title_en": "Moth’s Tour",
+    "level": "medium",
+    "background_required": "הילוכים אקראיים והסתברות",
+    "solution_pdf_page": 372,
+    "basis": "סיווג ידני לפי הידע והטיעון שבפתרון הספר; רמת הגיל אינה הבטחת הצלחה."
+  },
+  {
+    "id": 293,
+    "title_en": "Names in Boxes",
+    "level": "hard",
+    "background_required": "תמורות, זוגיות או פירוק למחזורים",
+    "solution_pdf_page": 340,
+    "basis": "סיווג ידני לפי הידע והטיעון שבפתרון הספר; רמת הגיל אינה הבטחת הצלחה."
+  },
+  {
+    "id": 294,
+    "title_en": "Garnering Fruit",
+    "level": "hard",
+    "background_required": "רציפות ומשפט ערך הביניים",
+    "solution_pdf_page": 117,
+    "basis": "סיווג ידני לפי הידע והטיעון שבפתרון הספר; רמת הגיל אינה הבטחת הצלחה."
+  },
+  {
+    "id": 295,
+    "title_en": "Coin Game",
+    "level": "hard",
+    "background_required": "אסטרטגיות והסתברות רב־שלבית",
+    "solution_pdf_page": 202,
+    "basis": "סיווג ידני לפי הידע והטיעון שבפתרון הספר; רמת הגיל אינה הבטחת הצלחה."
+  },
+  {
+    "id": 296,
+    "title_en": "Roulette for Parking Money",
+    "level": "hard",
+    "background_required": "אסטרטגיות והסתברות רב־שלבית",
+    "solution_pdf_page": 259,
+    "basis": "סיווג ידני לפי הידע והטיעון שבפתרון הספר; רמת הגיל אינה הבטחת הצלחה."
+  },
+  {
+    "id": 297,
+    "title_en": "Invisible Corners",
+    "level": "medium",
+    "background_required": "גאומטריה מרחבית והטלות",
+    "solution_pdf_page": 389,
+    "basis": "סיווג ידני לפי הידע והטיעון שבפתרון הספר; רמת הגיל אינה הבטחת הצלחה."
+  },
+  {
+    "id": 298,
+    "title_en": "Sleeping Beauty",
+    "level": "hard",
+    "background_required": "הסתברות מותנית והגדרת מרחב המדגם",
+    "solution_pdf_page": 203,
+    "basis": "סיווג ידני לפי הידע והטיעון שבפתרון הספר; רמת הגיל אינה הבטחת הצלחה."
+  },
+  {
+    "id": 299,
+    "title_en": "Boardroom Reduction",
+    "level": "hard",
+    "background_required": "אסטרטגיות משחק והוכחת ניצחון",
+    "solution_pdf_page": 372,
+    "basis": "סיווג ידני לפי הידע והטיעון שבפתרון הספר; רמת הגיל אינה הבטחת הצלחה."
+  },
+  {
+    "id": 300,
+    "title_en": "Buffon’s Needle",
+    "level": "hard",
+    "background_required": "תוחלת, זמני המתנה או לינאריות התוחלת",
+    "solution_pdf_page": 260,
+    "basis": "סיווג ידני לפי הידע והטיעון שבפתרון הספר; רמת הגיל אינה הבטחת הצלחה."
+  },
+  {
+    "id": 301,
+    "title_en": "Seven Cities of Gold",
+    "level": "hard",
+    "background_required": "תורת גרפים: מסלולים, קשירות או צביעה",
+    "solution_pdf_page": 217,
+    "basis": "סיווג ידני לפי הידע והטיעון שבפתרון הספר; רמת הגיל אינה הבטחת הצלחה."
+  },
+  {
+    "id": 302,
+    "title_en": "Life-saving Transposition",
+    "level": "hard",
+    "background_required": "תמורות, זוגיות או פירוק למחזורים",
+    "solution_pdf_page": 342,
+    "basis": "סיווג ידני לפי הידע והטיעון שבפתרון הספר; רמת הגיל אינה הבטחת הצלחה."
+  },
+  {
+    "id": 303,
+    "title_en": "More Magnetic Dollars",
+    "level": "hard",
+    "background_required": "התפלגויות הסתברות בדידות או רציפות",
+    "solution_pdf_page": 415,
+    "basis": "סיווג ידני לפי הידע והטיעון שבפתרון הספר; רמת הגיל אינה הבטחת הצלחה."
+  },
+  {
+    "id": 304,
+    "title_en": "Covering the Stains",
+    "level": "hard",
+    "background_required": "שיטת הממוצעים והשיטה ההסתברותית",
+    "solution_pdf_page": 261,
+    "basis": "סיווג ידני לפי הידע והטיעון שבפתרון הספר; רמת הגיל אינה הבטחת הצלחה."
+  },
+  {
+    "id": 305,
+    "title_en": "Zero-sum Vectors",
+    "level": "hard",
+    "background_required": "וקטורים ומערכות משוואות לינאריות",
+    "solution_pdf_page": 229,
+    "basis": "סיווג ידני לפי הידע והטיעון שבפתרון הספר; רמת הגיל אינה הבטחת הצלחה."
+  },
+  {
+    "id": 306,
+    "title_en": "Colors and Distances",
+    "level": "hard",
+    "background_required": "שיטת הממוצעים והשיטה ההסתברותית",
+    "solution_pdf_page": 263,
+    "basis": "סיווג ידני לפי הידע והטיעון שבפתרון הספר; רמת הגיל אינה הבטחת הצלחה."
+  },
+  {
+    "id": 307,
+    "title_en": "Two Sheriffs",
+    "level": "hard",
+    "background_required": "מידע, קידוד וקומבינטוריקה",
+    "solution_pdf_page": 244,
+    "basis": "סיווג ידני לפי הידע והטיעון שבפתרון הספר; רמת הגיל אינה הבטחת הצלחה."
+  },
+  {
+    "id": 308,
+    "title_en": "Painting the Fence",
+    "level": "hard",
+    "background_required": "תוחלת, זמני המתנה או לינאריות התוחלת",
+    "solution_pdf_page": 264,
+    "basis": "סיווג ידני לפי הידע והטיעון שבפתרון הספר; רמת הגיל אינה הבטחת הצלחה."
+  },
+  {
+    "id": 309,
+    "title_en": "Leading All the Way",
+    "level": "hard",
+    "background_required": "קומבינטוריקה והוכחת חסם",
+    "solution_pdf_page": 204,
+    "basis": "סיווג ידני לפי הידע והטיעון שבפתרון הספר; רמת הגיל אינה הבטחת הצלחה."
+  },
+  {
+    "id": 310,
+    "title_en": "Self-referential Number",
+    "level": "medium",
+    "background_required": "הסקה רב־שלבית והוכחה",
+    "solution_pdf_page": 343,
+    "basis": "סיווג ידני לפי הידע והטיעון שבפתרון הספר; רמת הגיל אינה הבטחת הצלחה."
+  },
+  {
+    "id": 311,
+    "title_en": "Filling the Cup",
+    "level": "hard",
+    "background_required": "תוחלת, זמני המתנה או לינאריות התוחלת",
+    "solution_pdf_page": 264,
+    "basis": "סיווג ידני לפי הידע והטיעון שבפתרון הספר; רמת הגיל אינה הבטחת הצלחה."
+  },
+  {
+    "id": 312,
+    "title_en": "Two Balls and a Wall",
+    "level": "hard",
+    "background_required": "מכניקה, תנועה והתנגשויות",
+    "solution_pdf_page": 351,
+    "basis": "סיווג ידני לפי הידע והטיעון שבפתרון הספר; רמת הגיל אינה הבטחת הצלחה."
+  },
+  {
+    "id": 313,
+    "title_en": "Bulgarian Solitaire",
+    "level": "hard",
+    "background_required": "פונקציות פוטנציאל, אינווריאנטים והוכחת סיום",
+    "solution_pdf_page": 322,
+    "basis": "סיווג ידני לפי הידע והטיעון שבפתרון הספר; רמת הגיל אינה הבטחת הצלחה."
+  }
+]
