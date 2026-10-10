@@ -25,3 +25,16 @@
 - 075: Pass. Two intact eggs/building, no trial floors or drops.
 - 076: Pass. Smooth sphere/blank sheets, no shaved cap or alternative solid.
 - 078: Pass. Blank calendar; no Friday/cycle statistics.
+- 077: Pass. Hidden deck/top card; no color counts or last-card equivalence.
+- 079: Pass. Mixed hats/blank guesses, no parity protocol.
+- 080: Pass. Kumquat painting/other frames; no value transfer or average.
+- 081: Pass. Unreadable dictionary, no answer words or selected entry.
+- 082: Pass. Many unselected 3D points; no eight-corner solution set or parity coding.
+- 083: Pass. Intact 6×4 chocolate, no pieces/count of breaks.
+- 084: Pass. Two equal tennis players, no tournament graph/winner/probability.
+- 085: Pass. Five face-down cards, no chosen ranks/sums.
+- 086: Pass. One coin/blank notebook; no runs or expected wait.
+- 087: Pass. Undivided group, hidden guesses, no parity strategy or assigned halves.
+- 088: Pass. Single jack/deck, no jack divisions or expected count.
+- 089: Pass. Two unlit strings/matchbox, no lit-end timing scheme.
+- 090: Pass. Unranked loose herd, no heats, winners or strategy.

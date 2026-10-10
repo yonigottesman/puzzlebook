@@ -24,3 +24,13 @@ Built-in image generation. Reviewed against each puzzle, hint and official solut
 - 246: Approved. Unit interval with unlabelled dots; no fractions, equations or uniqueness argument.
 - 247: Approved. Equally curious players; no indicated winner or probability comparison.
 - 248: Approved. Two separate allowed L triomino orientations; no assembled row pattern.
+- 249: Approved. Couple, dishes and coin only; no coupling experiment or answer.
+- 250: Approved. Three officers and random coin only; no vote or equality conclusion.
+- 251: Approved. Unconnected point collection only; no obtuse triple, translated convex hull or proof construction.
+- 252: Approved as decorative chess setup. No game sequence or suggestion about starting color.
+- 253: Approved. Mixed coins on board, no distinguished square or binary coding.
+- 254: Approved. Conversation between fans only; no series result comparison.
+- 255: Approved. Untouched red-black board and separate frames; no parity invariant markings.
+- 256: Approved. Determined baseball players only; no last-tie reasoning or probability result.
+- 257: Approved. Bugs on distinct polyhedron edges; no directed cycle or shrinking interior.
+- 258: Approved. Six fictional candidates; no serious-candidate answer count, threshold or betting proof.

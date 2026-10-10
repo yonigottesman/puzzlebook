@@ -30,3 +30,13 @@
 - 164 accepted: ordinary unequal bean piles; no exact game state or reductions.
 - 165 accepted: sixteen ordinary square brownies, the question's starting example; no improved shape or optimized pan.
 - 166 accepted: blank sheet and separate rulers; no line-cover construction.
+- 163 accepted replacement: one ant beside a plain circular track; no directional balance.
+- 167 rejected: generator inserted unrelated animals and plants into panels; regenerating empty geometry board.
+- 168 accepted: six casually scattered dice and closed pouch; no favorable outcome or roll pattern.
+- 169 accepted: jumbled billiard-ball urn with one visible 3; no special nine-ball or sum clue.
+- 170 accepted: recruiters and programmer group; no friendship graph, genius distinction or hiring strategy.
+- 167 accepted replacement: empty subdivided rectangle, no extraneous animals or integer proof.
+- 171 accepted: football helmets and blank clipboard; no standings or strengths.
+- 172 accepted: closed unnumbered lockers and student; no square-number answer.
+- 173 accepted: car and gasoline pump; no starting-station or fuel minimum clue.
+- 174 rejected first version: even-sized group conflicts with odd premise; regenerate one soldier with radio.
