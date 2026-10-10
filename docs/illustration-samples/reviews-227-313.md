@@ -34,3 +34,11 @@ Built-in image generation. Reviewed against each puzzle, hint and official solut
 - 256: Approved. Determined baseball players only; no last-tie reasoning or probability result.
 - 257: Approved. Bugs on distinct polyhedron edges; no directed cycle or shrinking interior.
 - 258: Approved. Six fictional candidates; no serious-candidate answer count, threshold or betting proof.
+- 259: Approved. Unsorted illustrative numbers with no selected pair or maximum-number argument.
+- 260: Approved. Coach/player setup only; jersey number8 incidental, no points decision or calculation.
+- 261: Approved. Three folded submissions; no highest-number or unbounded-support clue.
+- 262: Approved. Original circle/triangle/chord only; no competing probability constructions.
+- 263: Approved. Solid cubes only; no drilled diagonal passage or projection solution.
+- 264: Approved. Coin and blank notebook; no prechosen thresholds or median argument.
+- 265: Approved. Gentle gladiator setup only; no strength transfer or fair-game analogy.
+- 266: Approved. Gladiators and managers only; no exponential lifetime or lightbulb analogy.

@@ -38,3 +38,13 @@
 - 088: Pass. Single jack/deck, no jack divisions or expected count.
 - 089: Pass. Two unlit strings/matchbox, no lit-end timing scheme.
 - 090: Pass. Unranked loose herd, no heats, winners or strategy.
+- 091: Pass. Single-file hats; no guesses or last-person code.
+- 092: Pass. Three intact unequal sticks, no iterative ratios/triangle.
+- 093: Pass. All cube edges intact/equal; no patrol designation or tree reduction.
+- 094: Pass. Resting frog/equal pads, no visited fraction or trajectories.
+- 095: Pass. Hidden secret-number sheets, no divisor guesses.
+- 096: Pass. Intact cake/candles, no slices or cut rotation.
+- 097: Pass. Two square tiles, no lattice circle or pi average.
+- 098: Pass. Scattered points/ruler, no connected maximum pairs or crossing proof.
+- 099: Pass. Two closed hands; no threshold or revealed numbers.
+- 100: Pass. Hidden slips/neutral players; no midpoint selection.

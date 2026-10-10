@@ -40,3 +40,26 @@
 - 172 accepted: closed unnumbered lockers and student; no square-number answer.
 - 173 accepted: car and gasoline pump; no starting-station or fuel minimum clue.
 - 174 rejected first version: even-sized group conflicts with odd premise; regenerate one soldier with radio.
+- 175 accepted: baseball gear in two team colors; no schedule, outcome or advantage.
+- 176 accepted: loose zero/one blocks and phone; no multiple or subtraction proof.
+- 177 rejected: visibly unequal spheres conflict with equal-radius premise; regenerating equal-sized spheres.
+- 178 accepted: accountant with generic unnumbered bars; no month count or window analysis.
+- 179 accepted: open manhole and unused planks; no cover arrangement or sphere argument.
+- 180 accepted: empty pegboard and loose pegs; no weighting or achieved height.
+- 181 accepted: empty board with separate dominoes; no crossing-line count or cover.
+- 182 rejected: adjacent visible 3/4 faces violate standard die; regenerate blank die.
+- 174 accepted: replacement soldier with radio and binoculars, no nearest-pair geometry.
+- 183 accepted: statue and one inactive device, no polygon or laser pattern.
+- 184 accepted: closed boxes and mathematicians, no chosen index or representative sequences.
+- 185 accepted: inactive toy blaster and handheld mirror, no rays or reflected rooms.
+- 186 accepted: single unsplit block stack, no pair strings or payout.
+- 187 accepted: three separated differently colored chameleons, no change or population invariants.
+- 188 accepted: unconnected identical wires and tester, no pairs or labels.
+- 189 accepted: checkers board and loose chess pieces, no tournament scores or partition.
+- 177 accepted: replacement equal-sized spheres, no intersection value or proof.
+- 182 accepted: replacement unmarked die, no incorrect opposite faces or winning move.
+- 190 accepted: four blank number cards and question-mark notebook, no prime factorial argument.
+- 191 accepted: bus-seat conversation and wallet, no bus number, ages or purse value.
+- 192 accepted: coins on ordinary tabletop, no maximal packing or fourfold cover construction.
+- 193 accepted: roulette wheel and unused chips, no bets, outcomes or profit probability.
+- 194 accepted: bagel basket and empty scale, no six-vs-six grouping or parity proof.
