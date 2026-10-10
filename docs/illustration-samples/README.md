@@ -60,4 +60,4 @@ PNG originals remain local; the public WebP URLs and dimensions are recorded in 
 | 057 — Attic Lamp | [Image](https://storage.googleapis.com/puzzlebook-images-941271455567/puzzle-057-v1.webp) | [Prompt](puzzle-057-prompt.txt) |
 | 058 — Efficient Pizza-cutting | [Image](https://storage.googleapis.com/puzzlebook-images-941271455567/puzzle-058-v1.webp) | [Prompt](puzzle-058-prompt.txt) |
 
-The root welcome illustration uses the same style: [family reading](https://storage.googleapis.com/puzzlebook-images-941271455567/welcome-family-v1.webp), with its [exact prompt](welcome-family-prompt.txt).
+The root welcome illustration uses the same style: [family reading](https://storage.googleapis.com/puzzlebook-images-941271455567/welcome-family-v2.webp), using the image selected by the user. The [original generation prompt](welcome-family-prompt.txt) is preserved for style reference.

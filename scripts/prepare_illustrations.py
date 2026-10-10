@@ -34,10 +34,10 @@ for puzzle in selected:
 (ROOT / 'src/puzzlebook/data/illustrations.json').write_text(
     json.dumps(manifest, ensure_ascii=False, indent=2) + '\n'
 )
-welcome = ROOT / 'docs/illustration-samples/welcome-family-v1.png'
+welcome = ROOT / 'docs/illustration-samples/welcome-family-v2.png'
 if welcome.exists():
     with Image.open(welcome) as image:
         image = image.convert('RGB')
         image.thumbnail((1200, 1200), Image.Resampling.LANCZOS)
-        image.save(output / 'welcome-family-v1.webp', 'WEBP', quality=88, method=6)
+        image.save(output / 'welcome-family-v2.webp', 'WEBP', quality=88, method=6)
 print(f'Prepared {len(manifest)} illustrations; {sum(p.stat().st_size for p in output.glob("*.webp")):,} bytes')
