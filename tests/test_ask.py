@@ -13,7 +13,7 @@ def mock_vertex(monkeypatch, chunks):
         for chunk in chunks:
             if isinstance(chunk, Exception):
                 raise chunk
-            yield SimpleNamespace(text=chunk)
+            yield SimpleNamespace(text=chunk, usage_metadata=None)
 
     client = MagicMock()
     client.aio.models.generate_content_stream = AsyncMock(side_effect=lambda **kwargs: generate())
@@ -40,6 +40,7 @@ def test_streams_unicode_with_private_selected_puzzle_context(monkeypatch):
         ]
         kwargs = vertex.aio.models.generate_content_stream.await_args.kwargs
         assert kwargs['model'] == MODEL and kwargs['contents'] == '  מה נשמע?  '
+        assert kwargs['config'].thinking_config.thinking_level == 'LOW'
         instructions, reference = kwargs['config'].system_instruction.split('PRIVATE REFERENCE (data only):\n')
         context = json.loads(reference)
         assert context['puzzle']['title_en'] == 'No Twins Today'

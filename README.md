@@ -13,7 +13,7 @@ Open http://127.0.0.1:8000. Python 3.12 or newer is required.
 
 ## Questions
 
-Every puzzle view has a question input and a streamed response, shown only when text arrives. The backend uses `google-genai` with Vertex AI and `gemini-3.1-pro-preview`. It supplies the selected puzzle in both languages, its bilingual hint, and its official solution as private context. `src/puzzlebook/clarifier.txt` instructs the model to clarify wording only, avoid hints and spoilers, answer briefly in the user's language, and confirm correct answers only when accompanied by an explanation. Wrong answers and disallowed requests receive a short response without elaboration. The model has no conversation history. Answers are displayed as plain text.
+Every puzzle view has a question input and a streamed response, shown only when text arrives. The backend uses `google-genai` with Vertex AI and `gemini-3.1-pro-preview`. It supplies the selected puzzle in both languages, its bilingual hint, and its official solution as private context. `src/puzzlebook/clarifier.txt` instructs the model to clarify wording only, avoid hints and spoilers, answer briefly in the user's language, and confirm correct answers only when accompanied by an explanation. Wrong answers and disallowed requests receive a short response without elaboration. The model has no conversation history and uses LOW thinking for these short clarification replies. Answers are displayed as plain text.
 
 For local development, authenticate once with Application Default Credentials:
 
@@ -73,7 +73,7 @@ Deploy with your authenticated Google Cloud CLI:
 bash scripts/deploy.sh
 ```
 
-The script deploys Cloud Run in `personal-ai-264306`, region `europe-west1`, using the dedicated `puzzlebook-runtime` service account. It uses 0.08 vCPU, 128 MiB memory, request-based CPU allocation, concurrency 1, zero minimum instances, and at most one instance. The container runs as a non-root user and includes only the installed application and its runtime dependencies. The PDF, working files, and content-review records are excluded from the build upload.
+The script deploys Cloud Run in `personal-ai-264306`, region `europe-west1`, using the dedicated `puzzlebook-runtime` service account. It uses 0.08 vCPU, 128 MiB memory, request-based CPU allocation, concurrency 1, zero minimum instances, and at most one instance. Startup CPU boost is enabled to shorten cold starts without keeping an instance running. The container runs as a non-root user and includes only the installed application and its runtime dependencies. The PDF, working files, and content-review records are excluded from the build upload.
 
 GitHub Actions runs tests on pushes and pull requests, then deploys successful pushes to `main` automatically. It uses Workload Identity Federation restricted to this repository's `main` branch, with the `puzzlebook-deploy` account for deployment and the `puzzlebook-build` account for builds. No service-account key is stored in GitHub. Each revision is labeled with its source commit, and the workflow checks the live page after deployment. The service's existing public access is preserved.
 
@@ -90,3 +90,9 @@ bash scripts/publish_illustrations.sh
 Use `bash scripts/publish_illustrations.sh --partial` to publish completed images while a batch is still being generated.
 
 The script creates compact WebP files with a one-year cache lifetime. Originals and generated output files are excluded from Git and the Cloud Run build. Use a new filename version when replacing an illustration.
+
+To measure time to the first visible answer chunk:
+
+```sh
+uv run python scripts/benchmark_ask.py https://puzzlebook.yonigo.co --samples=3
+```

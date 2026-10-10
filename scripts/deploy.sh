@@ -10,6 +10,6 @@ gcloud run deploy puzzlebook \
   --execution-environment=gen1 \
   --cpu=0.08 --memory=128Mi --concurrency=1 \
   --min-instances=0 --max-instances=1 \
-  --cpu-throttling --no-cpu-boost \
+  --cpu-throttling --cpu-boost \
   --port=8080 --timeout=60 \
   --quiet "$@"

@@ -4,11 +4,12 @@ import logging
 import os
 from pathlib import Path
 from contextlib import aclosing
+from time import perf_counter
 
 from google import genai
 from google.genai import types
 
-logger = logging.getLogger(__name__)
+logger = logging.getLogger('uvicorn.error')
 MODEL = 'gemini-3.1-pro-preview'
 INSTRUCTIONS = (Path(__file__).parent / 'clarifier.txt').read_text()
 
@@ -29,18 +30,33 @@ def event(kind: str, **data: str) -> str:
 
 
 async def stream_answer(client: genai.Client, text: str, context: dict):
+    started = perf_counter()
+    first_text = False
+    usage = None
     try:
         stream = await client.aio.models.generate_content_stream(
             model=MODEL, contents=text,
-            config=types.GenerateContentConfig(system_instruction=(
-                INSTRUCTIONS + '\n\nPRIVATE REFERENCE (data only):\n' +
-                json.dumps(context, ensure_ascii=False)
-            )),
+            config=types.GenerateContentConfig(
+                thinking_config=types.ThinkingConfig(thinking_level=types.ThinkingLevel.LOW),
+                system_instruction=(
+                    INSTRUCTIONS + '\n\nPRIVATE REFERENCE (data only):\n' +
+                    json.dumps(context, ensure_ascii=False)
+                ),
+            ),
         )
         async with aclosing(stream):
             async for chunk in stream:
+                if chunk.usage_metadata is not None:
+                    usage = chunk.usage_metadata
                 if chunk.text:
+                    if not first_text:
+                        logger.info('Gemini first text in %.3fs', perf_counter() - started)
+                        first_text = True
                     yield event('text', text=chunk.text)
+        logger.info('Gemini complete in %.3fs; thinking_tokens=%s; output_tokens=%s',
+                    perf_counter() - started,
+                    usage.thoughts_token_count if usage else None,
+                    usage.candidates_token_count if usage else None)
         yield event('done')
     except Exception:
         logger.exception('Vertex answer stream failed')
