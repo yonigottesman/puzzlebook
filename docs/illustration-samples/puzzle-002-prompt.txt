@@ -1,0 +1,7 @@
+Use case: illustration-story
+Asset type: landscape illustration sample for a math puzzle reader for children ages 10–13.
+Primary request: Depict only the setup of "No Twins Today": exactly two identical-looking schoolboy pupils seated side by side at a single first-row classroom desk, with their teacher Mrs. O'Connor standing nearby and looking mildly curious at them.
+Scene/backdrop: Warm cream background, extremely spare classroom suggestion, one simple wooden desk and the teacher. Keep generous negative space. The two boys have the same face, hair, age, and similar simple clothing, friendly natural expressions. Teacher is an adult woman. Show only these two pupils and the teacher.
+Style/medium: Polished simple 2D children's book cartoon, rounded forms, clean dark softly hand-drawn outlines, warm flat colors, subtle shading, gentle paper texture. Match the tasteful warm cream, dark brown outlines, softly shaded friendly cartoon aesthetic of the approved bat-and-ball sample.
+Composition/framing: Wide landscape, compact uncluttered scene centered low on the canvas, readable silhouettes and simple forms.
+Constraints: Depict only information stated in the problem, with absolutely no hint or clue to its solution. No additional children, siblings, parents, family trees, records, documents, birthdays, calendars, twins labels, equations, numbers, text, labels, logos or watermarks. No question mark speech bubbles. No explanatory diagram.

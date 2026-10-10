@@ -1,0 +1,7 @@
+Use case: illustration-story
+Asset type: sample illustration for a mathematical puzzle reader for ages 10–13.
+Primary request: A peaceful, friendly cartoon of exactly one monk walking uphill on a simple winding path on a small stylized Mount Fuji. Show only the story's setup, with no mathematical explanation or answer clues.
+Scene/backdrop: Warm off-white background with generous blank margins. One small rounded green mountain with Mount Fuji's simple snow-capped peak, a single continuous sandy path gently winding up the mountain, and exactly one friendly monk at a single position along the path. The monk wears a simple warm rust-orange robe and is clearly walking uphill.
+Style/medium: Polished 2D children's book cartoon, rounded shapes, clean dark hand-drawn outlines, warm colors, subtle soft shading and gentle paper texture. Appealing to older children, calm and uncluttered. Visual style similar to a simple isolated cartoon wooden baseball bat and baseball on cream paper, with dark outlines, warm soft colors and gentle shadows.
+Composition/framing: Landscape image, scene centered with generous negative space around it; simple readable silhouettes, no border.
+Constraints: Exactly one monk only. No second monk, no duplicate or ghost figure, no marked meeting point, no timeline, no map pins, no clocks, no sun or moon comparison, no opposing arrows. No text, numbers, equations, labels, logos or watermark. Do not suggest the solution.

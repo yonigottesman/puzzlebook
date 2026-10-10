@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="theme-color" content="#fffdf8">
-  <title>ספר החידות</title>
+  <title>חידות מתמטיות</title>
   <link rel="icon" href="data:,">
   <style>
     :root { --paper: #fffdf8; --ink: #202128; --muted: #77766f; --line: #dedbd2; --accent: #eeeaf7; }
@@ -17,6 +17,8 @@
     :focus-visible { outline: 2px solid #746498; outline-offset: 4px; }
     .topbar { height: 76px; display: flex; align-items: center; justify-content: space-between; padding: 0 32px; border-bottom: 1px solid var(--ink); }
     .brand { font-size: 22px; font-weight: 750; letter-spacing: -.6px; }
+    .book-footer { margin-top: 44px; text-align: center; }
+    .book-footer::before { content: ""; display: block; width: 88px; height: 1px; background: var(--line); margin: 0 auto 18px; }
     .book-credit { text-decoration: none; color: var(--muted); font-size: 13px; }
     .layout { display: grid; grid-template-columns: 312px minmax(0, 1fr); height: calc(100dvh - 76px); }
     .sidebar { display: flex; flex-direction: column; min-height: 0; background: #f7f5ef; border-left: 1px solid var(--line); }
@@ -46,6 +48,7 @@
     .figures { display: grid; gap: 24px; margin-top: 30px; }
     .figures:empty { display: none; }
     .figures img { display: block; max-width: min(100%, 420px); max-height: 440px; width: auto; height: auto; margin: 0 auto; mix-blend-mode: multiply; }
+    .illustration { display: block; width: 100%; max-width: 600px; height: auto; margin: 28px auto 0; mix-blend-mode: multiply; }
     [hidden] { display: none !important; }
     .hint-toggle { margin-top: 32px; background: transparent; border: 1px solid var(--line); border-radius: 5px; padding: 9px 18px; font-size: 13px; }
     .hint-toggle:hover { background: #f0ece2; }
@@ -58,7 +61,6 @@
     @media (max-width: 760px) {
       .topbar { height: 64px; padding: 0 20px; }
       .brand { font-size: 20px; }
-      .book-credit { display: none; }
       .mobile-toggle { display: block; background: transparent; border: 1px solid var(--line); border-radius: 4px; padding: 7px 10px; font-size: 12px; }
       .layout { height: calc(100dvh - 64px); display: block; position: relative; }
       .sidebar { display: none; position: absolute; inset: 0; z-index: 2; border: 0; }
@@ -74,8 +76,7 @@
 <body>
   <a class="skip" href="#reader">לתוכן החידה</a>
   <header class="topbar">
-    <div class="brand">ספר החידות<span style="color:#9a927d">.</span></div>
-    <a class="book-credit" dir="ltr" href="https://math.dartmouth.edu/news-resources/electronic/puzzlebook/book/book.pdf" target="_blank" rel="noopener noreferrer">Mathematical Puzzles · Peter Winkler</a>
+    <div class="brand">חידות מתמטיות<span style="color:#9a927d">.</span></div>
     <button class="mobile-toggle" id="mobile-toggle" type="button" aria-expanded="false" aria-controls="sidebar">כל החידות</button>
   </header>
   <div class="layout">
@@ -101,12 +102,16 @@
           <h1 id="puzzle-title">{{ puzzles[0].title_he }}</h1>
           <p class="body" id="puzzle-body" lang="he" dir="rtl">{{ puzzles[0].body_he }}</p>
           <div class="figures" id="figures"></div>
+          <img class="illustration" id="illustration" src="{{ puzzles[0].illustration.url }}" width="{{ puzzles[0].illustration.width }}" height="{{ puzzles[0].illustration.height }}" alt="איור לחידה: {{ puzzles[0].title_he }}" decoding="async">
         </div>
         <button class="hint-toggle" id="hint-toggle" type="button" aria-expanded="false" aria-controls="hint-panel">רמז</button>
         <section class="hint-panel" id="hint-panel" aria-labelledby="hint-title" hidden>
           <h2 id="hint-title">רמז</h2>
           <p class="hint-body" id="hint-body" tabindex="-1"></p>
         </section>
+        <footer class="book-footer">
+          <a class="book-credit" dir="ltr" href="https://math.dartmouth.edu/news-resources/electronic/puzzlebook/book/book.pdf" target="_blank" rel="noopener noreferrer">Mathematical Puzzles · Peter Winkler</a>
+        </footer>
       </article>
     </main>
   </div>
@@ -165,9 +170,16 @@
       document.getElementById('puzzle-number').textContent = 'חידה ' + String(current.id).padStart(3, '0');
       const level = document.getElementById('level'); level.textContent = labels[current.level]; level.dataset.level = current.level;
       original.textContent = english ? 'עברית ↩' : 'Original ↗'; original.setAttribute('aria-pressed', String(english));
-      document.title = current.title_he + ' · ספר החידות';
+      document.title = current.title_he + ' · חידות מתמטיות';
       const figures = document.getElementById('figures'); figures.replaceChildren();
       current.figures.forEach(path => { const img = document.createElement('img'); img.src = '/static/figures/' + path; img.alt = english ? 'Original puzzle diagram' : 'איור השאלה מתוך הספר'; figures.append(img); });
+      const illustration = document.getElementById('illustration');
+      illustration.hidden = !current.illustration;
+      if (current.illustration) {
+        illustration.src = current.illustration.url;
+        illustration.width = current.illustration.width; illustration.height = current.illustration.height;
+        illustration.alt = english ? 'Illustration for ' + current.title_en : 'איור לחידה: ' + current.title_he;
+      } else illustration.removeAttribute('src');
       document.querySelectorAll('.puzzle-link[aria-current]').forEach(a => a.removeAttribute('aria-current'));
       document.querySelector('.puzzle-link[data-id="' + current.id + '"]').setAttribute('aria-current', 'true');
       renderHint();

@@ -60,3 +60,15 @@ bash scripts/deploy.sh
 The script deploys Cloud Run in `personal-ai-264306`, region `europe-west1`, using the dedicated `puzzlebook-runtime` service account. It uses 0.08 vCPU, 128 MiB memory, request-based CPU allocation, concurrency 1, zero minimum instances, and at most one instance. The container runs as a non-root user and includes only the installed application and its runtime dependencies. The PDF, working files, and content-review records are excluded from the build upload.
 
 GitHub Actions runs the tests on pushes and pull requests. Deployment is performed with the script above.
+
+## Illustrations
+
+The first 20 easy puzzles in book order have warm, minimal cartoon illustrations below the question text. Artwork is served directly from the public `puzzlebook-images-941271455567` Cloud Storage bucket in `europe-west1`, without passing through FastAPI. The source images were reviewed against the solutions to avoid answer clues. Exact generation prompts and review notes are in `docs/illustration-samples/`; the public URLs and dimensions are in `src/puzzlebook/data/illustrations.json`.
+
+To encode and upload approved local PNG originals:
+
+```sh
+bash scripts/publish_illustrations.sh
+```
+
+The script creates compact WebP files with a one-year cache lifetime. Originals and generated output files are excluded from Git and the Cloud Run build. Use a new filename version when replacing an illustration.

@@ -7,7 +7,7 @@ from fastapi import FastAPI, HTTPException, Request
 from fastapi.responses import HTMLResponse
 from fastapi.staticfiles import StaticFiles
 from fastapi.templating import Jinja2Templates
-from pydantic import BaseModel, ConfigDict, Field, TypeAdapter
+from pydantic import BaseModel, ConfigDict, Field, HttpUrl, TypeAdapter
 
 PACKAGE = Path(__file__).resolve().parent
 
@@ -51,11 +51,31 @@ def load_hints() -> dict[int, Hint]:
     return {hint.id: hint for hint in hints}
 
 
+class Illustration(BaseModel):
+    model_config = ConfigDict(extra='forbid', frozen=True)
+
+    id: int = Field(gt=0)
+    url: HttpUrl
+    width: int = Field(gt=0)
+    height: int = Field(gt=0)
+
+
+def load_illustrations(puzzles: tuple[Puzzle, ...]) -> dict[int, Illustration]:
+    illustrations = TypeAdapter(list[Illustration]).validate_json(
+        (PACKAGE / 'data' / 'illustrations.json').read_bytes()
+    )
+    expected = [p.id for p in puzzles if p.level == 'easy'][:20]
+    if [i.id for i in illustrations] != expected:
+        raise ValueError('Illustrations must cover the first 20 easy puzzles in book order')
+    return {i.id: i for i in illustrations}
+
+
 def create_app() -> FastAPI:
     @asynccontextmanager
     async def lifespan(app: FastAPI):
         app.state.puzzles = load_puzzles()
         app.state.hints = load_hints()
+        app.state.illustrations = load_illustrations(app.state.puzzles)
         yield
 
     app = FastAPI(title='Puzzlebook', lifespan=lifespan,
@@ -65,7 +85,10 @@ def create_app() -> FastAPI:
 
     @app.get('/', response_class=HTMLResponse)
     async def index(request: Request):
-        puzzles = [p.model_dump() for p in request.app.state.puzzles]
+        puzzles = [dict(p.model_dump(), illustration=(
+            request.app.state.illustrations[p.id].model_dump(mode='json')
+            if p.id in request.app.state.illustrations else None
+        )) for p in request.app.state.puzzles]
         return templates.TemplateResponse(request=request, name='index.html',
             context={'puzzles': puzzles, 'hints': [h.model_dump() for h in request.app.state.hints.values()], 'levels': {'easy': 'קל', 'medium': 'בינוני', 'hard': 'קשה'}})
 

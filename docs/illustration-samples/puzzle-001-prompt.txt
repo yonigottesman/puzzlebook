@@ -1,0 +1,9 @@
+Use case: illustration-story.
+Asset type: one sample illustration for a children's mathematical puzzle website.
+Primary request: a simple, appealing cartoon of the first puzzle, Bat and Ball, suitable for ages 10–13. Depict only the objects in the question, with absolutely no hint to its solution.
+Scene/backdrop: plain warm off-white background with generous empty space.
+Subject: exactly one wooden baseball bat and exactly one white baseball with red stitching, arranged as a small, friendly still life. A single paper price tag tied to the bat bears a large, clear question mark.
+Style/medium: polished 2D children's book cartoon; rounded shapes, clean softly hand-drawn dark outlines, flat colors, very subtle shading, uncluttered and charming, readable at small sizes. No faces on the objects.
+Composition/framing: compact centered composition, landscape canvas, all objects fully visible, ample margins.
+Text (verbatim): "?" on the price tag. This is the only text anywhere.
+Constraints: no numbers, currency symbols, equations, coins, additional price tags, diagrams, measurements, comparisons, explanatory arrows, answer clues, characters, extra props, borders, logos, or watermark. Do not illustrate any reasoning or arithmetic. The image should establish the puzzle's setting only.

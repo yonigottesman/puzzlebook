@@ -7,3 +7,5 @@ tmp/
 .DS_Store
 book.pdf
 docs/*.jpg
+docs/illustration-samples/*.png
+output/illustrations/
